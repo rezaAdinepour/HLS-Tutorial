@@ -1,0 +1,108 @@
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z010-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z010clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.13 seconds; current allocated memory: 216.633 MB.
+INFO: [HLS 200-10] Analyzing design file '0-LED_on/led_out.cpp' ... 
+WARNING: [HLS 200-1986] Could not apply TOP directive, invalid function, label, or variable (C:/OneDrive/Desktop/HLS-Tutorial/Exercise/0-LED_on/solution1/csynth.tcl:14)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 2.081 seconds; current allocated memory: 217.812 MB.
+ERROR: [HLS 214-157] Top function not found: there is no function named 'led_on'
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 5.573 seconds; current allocated memory: 1.965 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z010-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z010clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.122 seconds; current allocated memory: 210.434 MB.
+INFO: [HLS 200-10] Analyzing design file '0-LED_on/led_out.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.183 seconds; current allocated memory: 212.078 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 4 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/0-LED_on/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 4 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/0-LED_on/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 4 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/0-LED_on/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 4 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/0-LED_on/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 4 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/0-LED_on/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 4 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/0-LED_on/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 4 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/0-LED_on/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 4 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/0-LED_on/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 4 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/0-LED_on/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 4 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/0-LED_on/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 4 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/0-LED_on/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 4 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/0-LED_on/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 4 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/0-LED_on/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 4 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/0-LED_on/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 5 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/0-LED_on/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 6 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/0-LED_on/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 8.138 seconds; current allocated memory: 213.812 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.003 seconds; current allocated memory: 213.816 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.266 seconds; current allocated memory: 217.570 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.081 seconds; current allocated memory: 218.777 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.09 seconds; current allocated memory: 238.789 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.101 seconds; current allocated memory: 238.797 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'led_on' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'led_on' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.341 seconds; current allocated memory: 238.797 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.096 seconds; current allocated memory: 238.797 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'led_on' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'led_on/o_led' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 'o_led' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on function 'led_on' to 'ap_ctrl_none'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'led_on'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.117 seconds; current allocated memory: 238.797 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.403 seconds; current allocated memory: 241.492 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.559 seconds; current allocated memory: 245.266 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for led_on.
+INFO: [VLOG 209-307] Generating Verilog RTL for led_on.
+INFO: [HLS 200-789] **** Estimated Fmax: 0.00 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 11.576 seconds; current allocated memory: 35.230 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z010-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -output=C:/OneDrive/Desktop/HLS-Tutorial/Exercise/0-LED_on
+INFO: [HLS 200-1510] Running: set_part xc7z010clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_export -output C:/OneDrive/Desktop/HLS-Tutorial/Exercise/0-LED_on 
+INFO: [HLS 200-1510] Running: export_design -rtl verilog -format ip_catalog -output C:/OneDrive/Desktop/HLS-Tutorial/Exercise/0-LED_on 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+INFO: [HLS 200-802] Generated output file 0-LED_on/export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 28.122 seconds; current allocated memory: 6.020 MB.

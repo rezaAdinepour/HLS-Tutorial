@@ -1,0 +1,4 @@
+<pragmas>
+<pragma file="0-LED_on/led_out.cpp" line="3" pragmaType="interface" parentfunction="led_on" mode="ap_none" port="o_led" name="" register="0"/>
+<pragma file="0-LED_on/led_out.cpp" line="4" pragmaType="interface" parentfunction="led_on" mode="ap_ctrl_none" port="return" name=""/>
+</pragmas>
