@@ -16,8 +16,29 @@
       ]
     },
     "slx": false,
+    "sourceFile": "C:/OneDrive/Desktop/HLS-Tutorial/Exercise/0-LED_on/solution1/directives.tcl",
+    "sourceLine": 7,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "led_on",
+    "id": 1,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "led_on"
+        }
+      ]
+    },
+    "slx": false,
     "sourceFile": "C:/OneDrive/Desktop/HLS-Tutorial/Exercise/0-LED_on/solution1/csynth.tcl",
-    "sourceLine": 14,
+    "sourceLine": 15,
     "success": true
   }
 ]

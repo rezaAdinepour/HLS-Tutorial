@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Jun 27 21:49:29 2024
+# Process ID: 12028
+# Current directory: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/basic_output_vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11520 C:\OneDrive\Desktop\HLS-Tutorial\Exercise\basic_output_vivado\basic_output_vivado.xpr
+# Log file: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/basic_output_vivado/vivado.log
+# Journal file: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/basic_output_vivado\vivado.jou
+# Running On: DESKTOP-A2LG1N2, OS: Windows, CPU Frequency: 3000 MHz, CPU Physical cores: 4, Host memory: 8449 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/OneDrive/Desktop/HLS-Tutorial/Exercise/basic_output_vivado/basic_output_vivado.xpr
+create_bd_design "design_1"
+update_compile_order -fileset sources_1
+validate_bd_design
+set_property USER_COMMENTS.comment_0 {Enter Comments here}  [current_bd_design]
+set_property USER_COMMENTS.comment_0 {}  [current_bd_design]
+set_property  ip_repo_paths  C:/OneDrive/Desktop/HLS-Tutorial/Exercise/0-LED_on/solution1 [current_project]
+update_ip_catalog
+open_bd_design {C:/OneDrive/Desktop/HLS-Tutorial/Exercise/basic_output_vivado/basic_output_vivado.srcs/sources_1/bd/design_1/design_1.bd}
+set_property  ip_repo_paths  {} [current_project]
+update_ip_catalog
+set_property  ip_repo_paths  C:/OneDrive/Desktop/HLS-Tutorial/Exercise/0-LED_on/solution1 [current_project]
+update_ip_catalog
+set_property  ip_repo_paths  {} [current_project]
+update_ip_catalog
+set_property  ip_repo_paths  C:/OneDrive/Desktop/HLS-Tutorial/Exercise/0-LED_on/solution1 [current_project]
+update_ip_catalog
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:hls:led_on:1.0 led_on_0
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins led_on_0/o_led]
+endgroup
+file mkdir C:/OneDrive/Desktop/HLS-Tutorial/Exercise/basic_output_vivado/basic_output_vivado.srcs/constrs_1
+file mkdir C:/OneDrive/Desktop/HLS-Tutorial/Exercise/basic_output_vivado/basic_output_vivado.srcs/constrs_1/new
+close [ open C:/OneDrive/Desktop/HLS-Tutorial/Exercise/basic_output_vivado/basic_output_vivado.srcs/constrs_1/new/basic_output.xdc w ]
+add_files -fileset constrs_1 C:/OneDrive/Desktop/HLS-Tutorial/Exercise/basic_output_vivado/basic_output_vivado.srcs/constrs_1/new/basic_output.xdc
+save_bd_design

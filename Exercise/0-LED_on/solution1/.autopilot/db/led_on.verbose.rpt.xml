@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'led_on'" level="0">
-<item name = "Date">Sat Jun  8 10:39:32 2024
+<item name = "Date">Thu Jun 27 21:43:31 2024
 </item>
 <item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">0-LED_on</item>
@@ -94,7 +94,7 @@
 <section name = "Interface" level="0">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
-<column name="o_led">out, 32, ap_none, o_led, pointer</column>
+<column name="o_led">out, 8, ap_none, o_led, pointer</column>
 </table>
 </item>
 </section>

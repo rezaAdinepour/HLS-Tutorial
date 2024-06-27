@@ -15,6 +15,6 @@ module basic_output (
 
 output  [7:0] o;
 
-assign o = 8'd120;
+assign o = 8'd240;
 
 endmodule //basic_output

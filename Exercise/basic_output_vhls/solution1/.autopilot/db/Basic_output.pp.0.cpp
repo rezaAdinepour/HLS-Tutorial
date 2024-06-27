@@ -158,12 +158,19 @@ extern "C" {
 # 1 "basic_output_vhls/Basic_output.cpp" 2
 __attribute__((sdx_kernel("basic_output", 0))) void basic_output(unsigned char *o)
 {
-#line 14 "C:/OneDrive/Desktop/HLS-Tutorial/Exercise/basic_output_vhls/solution1/csynth.tcl"
+#line 15 "C:/OneDrive/Desktop/HLS-Tutorial/Exercise/basic_output_vhls/solution1/csynth.tcl"
+#pragma HLSDIRECTIVE TOP name=basic_output
+# 2 "basic_output_vhls/Basic_output.cpp"
+
+#line 7 "C:/OneDrive/Desktop/HLS-Tutorial/Exercise/basic_output_vhls/solution1/directives.tcl"
 #pragma HLSDIRECTIVE TOP name=basic_output
 # 2 "basic_output_vhls/Basic_output.cpp"
 
 #pragma HLS INTERFACE ap_none port=o
+
+
 #pragma HLS INTERFACE ap_ctrl_none port=return
 
- *o = 0b1111000;
+
+ *o = 0xff0;
 }

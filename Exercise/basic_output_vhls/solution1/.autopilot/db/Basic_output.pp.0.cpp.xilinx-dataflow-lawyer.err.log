@@ -1,0 +1,2 @@
+implicit conversion from 'int' to 'unsigned char' changes value from 4080 to 240
+1 warning generated.

@@ -5,6 +5,11 @@
                 <option name="name" value="basic_output"/>
             </pragma>
         </directive>
+        <directive functionName="basic_output" label="" functionLabel="">
+            <pragma name="TOP">
+                <option name="name" value="basic_output"/>
+            </pragma>
+        </directive>
     </sourceFile>
 </AutoPilot:ProjectResources>
 

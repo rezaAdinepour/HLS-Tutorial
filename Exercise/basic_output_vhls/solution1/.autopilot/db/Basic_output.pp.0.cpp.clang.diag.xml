@@ -9,7 +9,23 @@
       <key>filename</key>
       <string>C:/OneDrive/Desktop/HLS-Tutorial/Exercise/basic_output_vhls/solution1/csynth.tcl</string>
       <key>line</key>
-      <integer>14</integer>
+      <integer>15</integer>
+      <key>column</key>
+      <integer>9</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=basic_output_XLX_SEP_ PragmaOptions=name=basic_output_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>5471</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>C:/OneDrive/Desktop/HLS-Tutorial/Exercise/basic_output_vhls/solution1/directives.tcl</string>
+      <key>line</key>
+      <integer>7</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -41,7 +57,7 @@
       <key>filename</key>
       <string>basic_output_vhls/Basic_output.cpp</string>
       <key>line</key>
-      <integer>4</integer>
+      <integer>6</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -50,6 +66,22 @@
       <integer>5471</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>basic_output_vhls/Basic_output.cpp</string>
+      <key>line</key>
+      <integer>9</integer>
+      <key>column</key>
+      <integer>7</integer>
+      <key>message</key>
+      <string>implicit conversion from &apos;int&apos; to &apos;unsigned char&apos; changes value from 4080 to 240</string>
+      <key>ID</key>
+      <integer>4899</integer>
+      <key>WarningOption</key>
+      <string>constant-conversion</string>
     </dict>
   </array>
 </dict>

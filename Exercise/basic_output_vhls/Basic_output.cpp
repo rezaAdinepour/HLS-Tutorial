@@ -1,7 +1,10 @@
-void led_out(unsigned int *o)
+void basic_output(unsigned char *o)
 {
-#pragma HLS INTERFACE ap_none port=o
-#pragma HLS INTERFACE ap_ctrl_none port=return
+	#pragma HLS INTERFACE ap_none port=o
+	/* or we can write: #pragma HLS INTERFACE mode=ap_none port=o */
 
-	*o = 0xff00;
+	#pragma HLS INTERFACE ap_ctrl_none port=return
+	/* or we can write: #pragma HLS INTERFACE mode=ap_ctrl_none port=return */
+
+	*o = 0xf0;
 }

@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'led_on'
 ================================================================
-* Date:           Sat Jun  8 10:39:32 2024
+* Date:           Thu Jun 27 21:43:31 2024
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        0-LED_on
@@ -77,9 +77,9 @@ IsGatedGlobalClock: 0
 State 1 <SV = 0> <Delay = 0.00>
 ST_1 : Operation 2 [1/1] (0.00ns)   --->   "%spectopmodule_ln1 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_1" [0-LED_on/led_out.cpp:1]   --->   Operation 2 'spectopmodule' 'spectopmodule_ln1' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 3 [1/1] (0.00ns)   --->   "%specinterface_ln1 = specinterface void @_ssdm_op_SpecInterface, i32 0, void @empty_2, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0" [0-LED_on/led_out.cpp:1]   --->   Operation 3 'specinterface' 'specinterface_ln1' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i32 %o_led"   --->   Operation 4 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %o_led, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 5 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%write_ln6 = write void @_ssdm_op_Write.ap_none.i32P0A, i32 %o_led, i32 240" [0-LED_on/led_out.cpp:6]   --->   Operation 6 'write' 'write_ln6' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i8 %o_led"   --->   Operation 4 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %o_led, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 5 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%write_ln6 = write void @_ssdm_op_Write.ap_none.i8P0A, i8 %o_led, i8 240" [0-LED_on/led_out.cpp:6]   --->   Operation 6 'write' 'write_ln6' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%ret_ln7 = ret" [0-LED_on/led_out.cpp:7]   --->   Operation 7 'ret' 'ret_ln7' <Predicate = true> <Delay = 0.00>
 
 
@@ -207,7 +207,7 @@ ret_ln7           (ret          ) [ 00]
 <pin id="21" dir="1" index="0" bw="1" slack="0"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="_ssdm_op_Write.ap_none.i32P0A"/></StgValue>
+<StgValue><ssdm name="_ssdm_op_Write.ap_none.i8P0A"/></StgValue>
 </bind>
 </comp>
 
@@ -223,8 +223,8 @@ ret_ln7           (ret          ) [ 00]
 <comp id="24" class="1004" name="write_ln6_write_fu_24">
 <pin_list>
 <pin id="25" dir="0" index="0" bw="0" slack="0"/>
-<pin id="26" dir="0" index="1" bw="32" slack="0"/>
-<pin id="27" dir="0" index="2" bw="9" slack="0"/>
+<pin id="26" dir="0" index="1" bw="8" slack="0"/>
+<pin id="27" dir="0" index="2" bw="5" slack="0"/>
 <pin id="28" dir="1" index="3" bw="0" slack="2147483647"/>
 </pin_list>
 <bind>

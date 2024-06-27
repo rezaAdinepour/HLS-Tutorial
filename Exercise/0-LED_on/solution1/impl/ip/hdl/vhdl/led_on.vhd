@@ -10,7 +10,7 @@ use IEEE.numeric_std.all;
 
 entity led_on is
 port (
-    o_led : OUT STD_LOGIC_VECTOR (31 downto 0) );
+    o_led : OUT STD_LOGIC_VECTOR (7 downto 0) );
 end;
 
 
@@ -18,7 +18,7 @@ architecture behav of led_on is
     attribute CORE_GENERATION_INFO : STRING;
     attribute CORE_GENERATION_INFO of behav : architecture is
     "led_on_led_on,hls_ip_2023_2,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xc7z010-clg400-1,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=0.000000,HLS_SYN_LAT=0,HLS_SYN_TPT=none,HLS_SYN_MEM=0,HLS_SYN_DSP=0,HLS_SYN_FF=0,HLS_SYN_LUT=0,HLS_VERSION=2023_2}";
-    constant ap_const_lv32_F0 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000011110000";
+    constant ap_const_lv8_F0 : STD_LOGIC_VECTOR (7 downto 0) := "11110000";
     constant ap_const_boolean_1 : BOOLEAN := true;
     constant ap_const_logic_1 : STD_LOGIC := '1';
     constant ap_const_logic_0 : STD_LOGIC := '0';
@@ -29,5 +29,5 @@ begin
 
 
 
-    o_led <= ap_const_lv32_F0;
+    o_led <= ap_const_lv8_F0;
 end behav;

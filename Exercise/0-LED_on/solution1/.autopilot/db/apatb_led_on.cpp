@@ -1031,7 +1031,7 @@ void apatb_led_on_hw(void* __xlx_apatb_param_o_led)
 {
   static hls::sim::Register port0 {
     .name = "o_led",
-    .width = 32,
+    .width = 8,
 #ifdef POST_CHECK
     .reader = new hls::sim::Reader(AUTOTB_TVOUT_PC_o_led),
 #else

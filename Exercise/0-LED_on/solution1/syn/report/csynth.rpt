@@ -4,7 +4,7 @@
 == Synthesis Summary Report of 'led_on'
 ================================================================
 + General Information: 
-    * Date:           Sat Jun  8 10:39:32 2024
+    * Date:           Thu Jun 27 21:43:31 2024
     * Version:        2023.2 (Build 4023990 on Oct 11 2023)
     * Project:        0-LED_on
     * Solution:       solution1 (Vivado IP Flow Target)
@@ -30,7 +30,7 @@
 +-------+---------+-----------+----------+
 | Port  | Mode    | Direction | Bitwidth |
 +-------+---------+-----------+----------+
-| o_led | ap_none | out       | 32       |
+| o_led | ap_none | out       | 8        |
 +-------+---------+-----------+----------+
 
 
@@ -38,11 +38,11 @@
 == SW I/O Information
 ================================================================
 * Top Function Arguments
-+----------+-----------+---------------+
-| Argument | Direction | Datatype      |
-+----------+-----------+---------------+
-| o_led    | out       | unsigned int* |
-+----------+-----------+---------------+
++----------+-----------+----------------+
+| Argument | Direction | Datatype       |
++----------+-----------+----------------+
+| o_led    | out       | unsigned char* |
++----------+-----------+----------------+
 
 * SW-to-HW Mapping
 +----------+--------------+---------+

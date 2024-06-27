@@ -1,0 +1,23 @@
+<dict>
+  <key>main-file</key>
+  <string>C:/OneDrive/Desktop/HLS-Tutorial/Exercise/basic_output_vhls/solution1/.autopilot/db/Basic_output.pp.0.cpp</string>
+  <key>diagnostics</key>
+  <array>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>basic_output_vhls/Basic_output.cpp</string>
+      <key>line</key>
+      <integer>9</integer>
+      <key>column</key>
+      <integer>7</integer>
+      <key>message</key>
+      <string>implicit conversion from &apos;int&apos; to &apos;unsigned char&apos; changes value from 4080 to 240</string>
+      <key>ID</key>
+      <integer>4899</integer>
+      <key>WarningOption</key>
+      <string>constant-conversion</string>
+    </dict>
+  </array>
+</dict>

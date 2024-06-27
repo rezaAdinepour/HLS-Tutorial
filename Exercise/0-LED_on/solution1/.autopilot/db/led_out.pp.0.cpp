@@ -156,9 +156,13 @@ extern "C" {
 }
 # 2 "<built-in>" 2
 # 1 "0-LED_on/led_out.cpp" 2
-__attribute__((sdx_kernel("led_on", 0))) void led_on(unsigned int *o_led)
+__attribute__((sdx_kernel("led_on", 0))) void led_on(unsigned char *o_led)
 {
-#line 14 "C:/OneDrive/Desktop/HLS-Tutorial/Exercise/0-LED_on/solution1/csynth.tcl"
+#line 15 "C:/OneDrive/Desktop/HLS-Tutorial/Exercise/0-LED_on/solution1/csynth.tcl"
+#pragma HLSDIRECTIVE TOP name=led_on
+# 2 "0-LED_on/led_out.cpp"
+
+#line 7 "C:/OneDrive/Desktop/HLS-Tutorial/Exercise/0-LED_on/solution1/directives.tcl"
 #pragma HLSDIRECTIVE TOP name=led_on
 # 2 "0-LED_on/led_out.cpp"
 

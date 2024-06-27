@@ -13,8 +13,8 @@ module led_on (
 );
 
 
-output  [31:0] o_led;
+output  [7:0] o_led;
 
-assign o_led = 32'd240;
+assign o_led = 8'd240;
 
 endmodule //led_on

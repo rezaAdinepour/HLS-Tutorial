@@ -8,9 +8,10 @@ open_project basic_output_vhls
 set_top basic_output
 add_files basic_output_vhls/Basic_output.cpp
 open_solution "solution1" -flow_target vivado
-set_part {xc7z010clg400-1}
+set_part {xc7z010-clg400-1}
 create_clock -period 10 -name default
-#source "./basic_output_vhls/solution1/directives.tcl"
+config_export -format ip_catalog -rtl verilog
+source "./basic_output_vhls/solution1/directives.tcl"
 #csim_design
 csynth_design
 #cosim_design

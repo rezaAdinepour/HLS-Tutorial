@@ -166,7 +166,7 @@
     <ResolutionUrl key="ZZZ">docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&amp;url=ug1448-hls-guidance&amp;resourceid=ZZZ.html</ResolutionUrl>
     <PragmaReport>
         <Pragma type="interface" location="basic_output_vhls/Basic_output.cpp:3" status="valid" parentFunction="basic_output" variable="o" isDirective="0" options="ap_none port=o"/>
-        <Pragma type="interface" location="basic_output_vhls/Basic_output.cpp:4" status="valid" parentFunction="basic_output" variable="return" isDirective="0" options="ap_ctrl_none port=return"/>
+        <Pragma type="interface" location="basic_output_vhls/Basic_output.cpp:6" status="valid" parentFunction="basic_output" variable="return" isDirective="0" options="ap_ctrl_none port=return"/>
     </PragmaReport>
 </profile>
 

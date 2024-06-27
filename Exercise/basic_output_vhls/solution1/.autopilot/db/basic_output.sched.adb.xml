@@ -79,10 +79,10 @@ entry:3 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %o, 
 
 <Node id="6" bw="0" op_0_bw="0" op_1_bw="8" op_2_bw="8">
 <![CDATA[
-entry:4 %write_ln6 = write void @_ssdm_op_Write.ap_none.i8P0A, i8 %o, i8 120
+entry:4 %write_ln9 = write void @_ssdm_op_Write.ap_none.i8P0A, i8 %o, i8 240
 
 ]]></Node>
-<StgValue><ssdm name="write_ln6"/></StgValue>
+<StgValue><ssdm name="write_ln9"/></StgValue>
 </operation>
 
 <operation id="7" st_id="1" stage="1" lat="1">
@@ -94,10 +94,10 @@ entry:4 %write_ln6 = write void @_ssdm_op_Write.ap_none.i8P0A, i8 %o, i8 120
 
 <Node id="7" bw="0">
 <![CDATA[
-entry:5 %ret_ln7 = ret
+entry:5 %ret_ln10 = ret
 
 ]]></Node>
-<StgValue><ssdm name="ret_ln7"/></StgValue>
+<StgValue><ssdm name="ret_ln10"/></StgValue>
 </operation>
 </state>
 </state_list>

@@ -79,10 +79,10 @@ entry:3 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %o, 
 
 <Node id="6" bw="0" op_0_bw="0" op_1_bw="8" op_2_bw="8">
 <![CDATA[
-entry:4 %write_ln6 = write void @_ssdm_op_Write.ap_none.i8P0A, i8 %o, i8 120
+entry:4 %write_ln9 = write void @_ssdm_op_Write.ap_none.i8P0A, i8 %o, i8 240
 
 ]]></Node>
-<StgValue><ssdm name="write_ln6"/></StgValue>
+<StgValue><ssdm name="write_ln9"/></StgValue>
 </operation>
 
 <operation id="7" st_id="1" stage="1" lat="1">
@@ -94,10 +94,10 @@ entry:4 %write_ln6 = write void @_ssdm_op_Write.ap_none.i8P0A, i8 %o, i8 120
 
 <Node id="7" bw="0">
 <![CDATA[
-entry:5 %ret_ln7 = ret
+entry:5 %ret_ln10 = ret
 
 ]]></Node>
-<StgValue><ssdm name="ret_ln7"/></StgValue>
+<StgValue><ssdm name="ret_ln10"/></StgValue>
 </operation>
 </state>
 </state_list>
@@ -195,11 +195,11 @@ entry:5 %ret_ln7 = ret
 </dataflow>
 <dataflow id="59" from="StgValue_15" to="specinterface_ln0" fromId="15" toId="5">
 </dataflow>
-<dataflow id="61" from="_ssdm_op_Write.ap_none.i8P0A" to="write_ln6" fromId="60" toId="6">
+<dataflow id="61" from="_ssdm_op_Write.ap_none.i8P0A" to="write_ln9" fromId="60" toId="6">
 </dataflow>
-<dataflow id="62" from="o" to="write_ln6" fromId="8" toId="6">
+<dataflow id="62" from="o" to="write_ln9" fromId="8" toId="6">
 </dataflow>
-<dataflow id="64" from="StgValue_63" to="write_ln6" fromId="63" toId="6">
+<dataflow id="64" from="StgValue_63" to="write_ln9" fromId="63" toId="6">
 </dataflow>
 </dataflows>
 

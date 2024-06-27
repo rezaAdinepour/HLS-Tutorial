@@ -19,7 +19,7 @@ eval "cg_default_interface_gen_dc { \
     sync_rst true \
     corename dc_o_led \
     op interface \
-    ports { o_led { O 32 vector } } \
+    ports { o_led { O 8 vector } } \
 } "
 }
 

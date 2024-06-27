@@ -34,7 +34,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1702129263</coreId>
+						<coreId>2794025936</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -56,10 +56,10 @@
 					<Obj>
 						<type>0</type>
 						<id>6</id>
-						<name>o_write_ln6</name>
+						<name>o_write_ln9</name>
 						<fileName>basic_output_vhls/Basic_output.cpp</fileName>
 						<fileDirectory>C:\OneDrive\Desktop\HLS-Tutorial\Exercise</fileDirectory>
-						<lineNumber>6</lineNumber>
+						<lineNumber>9</lineNumber>
 						<contextFuncName>basic_output</contextFuncName>
 						<contextNormFuncName>basic_output</contextNormFuncName>
 						<inlineStackInfo>
@@ -75,7 +75,7 @@
 											<first>basic_output_vhls/Basic_output.cpp</first>
 											<second>basic_output</second>
 										</first>
-										<second>6</second>
+										<second>9</second>
 									</item>
 								</second>
 							</item>
@@ -88,7 +88,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1281483768</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -114,10 +114,10 @@
 					<Obj>
 						<type>0</type>
 						<id>7</id>
-						<name>_ln7</name>
+						<name>_ln10</name>
 						<fileName>basic_output_vhls/Basic_output.cpp</fileName>
 						<fileDirectory>C:\OneDrive\Desktop\HLS-Tutorial\Exercise</fileDirectory>
-						<lineNumber>7</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>basic_output</contextFuncName>
 						<contextNormFuncName>basic_output</contextNormFuncName>
 						<inlineStackInfo>
@@ -133,7 +133,7 @@
 											<first>basic_output_vhls/Basic_output.cpp</first>
 											<second>basic_output</second>
 										</first>
-										<second>7</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -146,7 +146,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2865996520</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -191,13 +191,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>813375591</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>120</content>
+				<content>240</content>
 			</item>
 		</consts>
 		<blocks class_id="17" tracking_level="0" version="0">
@@ -225,7 +225,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>544499059</coreId>
+					<coreId>1667590754</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -387,7 +387,7 @@
 		<count>1</count>
 		<item_version>0</item_version>
 		<item class_id="42" tracking_level="0" version="0">
-			<first>write_ln6_write_fu_24</first>
+			<first>write_ln9_write_fu_24</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>

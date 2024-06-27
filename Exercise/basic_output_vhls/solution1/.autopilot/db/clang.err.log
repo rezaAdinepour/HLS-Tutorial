@@ -1,0 +1,4 @@
+basic_output_vhls/Basic_output.cpp:9:7: warning: implicit conversion from 'int' to 'unsigned char' changes value from 4080 to 240 [-Wconstant-conversion]
+ *o = 0xff0;
+    ~ ^~~~~
+1 warning generated.

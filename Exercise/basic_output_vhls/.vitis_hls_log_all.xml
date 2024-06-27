@@ -12,7 +12,8 @@
   <warningLogs>
     <logs>
       <synLog>
-        <logs message="WARNING: [RTGEN 206-101] Port 'o' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port." projectName="basic_output_vhls" solutionName="solution1" date="2024-06-08T09:48:14.857+0430" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'o' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port." projectName="basic_output_vhls" solutionName="solution1" date="2024-06-27T22:37:00.741+0430" type="Warning"/>
+        <logs message="WARNING: [HLS 207-4899] implicit conversion from 'int' to 'unsigned char' changes value from 4080 to 240 (basic_output_vhls/Basic_output.cpp:9:7)" projectName="basic_output_vhls" solutionName="solution1" date="2024-06-27T22:36:52.319+0430" type="Warning"/>
       </synLog>
       <simLog/>
       <mgLog/>

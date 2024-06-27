@@ -15,19 +15,19 @@ set DLRegItemOffset 0
 set C_modelName {led_on}
 set C_modelType { void 0 }
 set C_modelArgList {
-	{ o_led int 32 regular {pointer 1}  }
+	{ o_led int 8 regular {pointer 1}  }
 }
 set hasAXIMCache 0
 set AXIMCacheInstList { }
 set C_modelArgMapList {[ 
-	{ "Name" : "o_led", "interface" : "wire", "bitwidth" : 32, "direction" : "WRITEONLY"} ]}
+	{ "Name" : "o_led", "interface" : "wire", "bitwidth" : 8, "direction" : "WRITEONLY"} ]}
 # RTL Port declarations: 
 set portNum 1
 set portList { 
-	{ o_led sc_out sc_lv 32 signal 0 } 
+	{ o_led sc_out sc_lv 8 signal 0 } 
 }
 set NewPortList {[ 
-	{ "name": "o_led", "direction": "out", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "o_led", "role": "default" }}  ]}
+	{ "name": "o_led", "direction": "out", "datatype": "sc_lv", "bitwidth":8, "type": "signal", "bundle":{"name": "o_led", "role": "default" }}  ]}
 
 set RtlHierarchyInfo {[
 	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "",
@@ -63,7 +63,7 @@ set PipelineEnableSignalInfo {[
 ]}
 
 set Spec2ImplPortList { 
-	o_led { ap_none {  { o_led out_data 1 32 } } }
+	o_led { ap_none {  { o_led out_data 1 8 } } }
 }
 
 set maxi_interface_dict [dict create]
