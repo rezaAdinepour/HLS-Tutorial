@@ -1,0 +1,4 @@
+1-Btn_Led/src/main.cpp:46:44: warning: unexpected pragma argument ';', expects identifier [-Winvalid-hls-pragmas]
+#pragma HLS INTERFACE mode=ap_none port=btn;
+                                           ^
+1 warning generated.

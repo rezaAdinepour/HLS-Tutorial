@@ -1,0 +1,23 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "btn_led",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "btn_led"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/csynth.tcl",
+    "sourceLine": 14,
+    "success": true
+  }
+]

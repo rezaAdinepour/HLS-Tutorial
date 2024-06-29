@@ -1,0 +1,21 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="" msg_id="207-997" msg_severity="WARNING" msg_loc="1-Btn_Led/src/main.cpp:10:2" msg_body="'/*' within block comment">
+        <args ClangWarningOption="comment"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-997" msg_severity="WARNING" msg_loc="1-Btn_Led/src/main.cpp:15:1" msg_body="'/*' within block comment">
+        <args ClangWarningOption="comment"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5566" msg_severity="WARNING" msg_loc="1-Btn_Led/src/main.cpp:46:44" msg_body="unexpected pragma argument ';', expects identifier">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/csynth.tcl:14:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="btn_led" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=btn_led" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="1-Btn_Led/src/main.cpp:46:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="btn_led" ARG_PragmaIsValid="0" ARG_PragmaOptions="mode=ap_none port=btn;" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="1-Btn_Led/src/main.cpp:47:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="btn_led" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_ctrl_none port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

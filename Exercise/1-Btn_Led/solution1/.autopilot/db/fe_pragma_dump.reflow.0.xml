@@ -1,0 +1,3 @@
+<pragmas>
+<pragma file="1-Btn_Led/src/main.cpp" line="47" pragmaType="interface" parentfunction="btn_led" mode="ap_ctrl_none" port="return" name=""/>
+</pragmas>

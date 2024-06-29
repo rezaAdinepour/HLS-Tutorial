@@ -1,0 +1,399 @@
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xcvu11p-flga2577-1-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcvu11p-flga2577-1-e 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.126 seconds; current allocated memory: 209.973 MB.
+INFO: [HLS 200-10] Analyzing design file '1-Btn_Led/src/main.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 2.186 seconds; current allocated memory: 211.594 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 2 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 6 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 7 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 8.832 seconds; current allocated memory: 213.680 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.002 seconds; current allocated memory: 213.680 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.28 seconds; current allocated memory: 217.387 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.065 seconds; current allocated memory: 218.570 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.093 seconds; current allocated memory: 238.664 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.083 seconds; current allocated memory: 238.672 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'btn_led' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'btn_led' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.351 seconds; current allocated memory: 238.672 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.101 seconds; current allocated memory: 238.672 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'btn_led' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'btn_led/btn' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'btn_led/led' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'btn_led' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'btn_led'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.112 seconds; current allocated memory: 238.672 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.381 seconds; current allocated memory: 241.426 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.59 seconds; current allocated memory: 245.988 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for btn_led.
+INFO: [VLOG 209-307] Generating Verilog RTL for btn_led.
+INFO: [HLS 200-789] **** Estimated Fmax: 0.00 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 13.278 seconds; current allocated memory: 36.621 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xcvu11p-flga2577-1-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcvu11p-flga2577-1-e 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.119 seconds; current allocated memory: 210.082 MB.
+INFO: [HLS 200-10] Analyzing design file '1-Btn_Led/src/main.cpp' ... 
+WARNING: [HLS 207-5566] unexpected pragma argument ';', expects identifier (1-Btn_Led/src/main.cpp:3:44)
+WARNING: [HLS 207-5566] unexpected pragma argument ';', expects identifier (1-Btn_Led/src/main.cpp:4:44)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.209 seconds; current allocated memory: 211.383 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 7 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 8 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 8.123 seconds; current allocated memory: 213.336 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.002 seconds; current allocated memory: 213.340 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.022 seconds; current allocated memory: 217.047 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.023 seconds; current allocated memory: 218.102 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.043 seconds; current allocated memory: 238.199 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.017 seconds; current allocated memory: 238.207 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'btn_led' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'btn_led' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.143 seconds; current allocated memory: 238.207 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.056 seconds; current allocated memory: 238.207 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'btn_led' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'btn_led/btn' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'btn_led/led' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'btn_led' to 'ap_ctrl_none'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'btn_led'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.08 seconds; current allocated memory: 238.207 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.312 seconds; current allocated memory: 241.051 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.555 seconds; current allocated memory: 245.105 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for btn_led.
+INFO: [VLOG 209-307] Generating Verilog RTL for btn_led.
+INFO: [HLS 200-789] **** Estimated Fmax: 0.00 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.777 seconds; current allocated memory: 35.746 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xcvu11p-flga2577-1-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcvu11p-flga2577-1-e 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.113 seconds; current allocated memory: 210.336 MB.
+INFO: [HLS 200-10] Analyzing design file '1-Btn_Led/src/main.cpp' ... 
+WARNING: [HLS 207-5566] unexpected pragma argument ';', expects identifier (1-Btn_Led/src/main.cpp:19:44)
+WARNING: [HLS 207-5566] unexpected pragma argument ';', expects identifier (1-Btn_Led/src/main.cpp:20:44)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.378 seconds; current allocated memory: 211.809 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 7 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 8 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 8.099 seconds; current allocated memory: 213.738 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.002 seconds; current allocated memory: 213.738 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.022 seconds; current allocated memory: 217.488 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.023 seconds; current allocated memory: 218.750 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 238.684 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.018 seconds; current allocated memory: 238.691 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'btn_led' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'btn_led' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.128 seconds; current allocated memory: 238.691 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.054 seconds; current allocated memory: 238.691 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'btn_led' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'btn_led/btn' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'btn_led/led' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'btn_led' to 'ap_ctrl_none'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'btn_led'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.079 seconds; current allocated memory: 238.691 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.324 seconds; current allocated memory: 241.914 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.552 seconds; current allocated memory: 246.121 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for btn_led.
+INFO: [VLOG 209-307] Generating Verilog RTL for btn_led.
+INFO: [HLS 200-789] **** Estimated Fmax: 0.00 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 10.906 seconds; current allocated memory: 36.148 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xcvu11p-flga2577-1-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcvu11p-flga2577-1-e 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.112 seconds; current allocated memory: 210.355 MB.
+INFO: [HLS 200-10] Analyzing design file '1-Btn_Led/src/main.cpp' ... 
+WARNING: [HLS 207-5566] unexpected pragma argument ';', expects identifier (1-Btn_Led/src/main.cpp:5:44)
+WARNING: [HLS 207-5566] unexpected pragma argument ';', expects identifier (1-Btn_Led/src/main.cpp:6:44)
+ERROR: [HLS 207-3430] redefinition of 'btn_led' (1-Btn_Led/src/main.cpp:19:6)
+INFO: [HLS 207-71] previous definition is here (1-Btn_Led/src/main.cpp:2:6)
+WARNING: [HLS 207-5566] unexpected pragma argument ';', expects identifier (1-Btn_Led/src/main.cpp:22:44)
+WARNING: [HLS 207-5566] unexpected pragma argument ';', expects identifier (1-Btn_Led/src/main.cpp:23:44)
+WARNING: [HLS 207-5566] unexpected pragma argument ';', expects identifier (1-Btn_Led/src/main.cpp:35:44)
+WARNING: [HLS 207-5566] unexpected pragma argument ';', expects identifier (1-Btn_Led/src/main.cpp:36:44)
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.863 seconds; current allocated memory: 0.668 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xcvu11p-flga2577-1-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcvu11p-flga2577-1-e 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.114 seconds; current allocated memory: 210.652 MB.
+INFO: [HLS 200-10] Analyzing design file '1-Btn_Led/src/main.cpp' ... 
+WARNING: [HLS 207-997] '/*' within block comment (1-Btn_Led/src/main.cpp:11:2)
+WARNING: [HLS 207-997] '/*' within block comment (1-Btn_Led/src/main.cpp:16:1)
+WARNING: [HLS 207-5566] unexpected pragma argument ';', expects identifier (1-Btn_Led/src/main.cpp:35:44)
+WARNING: [HLS 207-5566] unexpected pragma argument ';', expects identifier (1-Btn_Led/src/main.cpp:36:44)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.283 seconds; current allocated memory: 211.992 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 3 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 7 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 8 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 8.017 seconds; current allocated memory: 214.207 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.002 seconds; current allocated memory: 214.207 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.027 seconds; current allocated memory: 217.906 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.022 seconds; current allocated memory: 218.863 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 238.441 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.017 seconds; current allocated memory: 238.449 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'btn_led' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'btn_led' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.144 seconds; current allocated memory: 238.449 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.055 seconds; current allocated memory: 238.449 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'btn_led' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'btn_led/btn' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'btn_led/led' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'btn_led' to 'ap_ctrl_none'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'btn_led'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.147 seconds; current allocated memory: 238.449 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.32 seconds; current allocated memory: 241.602 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.58 seconds; current allocated memory: 245.727 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for btn_led.
+INFO: [VLOG 209-307] Generating Verilog RTL for btn_led.
+INFO: [HLS 200-789] **** Estimated Fmax: 0.00 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 10.843 seconds; current allocated memory: 35.367 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xcvu11p-flga2577-1-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcvu11p-flga2577-1-e 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.118 seconds; current allocated memory: 211.320 MB.
+INFO: [HLS 200-10] Analyzing design file '1-Btn_Led/src/main.cpp' ... 
+WARNING: [HLS 207-997] '/*' within block comment (1-Btn_Led/src/main.cpp:10:2)
+WARNING: [HLS 207-997] '/*' within block comment (1-Btn_Led/src/main.cpp:15:1)
+WARNING: [HLS 207-5566] unexpected pragma argument ';', expects identifier (1-Btn_Led/src/main.cpp:46:44)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.268 seconds; current allocated memory: 212.184 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 2 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 4 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 5 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 8.28 seconds; current allocated memory: 214.168 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.002 seconds; current allocated memory: 214.172 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.024 seconds; current allocated memory: 217.852 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.022 seconds; current allocated memory: 218.762 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 238.512 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.022 seconds; current allocated memory: 238.520 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'btn_led' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'btn_led' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.132 seconds; current allocated memory: 238.520 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.055 seconds; current allocated memory: 238.520 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'btn_led' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'btn_led/btn' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'btn_led' to 'ap_ctrl_none'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'btn_led'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.071 seconds; current allocated memory: 238.520 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.302 seconds; current allocated memory: 241.398 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.551 seconds; current allocated memory: 245.688 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for btn_led.
+INFO: [VLOG 209-307] Generating Verilog RTL for btn_led.
+INFO: [HLS 200-789] **** Estimated Fmax: 0.00 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 10.958 seconds; current allocated memory: 34.641 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xcvu11p-flga2577-1-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=sysgen
+INFO: [HLS 200-1510] Running: set_part xcvu11p-flga2577-1-e 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_export -format sysgen 
+INFO: [HLS 200-1510] Running: export_design -rtl verilog -format sysgen 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+INFO: [HLS 200-802] Generated output file 1-Btn_Led/solution1/impl/export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 32.409 seconds; current allocated memory: 6.105 MB.
