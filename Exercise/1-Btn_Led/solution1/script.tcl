@@ -10,7 +10,7 @@ add_files 1-Btn_Led/src/main.cpp
 open_solution "solution1" -flow_target vivado
 set_part {xcvu11p-flga2577-1-e}
 create_clock -period 10 -name default
-config_export -format sysgen
+config_export -format sysgen -rtl verilog
 #source "./1-Btn_Led/solution1/directives.tcl"
 #csim_design
 csynth_design

@@ -127,7 +127,9 @@
         </Module>
     </ModuleInformation>
     <FIFOInformation/>
-    <UserConfigCommands/>
+    <UserConfigCommands>
+        <config_export format="sysgen"/>
+    </UserConfigCommands>
     <Args>
         <Arg ArgName="btn" index="0" direction="in" srcType="unsigned char" srcSize="8">
             <hwRefs>

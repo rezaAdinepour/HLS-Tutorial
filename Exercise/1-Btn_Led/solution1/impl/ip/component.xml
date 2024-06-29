@@ -303,8 +303,8 @@
       </xilinx:taxonomies>
       <xilinx:displayName>Btn_led</xilinx:displayName>
       <xilinx:definitionSource>HLS</xilinx:definitionSource>
-      <xilinx:coreRevision>2113624046</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2024-06-29T17:57:27Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>2113624060</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2024-06-29T18:11:02Z</xilinx:coreCreationDateTime>
       <xilinx:sdxKernelAttributes>
         <xilinx:sdx_kernel>true</xilinx:sdx_kernel>
         <xilinx:sdx_kernel_type>hls</xilinx:sdx_kernel_type>

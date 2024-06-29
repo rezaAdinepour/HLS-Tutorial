@@ -12,9 +12,9 @@
   <warningLogs>
     <logs>
       <synLog>
-        <logs message="WARNING: [HLS 207-5566] unexpected pragma argument ';', expects identifier (1-Btn_Led/src/main.cpp:46:44)" projectName="1-Btn_Led" solutionName="solution1" date="2024-06-29T22:26:15.939+0430" type="Warning"/>
-        <logs message="WARNING: [HLS 207-997] '/*' within block comment (1-Btn_Led/src/main.cpp:15:1)" projectName="1-Btn_Led" solutionName="solution1" date="2024-06-29T22:26:15.345+0430" type="Warning"/>
-        <logs message="WARNING: [HLS 207-997] '/*' within block comment (1-Btn_Led/src/main.cpp:10:2)" projectName="1-Btn_Led" solutionName="solution1" date="2024-06-29T22:26:15.048+0430" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5566] unexpected pragma argument ';', expects identifier (1-Btn_Led/src/main.cpp:46:44)" projectName="1-Btn_Led" solutionName="solution1" date="2024-06-29T22:40:19.642+0430" type="Warning"/>
+        <logs message="WARNING: [HLS 207-997] '/*' within block comment (1-Btn_Led/src/main.cpp:15:1)" projectName="1-Btn_Led" solutionName="solution1" date="2024-06-29T22:40:18.752+0430" type="Warning"/>
+        <logs message="WARNING: [HLS 207-997] '/*' within block comment (1-Btn_Led/src/main.cpp:10:2)" projectName="1-Btn_Led" solutionName="solution1" date="2024-06-29T22:40:18.455+0430" type="Warning"/>
       </synLog>
       <simLog/>
       <mgLog/>
