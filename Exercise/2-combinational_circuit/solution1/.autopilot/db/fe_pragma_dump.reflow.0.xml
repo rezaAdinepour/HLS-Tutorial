@@ -1,0 +1,7 @@
+<pragmas>
+<pragma file="2-combinational_circuit/src/ComCir.cpp" line="4" pragmaType="interface" parentfunction="ComCir" mode="ap_ctrl_none" port="return" name=""/>
+<pragma file="2-combinational_circuit/src/ComCir.cpp" line="5" pragmaType="interface" parentfunction="ComCir" mode="ap_none" port="a" name="" register="0"/>
+<pragma file="2-combinational_circuit/src/ComCir.cpp" line="6" pragmaType="interface" parentfunction="ComCir" mode="ap_none" port="b" name="" register="0"/>
+<pragma file="2-combinational_circuit/src/ComCir.cpp" line="7" pragmaType="interface" parentfunction="ComCir" mode="ap_none" port="c" name="" register="0"/>
+<pragma file="2-combinational_circuit/src/ComCir.cpp" line="8" pragmaType="interface" parentfunction="ComCir" mode="ap_none" port="d" name="" register="0"/>
+</pragmas>

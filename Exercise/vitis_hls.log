@@ -1,27 +1,27 @@
 INFO: [HLS 200-10] Running 'C:/Xilinx/Vitis_HLS/2023.2/bin/unwrapped/win64.o/vitis_hls.exe'
-INFO: [HLS 200-10] For user 'User1' on host 'desktop-a2lg1n2' (Windows NT_amd64 version 6.2) on Sat Jun 29 21:40:43 +0330 2024
+INFO: [HLS 200-10] For user 'User1' on host 'desktop-a2lg1n2' (Windows NT_amd64 version 6.2) on Tue Jul 02 22:55:34 +0330 2024
 INFO: [HLS 200-10] In directory 'C:/OneDrive/Desktop/HLS-Tutorial/Exercise'
 INFO: [HLS 200-2053] The vitis_hls executable is being deprecated. Consider using vitis-run --mode hls --tcl
-Sourcing Tcl script 'C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/export.tcl'
-INFO: [HLS 200-1510] Running: source C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1/export.tcl
-INFO: [HLS 200-1510] Running: open_project 1-Btn_Led 
-INFO: [HLS 200-10] Opening project 'C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led'.
-INFO: [HLS 200-1510] Running: set_top btn_led 
-INFO: [HLS 200-1510] Running: add_files 1-Btn_Led/src/main.cpp 
-INFO: [HLS 200-10] Adding design file '1-Btn_Led/src/main.cpp' to the project
+Sourcing Tcl script 'C:/OneDrive/Desktop/HLS-Tutorial/Exercise/2-combinational_circuit/solution1/export.tcl'
+INFO: [HLS 200-1510] Running: source C:/OneDrive/Desktop/HLS-Tutorial/Exercise/2-combinational_circuit/solution1/export.tcl
+INFO: [HLS 200-1510] Running: open_project 2-combinational_circuit 
+INFO: [HLS 200-10] Opening project 'C:/OneDrive/Desktop/HLS-Tutorial/Exercise/2-combinational_circuit'.
+INFO: [HLS 200-1510] Running: set_top ComCir 
+INFO: [HLS 200-1510] Running: add_files 2-combinational_circuit/src/ComCir.cpp 
+INFO: [HLS 200-10] Adding design file '2-combinational_circuit/src/ComCir.cpp' to the project
 INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
-INFO: [HLS 200-10] Opening solution 'C:/OneDrive/Desktop/HLS-Tutorial/Exercise/1-Btn_Led/solution1'.
+INFO: [HLS 200-10] Opening solution 'C:/OneDrive/Desktop/HLS-Tutorial/Exercise/2-combinational_circuit/solution1'.
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
 INFO: [HLS 200-1611] Setting target device to 'xcvu11p-flga2577-1-e'
 INFO: [HLS 200-1505] Using flow_target 'vivado'
 Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
 INFO: [HLS 200-1464] Running solution command: config_export -format=sysgen
-INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1464] Running solution command: config_export -output=C:/OneDrive/Desktop/HLS-Tutorial/Exercise/2-combinational_circuit/Ip
 INFO: [HLS 200-1510] Running: set_part xcvu11p-flga2577-1-e 
 INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
-INFO: [HLS 200-1510] Running: config_export -format sysgen -rtl verilog 
-INFO: [HLS 200-1510] Running: export_design -rtl verilog -format sysgen 
+INFO: [HLS 200-1510] Running: config_export -format sysgen -output C:/OneDrive/Desktop/HLS-Tutorial/Exercise/2-combinational_circuit/Ip 
+INFO: [HLS 200-1510] Running: export_design -rtl verilog -format sysgen -output C:/OneDrive/Desktop/HLS-Tutorial/Exercise/2-combinational_circuit/Ip 
 INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
 
 ****** Vivado v2023.2 (64-bit)
@@ -32,11 +32,11 @@ INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
     ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source run_ippack.tcl -notrace
-ipx::create_core: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 570.156 ; gain = 173.266
+ipx::create_core: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 570.324 ; gain = 172.352
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
-INFO: [Common 17-206] Exiting Vivado at Sat Jun 29 21:41:02 2024...
-INFO: [HLS 200-802] Generated output file 1-Btn_Led/solution1/impl/export.zip
-INFO: [HLS 200-111] Finished Command export_design CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 15.854 seconds; current allocated memory: 6.047 MB.
-INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 19.657 seconds; peak allocated memory: 216.523 MB.
+INFO: [Common 17-206] Exiting Vivado at Tue Jul  2 22:56:07 2024...
+INFO: [HLS 200-802] Generated output file 2-combinational_circuit/Ip/export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 31.639 seconds; current allocated memory: 6.461 MB.
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 35.667 seconds; peak allocated memory: 216.426 MB.

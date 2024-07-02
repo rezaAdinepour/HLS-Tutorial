@@ -1,0 +1,14 @@
+{
+  "0": {
+    "basicblocks": 4,
+    "calls": "",
+    "file": "ComCir.cpp",
+    "fileloc": 1,
+    "instructions": 12,
+    "name": "ComCir",
+    "stores": {
+      "T": 1
+    },
+    "total_instructions": 12
+  }
+}

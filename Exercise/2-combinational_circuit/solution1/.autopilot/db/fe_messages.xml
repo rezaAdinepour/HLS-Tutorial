@@ -1,0 +1,21 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/OneDrive/Desktop/HLS-Tutorial/Exercise/2-combinational_circuit/solution1/csynth.tcl:14:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="ComCir" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=ComCir" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="2-combinational_circuit/src/ComCir.cpp:4:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ComCir" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_ctrl_none port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="2-combinational_circuit/src/ComCir.cpp:5:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ComCir" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=a" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="2-combinational_circuit/src/ComCir.cpp:6:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ComCir" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=b" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="2-combinational_circuit/src/ComCir.cpp:7:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ComCir" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=c" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="2-combinational_circuit/src/ComCir.cpp:8:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ComCir" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=d" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

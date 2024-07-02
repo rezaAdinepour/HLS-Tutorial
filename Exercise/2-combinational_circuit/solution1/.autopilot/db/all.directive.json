@@ -1,0 +1,23 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "ComCir",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "ComCir"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/OneDrive/Desktop/HLS-Tutorial/Exercise/2-combinational_circuit/solution1/csynth.tcl",
+    "sourceLine": 14,
+    "success": true
+  }
+]

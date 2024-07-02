@@ -1,0 +1,88 @@
+
+
+================================================================
+== Synthesis Summary Report of 'ComCir'
+================================================================
++ General Information: 
+    * Date:           Tue Jul  2 22:48:28 2024
+    * Version:        2023.2 (Build 4023990 on Oct 11 2023)
+    * Project:        2-combinational_circuit
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: virtexuplus
+    * Target device:  xcvu11p-flga2577-1-e
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +----------+------+------+---------+--------+----------+---------+------+----------+------+----+---+---------+-----+
+    |  Modules | Issue|      | Latency | Latency| Iteration|         | Trip |          |      |    |   |         |     |
+    |  & Loops | Type | Slack| (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined| BRAM | DSP| FF|   LUT   | URAM|
+    +----------+------+------+---------+--------+----------+---------+------+----------+------+----+---+---------+-----+
+    |+ ComCir  |     -|  7.15|        0|   0.000|         -|        1|     -|        no|     -|   -|  -|  6 (~0%)|    -|
+    +----------+------+------+---------+--------+----------+---------+------+----------+------+----+---+---------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* Other Ports
++------+---------+-----------+----------+
+| Port | Mode    | Direction | Bitwidth |
++------+---------+-----------+----------+
+| a    | ap_none | in        | 1        |
+| b    | ap_none | in        | 1        |
+| c    | ap_none | in        | 1        |
+| d    | ap_none | out       | 1        |
++------+---------+-----------+----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+----------+
+| Argument | Direction | Datatype |
++----------+-----------+----------+
+| a        | in        | bool     |
+| b        | in        | bool     |
+| c        | in        | bool     |
+| d        | out       | bool*    |
++----------+-----------+----------+
+
+* SW-to-HW Mapping
++----------+--------------+---------+
+| Argument | HW Interface | HW Type |
++----------+--------------+---------+
+| a        | a            | port    |
+| b        | b            | port    |
+| c        | c            | port    |
+| d        | d            | port    |
++----------+--------------+---------+
+
+
+================================================================
+== Bind Op Report
+================================================================
+  No bind op info in design
+
+================================================================
+== Storage Report
+================================================================
+  No bind storage info in design
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------+-------------------------------+------------------------------------------------------------+
+| Type      | Options                       | Location                                                   |
++-----------+-------------------------------+------------------------------------------------------------+
+| interface | mode=ap_ctrl_none port=return | 2-combinational_circuit/src/ComCir.cpp:4 in comcir, return |
+| interface | mode=ap_none port=a           | 2-combinational_circuit/src/ComCir.cpp:5 in comcir, a      |
+| interface | mode=ap_none port=b           | 2-combinational_circuit/src/ComCir.cpp:6 in comcir, b      |
+| interface | mode=ap_none port=c           | 2-combinational_circuit/src/ComCir.cpp:7 in comcir, c      |
+| interface | mode=ap_none port=d           | 2-combinational_circuit/src/ComCir.cpp:8 in comcir, d      |
++-----------+-------------------------------+------------------------------------------------------------+
+
+
