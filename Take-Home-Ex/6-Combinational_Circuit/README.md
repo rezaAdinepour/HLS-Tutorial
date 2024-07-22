@@ -53,5 +53,10 @@ write code here
 
 <img src="img_ex3.png" alt="img_ex3" style="width:350px;"/>
 
+### Solution:
+```
+write code here
+```
+
 
 
