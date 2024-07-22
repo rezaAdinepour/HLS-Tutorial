@@ -66,3 +66,20 @@ void sw_led_control( bool sw0,
 }
 
 ```
+
+
+
+### 3. The prototype of a C/C++ function is as follows. It connects 16 slide switches on the Basys3 board to the 16 LEDs.
+
+    a) Complete the HLS description.
+
+    b) Use the Vivado-HLS toolset to generate the corresponding RTL-IP.
+
+    c) Import the design into the Xilinx Vivado suite and generate the FPAG bitstream.
+
+    d) Program the Basys3 board and check the output.
+
+### Solution:
+```cpp
+
+```
