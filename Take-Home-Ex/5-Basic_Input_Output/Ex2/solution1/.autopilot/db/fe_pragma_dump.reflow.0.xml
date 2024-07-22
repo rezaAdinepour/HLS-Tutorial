@@ -1,0 +1,12 @@
+<pragmas>
+<pragma file="Ex2/src/sw_led_control.cpp" line="12" pragmaType="interface" parentfunction="sw_led_control" mode="ap_ctrl_none" port="return" name=""/>
+<pragma file="Ex2/src/sw_led_control.cpp" line="13" pragmaType="interface" parentfunction="sw_led_control" mode="ap_none" port="sw0" name="" register="0"/>
+<pragma file="Ex2/src/sw_led_control.cpp" line="14" pragmaType="interface" parentfunction="sw_led_control" mode="ap_none" port="sw1" name="" register="0"/>
+<pragma file="Ex2/src/sw_led_control.cpp" line="15" pragmaType="interface" parentfunction="sw_led_control" mode="ap_none" port="sw2" name="" register="0"/>
+<pragma file="Ex2/src/sw_led_control.cpp" line="16" pragmaType="interface" parentfunction="sw_led_control" mode="ap_none" port="sw3" name="" register="0"/>
+<pragma file="Ex2/src/sw_led_control.cpp" line="17" pragmaType="interface" parentfunction="sw_led_control" mode="ap_none" port="sw4" name="" register="0"/>
+<pragma file="Ex2/src/sw_led_control.cpp" line="19" pragmaType="interface" parentfunction="sw_led_control" mode="ap_none" port="led0" name="" register="0"/>
+<pragma file="Ex2/src/sw_led_control.cpp" line="20" pragmaType="interface" parentfunction="sw_led_control" mode="ap_none" port="led1" name="" register="0"/>
+<pragma file="Ex2/src/sw_led_control.cpp" line="21" pragmaType="interface" parentfunction="sw_led_control" mode="ap_none" port="led2" name="" register="0"/>
+<pragma file="Ex2/src/sw_led_control.cpp" line="22" pragmaType="interface" parentfunction="sw_led_control" mode="ap_none" port="led3" name="" register="0"/>
+</pragmas>

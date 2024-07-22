@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"sw_led_control": {
+			"proto_instances": {
+			}
+		}
+	}
+}

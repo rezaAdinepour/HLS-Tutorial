@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Port 'sw_led_control/led4' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="Ex2" solutionName="solution1" date="2024-07-22T23:38:47.172+0430" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'sw_led_control/led3' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="Ex2" solutionName="solution1" date="2024-07-22T23:38:47.142+0430" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'sw_led_control/led2' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="Ex2" solutionName="solution1" date="2024-07-22T23:38:47.132+0430" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'sw_led_control/led1' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="Ex2" solutionName="solution1" date="2024-07-22T23:38:47.112+0430" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'sw_led_control/led0' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="Ex2" solutionName="solution1" date="2024-07-22T23:38:47.092+0430" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'sw_led_control/sw4' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="Ex2" solutionName="solution1" date="2024-07-22T23:38:47.062+0430" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'sw_led_control/sw3' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="Ex2" solutionName="solution1" date="2024-07-22T23:38:47.042+0430" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'sw_led_control/sw2' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="Ex2" solutionName="solution1" date="2024-07-22T23:38:47.024+0430" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'sw_led_control/sw1' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="Ex2" solutionName="solution1" date="2024-07-22T23:38:47.002+0430" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'sw_led_control/sw0' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="Ex2" solutionName="solution1" date="2024-07-22T23:38:46.992+0430" type="Warning"/>
+        <logs message="WARNING: [SYNCHK 200-77] The top function 'sw_led_control' (Ex2/src/sw_led_control.cpp:1) has no outputs. Possible cause(s) are: (1) Output parameters are passed by value; (2) intended outputs (parameters or global variables) are never written; (3) there are infinite loops." projectName="Ex2" solutionName="solution1" date="2024-07-22T23:38:46.502+0430" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

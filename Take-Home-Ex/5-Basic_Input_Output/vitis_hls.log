@@ -1,0 +1,107 @@
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vitis_HLS/2023.2/bin/unwrapped/win64.o/vitis_hls.exe'
+INFO: [HLS 200-10] For user 'User1' on host 'desktop-a2lg1n2' (Windows NT_amd64 version 6.2) on Mon Jul 22 22:38:33 +0330 2024
+INFO: [HLS 200-10] In directory 'C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/5-Basic_Input_Output'
+INFO: [HLS 200-2053] The vitis_hls executable is being deprecated. Consider using vitis-run --mode hls --tcl
+Sourcing Tcl script 'C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/5-Basic_Input_Output/Ex2/solution1/csynth.tcl'
+INFO: [HLS 200-1510] Running: source C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/5-Basic_Input_Output/Ex2/solution1/csynth.tcl
+INFO: [HLS 200-1510] Running: open_project Ex2 
+INFO: [HLS 200-10] Opening project 'C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/5-Basic_Input_Output/Ex2'.
+INFO: [HLS 200-1510] Running: set_top sw_led_control 
+INFO: [HLS 200-1510] Running: add_files Ex2/src/sw_led_control.cpp 
+INFO: [HLS 200-10] Adding design file 'Ex2/src/sw_led_control.cpp' to the project
+INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
+INFO: [HLS 200-10] Opening solution 'C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/5-Basic_Input_Output/Ex2/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xcvu11p-flga2577-1-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1510] Running: set_part xcvu11p-flga2577-1-e 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.114 seconds; current allocated memory: 210.242 MB.
+INFO: [HLS 200-10] Analyzing design file 'Ex2/src/sw_led_control.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.363 seconds; current allocated memory: 211.969 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 16 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/5-Basic_Input_Output/Ex2/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 11 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/5-Basic_Input_Output/Ex2/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 11 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/5-Basic_Input_Output/Ex2/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 11 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/5-Basic_Input_Output/Ex2/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 11 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/5-Basic_Input_Output/Ex2/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 11 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/5-Basic_Input_Output/Ex2/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 11 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/5-Basic_Input_Output/Ex2/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 11 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/5-Basic_Input_Output/Ex2/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 11 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/5-Basic_Input_Output/Ex2/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 11 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/5-Basic_Input_Output/Ex2/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 11 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/5-Basic_Input_Output/Ex2/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 11 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/5-Basic_Input_Output/Ex2/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 11 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/5-Basic_Input_Output/Ex2/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 11 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/5-Basic_Input_Output/Ex2/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 22 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/5-Basic_Input_Output/Ex2/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 23 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/5-Basic_Input_Output/Ex2/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 7.999 seconds; current allocated memory: 213.789 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.003 seconds; current allocated memory: 213.793 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.025 seconds; current allocated memory: 217.504 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+WARNING: [SYNCHK 200-77] The top function 'sw_led_control' (Ex2/src/sw_led_control.cpp:1) has no outputs. Possible cause(s) are: (1) Output parameters are passed by value; (2) intended outputs (parameters or global variables) are never written; (3) there are infinite loops.
+INFO: [SYNCHK 200-10] 0 error(s), 1 warning(s).
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.029 seconds; current allocated memory: 218.816 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.051 seconds; current allocated memory: 238.914 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.025 seconds; current allocated memory: 238.938 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'sw_led_control' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'sw_led_control' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.145 seconds; current allocated memory: 238.938 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.061 seconds; current allocated memory: 238.938 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'sw_led_control' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'sw_led_control/sw0' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sw_led_control/sw1' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sw_led_control/sw2' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sw_led_control/sw3' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sw_led_control/sw4' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sw_led_control/led0' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sw_led_control/led1' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sw_led_control/led2' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sw_led_control/led3' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sw_led_control/led4' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'sw_led_control' to 'ap_ctrl_none'.
+WARNING: [RTGEN 206-101] Port 'sw_led_control/sw0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sw_led_control/sw1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sw_led_control/sw2' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sw_led_control/sw3' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sw_led_control/sw4' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sw_led_control/led0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sw_led_control/led1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sw_led_control/led2' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sw_led_control/led3' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sw_led_control/led4' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'sw_led_control'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.343 seconds; current allocated memory: 238.938 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.349 seconds; current allocated memory: 241.422 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.67 seconds; current allocated memory: 245.789 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for sw_led_control.
+INFO: [VLOG 209-307] Generating Verilog RTL for sw_led_control.
+INFO: [HLS 200-789] **** Estimated Fmax: 0.00 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 11.28 seconds; current allocated memory: 35.953 MB.
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 15.076 seconds; peak allocated memory: 246.254 MB.

@@ -1,0 +1,459 @@
+<profile>
+    <ReportVersion>
+        <Version>2023.2</Version>
+    </ReportVersion>
+    <UserAssignments>
+        <unit>ns</unit>
+        <ProductFamily>virtexuplus</ProductFamily>
+        <Part>xcvu11p-flga2577-1-e</Part>
+        <TopModelName>sw_led_control</TopModelName>
+        <TargetClockPeriod>10.00</TargetClockPeriod>
+        <ClockUncertainty>2.70</ClockUncertainty>
+        <FlowTarget>vivado</FlowTarget>
+    </UserAssignments>
+    <PerformanceEstimates>
+        <PipelineType>no</PipelineType>
+        <SummaryOfTimingAnalysis>
+            <unit>ns</unit>
+            <EstimatedClockPeriod>0.000</EstimatedClockPeriod>
+        </SummaryOfTimingAnalysis>
+        <SummaryOfOverallLatency>
+            <unit>clock cycles</unit>
+            <Best-caseLatency>0</Best-caseLatency>
+            <Average-caseLatency>0</Average-caseLatency>
+            <Worst-caseLatency>0</Worst-caseLatency>
+            <Best-caseRealTimeLatency>0 ns</Best-caseRealTimeLatency>
+            <Average-caseRealTimeLatency>0 ns</Average-caseRealTimeLatency>
+            <Worst-caseRealTimeLatency>0 ns</Worst-caseRealTimeLatency>
+            <Interval-min>1</Interval-min>
+            <Interval-max>1</Interval-max>
+        </SummaryOfOverallLatency>
+        <SummaryOfViolations>
+            <IssueType>-</IssueType>
+            <ViolationType>-</ViolationType>
+            <SourceLocation>Ex2/src/sw_led_control.cpp:1</SourceLocation>
+        </SummaryOfViolations>
+    </PerformanceEstimates>
+    <AreaEstimates>
+        <Resources>
+            <BRAM_18K>0</BRAM_18K>
+            <DSP>0</DSP>
+            <FF>0</FF>
+            <LUT>0</LUT>
+            <URAM>0</URAM>
+        </Resources>
+        <AvailableResources>
+            <BRAM_18K>4032</BRAM_18K>
+            <DSP>9216</DSP>
+            <FF>2592000</FF>
+            <LUT>1296000</LUT>
+            <URAM>960</URAM>
+        </AvailableResources>
+    </AreaEstimates>
+    <InterfaceSummary>
+        <RtlPorts>
+            <name>sw0</name>
+            <Object>sw0</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>bool</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>sw1</name>
+            <Object>sw1</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>bool</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>sw2</name>
+            <Object>sw2</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>bool</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>sw3</name>
+            <Object>sw3</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>bool</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>sw4</name>
+            <Object>sw4</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>bool</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>led0</name>
+            <Object>led0</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>bool</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>led1</name>
+            <Object>led1</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>bool</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>led2</name>
+            <Object>led2</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>bool</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>led3</name>
+            <Object>led3</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>bool</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>led4</name>
+            <Object>led4</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>bool</CType>
+        </RtlPorts>
+    </InterfaceSummary>
+    <RTLDesignHierarchy>
+        <TopModule MAX_DEPTH="1">
+            <ModuleName>sw_led_control</ModuleName>
+        </TopModule>
+    </RTLDesignHierarchy>
+    <ModuleInformation>
+        <Module>
+            <Name>sw_led_control</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>0.000</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>0</Best-caseLatency>
+                    <Average-caseLatency>0</Average-caseLatency>
+                    <Worst-caseLatency>0</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0 ns</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>1</PipelineInitiationInterval>
+                    <PipelineType>no</PipelineType>
+                </SummaryOfOverallLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>Ex2/src/sw_led_control.cpp:1</SourceLocation>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>4032</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>9216</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <FF>0</FF>
+                    <AVAIL_FF>2592000</AVAIL_FF>
+                    <UTIL_FF>0</UTIL_FF>
+                    <LUT>0</LUT>
+                    <AVAIL_LUT>1296000</AVAIL_LUT>
+                    <UTIL_LUT>0</UTIL_LUT>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>960</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+        </Module>
+    </ModuleInformation>
+    <FIFOInformation/>
+    <UserConfigCommands/>
+    <Args>
+        <Arg ArgName="sw0" index="0" direction="in" srcType="bool" srcSize="1">
+            <hwRefs>
+                <hwRef type="port" interface="sw0" name="sw0" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="sw1" index="1" direction="in" srcType="bool" srcSize="1">
+            <hwRefs>
+                <hwRef type="port" interface="sw1" name="sw1" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="sw2" index="2" direction="in" srcType="bool" srcSize="1">
+            <hwRefs>
+                <hwRef type="port" interface="sw2" name="sw2" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="sw3" index="3" direction="in" srcType="bool" srcSize="1">
+            <hwRefs>
+                <hwRef type="port" interface="sw3" name="sw3" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="sw4" index="4" direction="in" srcType="bool" srcSize="1">
+            <hwRefs>
+                <hwRef type="port" interface="sw4" name="sw4" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="led0" index="5" direction="unused" srcType="bool&amp;" srcSize="1">
+            <hwRefs>
+                <hwRef type="port" interface="led0" name="led0" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="led1" index="6" direction="unused" srcType="bool&amp;" srcSize="1">
+            <hwRefs>
+                <hwRef type="port" interface="led1" name="led1" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="led2" index="7" direction="unused" srcType="bool&amp;" srcSize="1">
+            <hwRefs>
+                <hwRef type="port" interface="led2" name="led2" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="led3" index="8" direction="unused" srcType="bool&amp;" srcSize="1">
+            <hwRefs>
+                <hwRef type="port" interface="led3" name="led3" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="led4" index="9" direction="unused" srcType="bool&amp;" srcSize="1">
+            <hwRefs>
+                <hwRef type="port" interface="led4" name="led4" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+    </Args>
+    <Interfaces>
+        <Interface InterfaceName="sw0" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="1">
+            <portMaps>
+                <portMap portMapName="sw0">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>sw0</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="sw0"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="sw1" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="1">
+            <portMaps>
+                <portMap portMapName="sw1">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>sw1</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="sw1"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="sw2" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="1">
+            <portMaps>
+                <portMap portMapName="sw2">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>sw2</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="sw2"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="sw3" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="1">
+            <portMaps>
+                <portMap portMapName="sw3">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>sw3</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="sw3"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="sw4" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="1">
+            <portMaps>
+                <portMap portMapName="sw4">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>sw4</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="sw4"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="led0" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="1">
+            <portMaps>
+                <portMap portMapName="led0">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>led0</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="led0"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="led1" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="1">
+            <portMaps>
+                <portMap portMapName="led1">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>led1</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="led1"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="led2" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="1">
+            <portMaps>
+                <portMap portMapName="led2">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>led2</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="led2"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="led3" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="1">
+            <portMaps>
+                <portMap portMapName="led3">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>led3</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="led3"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="led4" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="1">
+            <portMaps>
+                <portMap portMapName="led4">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>led4</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="led4"/>
+            </constraints>
+        </Interface>
+    </Interfaces>
+    <ReportHWInterface>
+        <section name="HW Interfaces" level="0">
+            <item name="Other Ports">
+                <table>
+                    <keys size="4">Port, Mode, Direction, Bitwidth</keys>
+                    <column name="led0">ap_none, in, 1</column>
+                    <column name="led1">ap_none, in, 1</column>
+                    <column name="led2">ap_none, in, 1</column>
+                    <column name="led3">ap_none, in, 1</column>
+                    <column name="led4">ap_none, in, 1</column>
+                    <column name="sw0">ap_none, in, 1</column>
+                    <column name="sw1">ap_none, in, 1</column>
+                    <column name="sw2">ap_none, in, 1</column>
+                    <column name="sw3">ap_none, in, 1</column>
+                    <column name="sw4">ap_none, in, 1</column>
+                </table>
+            </item>
+        </section>
+    </ReportHWInterface>
+    <ReportSWInterface>
+        <section name="SW I/O Information" level="0">
+            <item name="Top Function Arguments">
+                <table>
+                    <keys size="3">Argument, Direction, Datatype</keys>
+                    <column name="sw0">in, bool</column>
+                    <column name="sw1">in, bool</column>
+                    <column name="sw2">in, bool</column>
+                    <column name="sw3">in, bool</column>
+                    <column name="sw4">in, bool</column>
+                    <column name="led0">unused, bool&amp;</column>
+                    <column name="led1">unused, bool&amp;</column>
+                    <column name="led2">unused, bool&amp;</column>
+                    <column name="led3">unused, bool&amp;</column>
+                    <column name="led4">unused, bool&amp;</column>
+                </table>
+            </item>
+            <item name="SW-to-HW Mapping">
+                <table>
+                    <keys size="3">Argument, HW Interface, HW Type</keys>
+                    <column name="sw0">sw0, port</column>
+                    <column name="sw1">sw1, port</column>
+                    <column name="sw2">sw2, port</column>
+                    <column name="sw3">sw3, port</column>
+                    <column name="sw4">sw4, port</column>
+                    <column name="led0">led0, port</column>
+                    <column name="led1">led1, port</column>
+                    <column name="led2">led2, port</column>
+                    <column name="led3">led3, port</column>
+                    <column name="led4">led4, port</column>
+                </table>
+            </item>
+        </section>
+    </ReportSWInterface>
+    <ResolutionUrl key="ZZZ">docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&amp;url=ug1448-hls-guidance&amp;resourceid=ZZZ.html</ResolutionUrl>
+    <PragmaReport>
+        <Pragma type="interface" location="Ex2/src/sw_led_control.cpp:12" status="valid" parentFunction="sw_led_control" variable="return" isDirective="0" options="mode=ap_ctrl_none port=return"/>
+        <Pragma type="interface" location="Ex2/src/sw_led_control.cpp:13" status="valid" parentFunction="sw_led_control" variable="sw0" isDirective="0" options="mode=ap_none port=sw0"/>
+        <Pragma type="interface" location="Ex2/src/sw_led_control.cpp:14" status="valid" parentFunction="sw_led_control" variable="sw1" isDirective="0" options="mode=ap_none port=sw1"/>
+        <Pragma type="interface" location="Ex2/src/sw_led_control.cpp:15" status="valid" parentFunction="sw_led_control" variable="sw2" isDirective="0" options="mode=ap_none port=sw2"/>
+        <Pragma type="interface" location="Ex2/src/sw_led_control.cpp:16" status="valid" parentFunction="sw_led_control" variable="sw3" isDirective="0" options="mode=ap_none port=sw3"/>
+        <Pragma type="interface" location="Ex2/src/sw_led_control.cpp:17" status="valid" parentFunction="sw_led_control" variable="sw4" isDirective="0" options="mode=ap_none port=sw4"/>
+        <Pragma type="interface" location="Ex2/src/sw_led_control.cpp:19" status="valid" parentFunction="sw_led_control" variable="led0" isDirective="0" options="mode=ap_none port=led0"/>
+        <Pragma type="interface" location="Ex2/src/sw_led_control.cpp:20" status="valid" parentFunction="sw_led_control" variable="led1" isDirective="0" options="mode=ap_none port=led1"/>
+        <Pragma type="interface" location="Ex2/src/sw_led_control.cpp:21" status="valid" parentFunction="sw_led_control" variable="led2" isDirective="0" options="mode=ap_none port=led2"/>
+        <Pragma type="interface" location="Ex2/src/sw_led_control.cpp:22" status="valid" parentFunction="sw_led_control" variable="led3" isDirective="0" options="mode=ap_none port=led3"/>
+    </PragmaReport>
+</profile>
+

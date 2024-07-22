@@ -1,0 +1,111 @@
+
+
+================================================================
+== Synthesis Summary Report of 'sw_led_control'
+================================================================
++ General Information: 
+    * Date:           Mon Jul 22 22:38:47 2024
+    * Version:        2023.2 (Build 4023990 on Oct 11 2023)
+    * Project:        Ex2
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: virtexuplus
+    * Target device:  xcvu11p-flga2577-1-e
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +------------------+------+------+---------+--------+----------+---------+------+----------+------+----+---+----+-----+
+    |      Modules     | Issue|      | Latency | Latency| Iteration|         | Trip |          |      |    |   |    |     |
+    |      & Loops     | Type | Slack| (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined| BRAM | DSP| FF| LUT| URAM|
+    +------------------+------+------+---------+--------+----------+---------+------+----------+------+----+---+----+-----+
+    |+ sw_led_control  |     -|  7.30|        0|   0.000|         -|        1|     -|        no|     -|   -|  -|   -|    -|
+    +------------------+------+------+---------+--------+----------+---------+------+----------+------+----+---+----+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* Other Ports
++------+---------+-----------+----------+
+| Port | Mode    | Direction | Bitwidth |
++------+---------+-----------+----------+
+| led0 | ap_none | in        | 1        |
+| led1 | ap_none | in        | 1        |
+| led2 | ap_none | in        | 1        |
+| led3 | ap_none | in        | 1        |
+| led4 | ap_none | in        | 1        |
+| sw0  | ap_none | in        | 1        |
+| sw1  | ap_none | in        | 1        |
+| sw2  | ap_none | in        | 1        |
+| sw3  | ap_none | in        | 1        |
+| sw4  | ap_none | in        | 1        |
++------+---------+-----------+----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+----------+
+| Argument | Direction | Datatype |
++----------+-----------+----------+
+| sw0      | in        | bool     |
+| sw1      | in        | bool     |
+| sw2      | in        | bool     |
+| sw3      | in        | bool     |
+| sw4      | in        | bool     |
+| led0     | unused    | bool&    |
+| led1     | unused    | bool&    |
+| led2     | unused    | bool&    |
+| led3     | unused    | bool&    |
+| led4     | unused    | bool&    |
++----------+-----------+----------+
+
+* SW-to-HW Mapping
++----------+--------------+---------+
+| Argument | HW Interface | HW Type |
++----------+--------------+---------+
+| sw0      | sw0          | port    |
+| sw1      | sw1          | port    |
+| sw2      | sw2          | port    |
+| sw3      | sw3          | port    |
+| sw4      | sw4          | port    |
+| led0     | led0         | port    |
+| led1     | led1         | port    |
+| led2     | led2         | port    |
+| led3     | led3         | port    |
+| led4     | led4         | port    |
++----------+--------------+---------+
+
+
+================================================================
+== Bind Op Report
+================================================================
+  No bind op info in design
+
+================================================================
+== Storage Report
+================================================================
+  No bind storage info in design
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------+-------------------------------+---------------------------------------------------------+
+| Type      | Options                       | Location                                                |
++-----------+-------------------------------+---------------------------------------------------------+
+| interface | mode=ap_ctrl_none port=return | Ex2/src/sw_led_control.cpp:12 in sw_led_control, return |
+| interface | mode=ap_none port=sw0         | Ex2/src/sw_led_control.cpp:13 in sw_led_control, sw0    |
+| interface | mode=ap_none port=sw1         | Ex2/src/sw_led_control.cpp:14 in sw_led_control, sw1    |
+| interface | mode=ap_none port=sw2         | Ex2/src/sw_led_control.cpp:15 in sw_led_control, sw2    |
+| interface | mode=ap_none port=sw3         | Ex2/src/sw_led_control.cpp:16 in sw_led_control, sw3    |
+| interface | mode=ap_none port=sw4         | Ex2/src/sw_led_control.cpp:17 in sw_led_control, sw4    |
+| interface | mode=ap_none port=led0        | Ex2/src/sw_led_control.cpp:19 in sw_led_control, led0   |
+| interface | mode=ap_none port=led1        | Ex2/src/sw_led_control.cpp:20 in sw_led_control, led1   |
+| interface | mode=ap_none port=led2        | Ex2/src/sw_led_control.cpp:21 in sw_led_control, led2   |
+| interface | mode=ap_none port=led3        | Ex2/src/sw_led_control.cpp:22 in sw_led_control, led3   |
++-----------+-------------------------------+---------------------------------------------------------+
+
+
