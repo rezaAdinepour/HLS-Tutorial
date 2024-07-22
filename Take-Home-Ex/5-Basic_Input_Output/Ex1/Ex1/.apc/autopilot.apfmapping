@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="sw_led_control.cpp" path="C:\OneDrive\Desktop\HLS-Tutorial\Take-Home-Ex\5-Basic_Input_Output\Ex1\Ex1\src\sw_led_control.cpp"/>
+  </source>
+  <testbench/>
+</autopilotfilemapping:AutoPilotFileMapping>

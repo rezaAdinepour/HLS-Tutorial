@@ -1,0 +1,23 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "sw_led_control",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "sw_led_control"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/5-Basic_Input_Output/Ex1/Ex1/solution1/csynth.tcl",
+    "sourceLine": 14,
+    "success": true
+  }
+]
