@@ -30,6 +30,8 @@ write code here
 
     c) Using the Vivado toolset generate the FPGA bitstream and check the results on the Basys3 board.
 
+### Solution:
+
 ```C
 write code here
 
@@ -49,7 +51,7 @@ write code here
 `a3a2a1a0` is greater than `b3b2b1b0`.
 `P = 1` only if `b3b2b1b0` is greater than `a3a2a1a0`.
 
-
+![image](img_ex3.png)
 
 
 
