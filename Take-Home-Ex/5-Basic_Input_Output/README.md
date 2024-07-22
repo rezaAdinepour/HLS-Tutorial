@@ -71,6 +71,13 @@ void sw_led_control( bool sw0,
 
 ### 3. The prototype of a C/C++ function is as follows. It connects 16 slide switches on the Basys3 board to the 16 LEDs.
 
+```cpp
+void led_controller(char &lower_leds,
+                    char &upper_leds,
+                    char lower_sws,
+                    char upper_sws);
+
+```
     a) Complete the HLS description.
 
     b) Use the Vivado-HLS toolset to generate the corresponding RTL-IP.
