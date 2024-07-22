@@ -51,7 +51,7 @@ write code here
 `a3a2a1a0` is greater than `b3b2b1b0`.
 `P = 1` only if `b3b2b1b0` is greater than `a3a2a1a0`.
 
-![](img_ex3.png | width=100)
+<img src="img_ex3.png" alt="img_ex3" style="width:200px;"/>
 
 
 
