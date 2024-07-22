@@ -1,0 +1,22 @@
+C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/5-Basic_Input_Output/Ex3/solution1/csynth.tcl:14:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=sw_led_control_XLX_SEP_ PragmaOptions=name=sw_led_control_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE TOP name=sw_led_control
+        ^
+C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/5-Basic_Input_Output/Ex3/solution1/directives.tcl:7:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=sw_led_control_XLX_SEP_ PragmaOptions=name=sw_led_control_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE TOP name=sw_led_control
+        ^
+Ex3/src/sw_led_control.cpp:7:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=sw_led_control_XLX_SEP_ PragmaOptions=mode=ap_ctrl_none port=return_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE mode=ap_ctrl_none port=return
+        ^
+Ex3/src/sw_led_control.cpp:8:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=sw_led_control_XLX_SEP_ PragmaOptions=mode=ap_none port=lower_leds_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE mode=ap_none port=lower_leds
+        ^
+Ex3/src/sw_led_control.cpp:9:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=sw_led_control_XLX_SEP_ PragmaOptions=mode=ap_none port=upper_leds_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE mode=ap_none port=upper_leds
+        ^
+Ex3/src/sw_led_control.cpp:10:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=sw_led_control_XLX_SEP_ PragmaOptions=mode=ap_none port=lower_leds_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE mode=ap_none port=lower_leds
+        ^
+Ex3/src/sw_led_control.cpp:11:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=sw_led_control_XLX_SEP_ PragmaOptions=mode=ap_none port=lower_sws_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE mode=ap_none port=lower_sws
+        ^
+7 warnings generated.

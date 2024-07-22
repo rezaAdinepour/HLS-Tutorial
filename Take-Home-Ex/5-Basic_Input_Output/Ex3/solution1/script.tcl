@@ -10,7 +10,7 @@ add_files Ex3/src/sw_led_control.cpp
 open_solution "solution1" -flow_target vivado
 set_part {xcvu11p-flga2577-1-e}
 create_clock -period 10 -name default
-#source "./Ex3/solution1/directives.tcl"
+source "./Ex3/solution1/directives.tcl"
 #csim_design
 csynth_design
 #cosim_design
