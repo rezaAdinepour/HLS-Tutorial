@@ -15,10 +15,10 @@ f=(a OR (b AND c))XOR(e OR (f AND g))
 ```c
 void boolian_expression( bool a,
 			 bool b,
-						 bool c, 
-						 bool e,
-						 bool g,
-						 bool &f )
+			 bool c, 
+			 bool e,
+			 bool g,
+			 bool &f )
 						 
 
 {
