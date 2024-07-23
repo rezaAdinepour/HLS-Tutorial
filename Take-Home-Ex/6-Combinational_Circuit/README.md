@@ -4,7 +4,7 @@
 ### 1. Describe the following logical expression in Vivado-HLS
 
 ```c
-f=(a OR (b AND c))XOR(e OR (f AND g))
+f = (a OR (b AND c)) XOR (e OR (f AND g))
 ```
     a) Synthesise the code and make sure that the resulted hardware is combinational 
 
