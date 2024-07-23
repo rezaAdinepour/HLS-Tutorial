@@ -13,7 +13,26 @@ f=(a OR (b AND c))XOR(e OR (f AND g))
 ### Solution:
 
 ```c
-write code here
+void boolian_expression( bool a, 
+						 bool b,
+						 bool c, 
+						 bool e,
+						 bool g,
+						 bool &f )
+						 
+
+{
+	#pragma HLS INTERFACE mode=ap_ctrl_none port=return
+	#pragma HLS INTERFACE mode=ap_none port=a
+	#pragma HLS INTERFACE mode=ap_none port=b
+	#pragma HLS INTERFACE mode=ap_none port=c
+	#pragma HLS INTERFACE mode=ap_none port=e
+	#pragma HLS INTERFACE mode=ap_none port=g
+	#pragma HLS INTERFACE mode=ap_none port=f
+	
+	
+	f = ( a || (b && c) ^ (e || (f && g) ) )
+}
 
 ```
 
