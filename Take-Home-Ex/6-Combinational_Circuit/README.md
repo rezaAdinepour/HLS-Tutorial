@@ -80,6 +80,11 @@ void boolean_full_adder( bool cin,
 	#pragma HLS INTERFACE mode=ap_none port=b1
 	#pragma HLS INTERFACE mode=ap_none port=b2
 	#pragma HLS INTERFACE mode=ap_none port=b3
+	#pragma HLS INTERFACE mode=ap_none port=s0
+	#pragma HLS INTERFACE mode=ap_none port=s1
+	#pragma HLS INTERFACE mode=ap_none port=s2
+	#pragma HLS INTERFACE mode=ap_none port=s3
+	#pragma HLS INTERFACE mode=ap_none port=cout
 
 	bool cout_temp1;
 	bool cout_temp2;
