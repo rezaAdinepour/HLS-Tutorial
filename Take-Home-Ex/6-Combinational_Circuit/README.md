@@ -13,8 +13,8 @@ f=(a OR (b AND c))XOR(e OR (f AND g))
 ### Solution:
 
 ```c
-void boolian_expression( bool a, 
-						 bool b,
+void boolian_expression( bool a,
+			 bool b,
 						 bool c, 
 						 bool e,
 						 bool g,
