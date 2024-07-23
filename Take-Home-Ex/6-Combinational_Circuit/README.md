@@ -52,8 +52,45 @@ void boolean_expression( bool a,
 ### Solution:
 
 ```C
-write code here
+/* 8-bit full adder */
 
+
+void boolean_full_adder( bool cin,
+			 bool a0,
+			 bool a1,
+			 bool a2,
+			 bool a3,
+			 bool b0,
+			 bool b1,
+			 bool b2,
+			 bool b3,
+			 bool &s0,
+			 bool &s1,
+			 bool &s2,
+			 bool &s3,
+			 bool &cout )
+{
+	bool cout_temp1;
+	bool cout_temp2;
+	bool cout_temp3;
+	
+	*/stage 1/*
+	s0 = (a0 ^ b0) ^ cin;
+	cout_temp1 = (a0 && b0) || ( (a0 ^ b0) && cin );
+	
+	*/stage 2/*
+	s1 = (a1 ^ b1) ^ cout_temcout_temp1;
+	cout_temp2 = (a1 && b1) || ( (a1 ^ b1) && cout_temp1 );
+	
+	*/stage 3/*
+	s2 = (a2 ^ b2) ^ cout_temcout_temp2;
+	cout_temp3 = (a2 && b2) || ( (a2 ^ b2) && cout_temp2 );
+	
+	*/stage 4/*
+	s3 = (a3 ^ b3) ^ cout_temcout_temp3;
+	cout = (a3 && b3) || ( (a3 ^ b3) && cout_temp3 );
+}
+						 
 ```
 
 
