@@ -178,7 +178,7 @@ void fulladder_4x( bool a0, bool a1, bool a2, bool a3,
 
 ### Solution:
 ```c
-void comparator( bool a0,
+void comprator( bool a0,
 		 bool a1,
 		 bool a2,
 		 bool a3,
@@ -202,15 +202,28 @@ void comparator( bool a0,
 	#pragma HLS INTERFACE mode=ap_none port=M
 	#pragma HLS INTERFACE mode=ap_none port=N
 	#pragma HLS INTERFACE mode=ap_none port=P
-	
-	
+
+
 	if ( (a3 == b3) && (a2 == b2) && (a1 == b1) && (a0 == b0) )
+	{
 		M = 1;
-	else if( (a3 > b3) || (a2 > b2) || (a1 > b1) && (a0 > b0) )
+		N = 0;
+		P = 0;
+	}
+	else if( (a3 > b3) || (a2 > b2) || (a1 > b1) || (a0 > b0) )
+	{
+		M = 0;
 		N = 1;
+		P = 0;
+	}
 	else
+	{
+		M = 0;
+		N = 0;
 		P = 1;
+	}
 }
+
 ```
 
 
