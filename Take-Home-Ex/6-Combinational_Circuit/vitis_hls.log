@@ -1,16 +1,16 @@
 INFO: [HLS 200-10] Running 'C:/Xilinx/Vitis_HLS/2023.2/bin/unwrapped/win64.o/vitis_hls.exe'
-INFO: [HLS 200-10] For user 'User1' on host 'desktop-a2lg1n2' (Windows NT_amd64 version 6.2) on Wed Jul 24 22:50:01 +0330 2024
+INFO: [HLS 200-10] For user 'User1' on host 'desktop-a2lg1n2' (Windows NT_amd64 version 6.2) on Wed Jul 24 23:02:38 +0330 2024
 INFO: [HLS 200-10] In directory 'C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit'
 INFO: [HLS 200-2053] The vitis_hls executable is being deprecated. Consider using vitis-run --mode hls --tcl
-Sourcing Tcl script 'C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex2/solution1/csynth.tcl'
-INFO: [HLS 200-1510] Running: source C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex2/solution1/csynth.tcl
-INFO: [HLS 200-1510] Running: open_project Ex2 
-INFO: [HLS 200-10] Opening project 'C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex2'.
-INFO: [HLS 200-1510] Running: set_top fulladder_4x 
-INFO: [HLS 200-1510] Running: add_files Ex2/src/fulladder_4x.cpp 
-INFO: [HLS 200-10] Adding design file 'Ex2/src/fulladder_4x.cpp' to the project
+Sourcing Tcl script 'C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex3/solution1/csynth.tcl'
+INFO: [HLS 200-1510] Running: source C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex3/solution1/csynth.tcl
+INFO: [HLS 200-1510] Running: open_project Ex3 
+INFO: [HLS 200-10] Opening project 'C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex3'.
+INFO: [HLS 200-1510] Running: set_top comprator 
+INFO: [HLS 200-1510] Running: add_files Ex3/src/comparator.cpp 
+INFO: [HLS 200-10] Adding design file 'Ex3/src/comparator.cpp' to the project
 INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
-INFO: [HLS 200-10] Opening solution 'C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex2/solution1'.
+INFO: [HLS 200-10] Opening solution 'C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex3/solution1'.
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
 INFO: [HLS 200-1611] Setting target device to 'xcvu11p-flga2577-1-e'
 INFO: [HLS 200-1505] Using flow_target 'vivado'
@@ -18,78 +18,73 @@ Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/top
 INFO: [HLS 200-1510] Running: set_part xcvu11p-flga2577-1-e 
 INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
 INFO: [HLS 200-1510] Running: csynth_design 
-INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.112 seconds; current allocated memory: 210.477 MB.
-INFO: [HLS 200-10] Analyzing design file 'Ex2/src/fulladder_4x.cpp' ... 
-INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.137 seconds; current allocated memory: 211.773 MB.
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.113 seconds; current allocated memory: 211.254 MB.
+INFO: [HLS 200-10] Analyzing design file 'Ex3/src/comparator.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.365 seconds; current allocated memory: 212.418 MB.
 INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
-INFO: [HLS 200-1995] There were 116 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex2/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 100 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex2/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 104 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex2/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 90 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex2/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 75 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex2/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 75 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex2/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 75 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex2/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 75 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex2/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 75 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex2/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 75 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex2/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 75 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex2/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 75 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex2/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 75 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex2/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 75 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex2/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 88 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex2/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 89 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex2/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 214-178] Inlining function 'fulladder(bool, bool, bool, bool*, bool*)' into 'fulladder_4x(bool, bool, bool, bool, bool, bool, bool, bool, bool*, bool*, bool*, bool*, bool*)' (Ex2/src/fulladder_4x.cpp:20:0)
-INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 8.079 seconds; current allocated memory: 214.004 MB.
-INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.002 seconds; current allocated memory: 214.004 MB.
+INFO: [HLS 200-1995] There were 58 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex3/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 42 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex3/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 42 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex3/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 42 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex3/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 41 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex3/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 41 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex3/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 41 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex3/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 41 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex3/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 41 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex3/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 41 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex3/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 41 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex3/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 41 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex3/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 41 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex3/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 41 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex3/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 52 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex3/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 53 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex3/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 8.079 seconds; current allocated memory: 214.160 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.002 seconds; current allocated memory: 214.160 MB.
 INFO: [HLS 200-10] Starting code transformations ...
-INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.028 seconds; current allocated memory: 218.797 MB.
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.027 seconds; current allocated memory: 218.270 MB.
 INFO: [HLS 200-10] Checking synthesizability ...
-INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.028 seconds; current allocated memory: 219.750 MB.
-INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (Ex2/src/fulladder_4x.cpp:17:16) to (Ex2/src/fulladder_4x.cpp:46:1) in function 'fulladder_4x'... converting 7 basic blocks.
-INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 240.098 MB.
-INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.037 seconds; current allocated memory: 240.117 MB.
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.027 seconds; current allocated memory: 219.355 MB.
+INFO: [XFORM 203-11] Balancing expressions in function 'comprator' (Ex3/src/comparator.cpp:1)...6 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.056 seconds; current allocated memory: 239.789 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.035 seconds; current allocated memory: 239.793 MB.
 INFO: [HLS 200-10] Starting hardware synthesis ...
-INFO: [HLS 200-10] Synthesizing 'fulladder_4x' ...
+INFO: [HLS 200-10] Synthesizing 'comprator' ...
 INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-42] -- Implementing module 'fulladder_4x' 
+INFO: [HLS 200-42] -- Implementing module 'comprator' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.146 seconds; current allocated memory: 240.117 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.154 seconds; current allocated memory: 239.793 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.065 seconds; current allocated memory: 240.117 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.066 seconds; current allocated memory: 239.793 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Generating RTL for module 'fulladder_4x' 
+INFO: [HLS 200-10] -- Generating RTL for module 'comprator' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [RTGEN 206-500] Setting interface mode on port 'fulladder_4x/a0' to 'ap_none'.
-INFO: [RTGEN 206-500] Setting interface mode on port 'fulladder_4x/a1' to 'ap_none'.
-INFO: [RTGEN 206-500] Setting interface mode on port 'fulladder_4x/a2' to 'ap_none'.
-INFO: [RTGEN 206-500] Setting interface mode on port 'fulladder_4x/a3' to 'ap_none'.
-INFO: [RTGEN 206-500] Setting interface mode on port 'fulladder_4x/b0' to 'ap_none'.
-INFO: [RTGEN 206-500] Setting interface mode on port 'fulladder_4x/b1' to 'ap_none'.
-INFO: [RTGEN 206-500] Setting interface mode on port 'fulladder_4x/b2' to 'ap_none'.
-INFO: [RTGEN 206-500] Setting interface mode on port 'fulladder_4x/b3' to 'ap_none'.
-INFO: [RTGEN 206-500] Setting interface mode on port 'fulladder_4x/s0' to 'ap_none'.
-WARNING: [RTGEN 206-101] Port 's0' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
-INFO: [RTGEN 206-500] Setting interface mode on port 'fulladder_4x/s1' to 'ap_none'.
-WARNING: [RTGEN 206-101] Port 's1' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
-INFO: [RTGEN 206-500] Setting interface mode on port 'fulladder_4x/s2' to 'ap_none'.
-WARNING: [RTGEN 206-101] Port 's2' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
-INFO: [RTGEN 206-500] Setting interface mode on port 'fulladder_4x/s3' to 'ap_none'.
-WARNING: [RTGEN 206-101] Port 's3' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
-INFO: [RTGEN 206-500] Setting interface mode on port 'fulladder_4x/cout' to 'ap_none'.
-WARNING: [RTGEN 206-101] Port 'cout' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
-INFO: [RTGEN 206-500] Setting interface mode on function 'fulladder_4x' to 'ap_ctrl_none'.
-INFO: [RTGEN 206-100] Finished creating RTL model for 'fulladder_4x'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.273 seconds; current allocated memory: 240.227 MB.
-INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.424 seconds; current allocated memory: 245.453 MB.
-INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.752 seconds; current allocated memory: 249.625 MB.
-INFO: [VHDL 208-304] Generating VHDL RTL for fulladder_4x.
-INFO: [VLOG 209-307] Generating Verilog RTL for fulladder_4x.
-INFO: [HLS 200-789] **** Estimated Fmax: 1689.19 MHz
-INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 11.242 seconds; current allocated memory: 39.547 MB.
-INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 1 seconds. Total elapsed time: 14.998 seconds; peak allocated memory: 250.027 MB.
+INFO: [RTGEN 206-500] Setting interface mode on port 'comprator/a0' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'comprator/a1' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'comprator/a2' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'comprator/a3' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'comprator/b0' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'comprator/b1' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'comprator/b2' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'comprator/b3' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'comprator/M' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 'M' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'comprator/N' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 'N' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'comprator/P' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 'P' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on function 'comprator' to 'ap_ctrl_none'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'comprator'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.234 seconds; current allocated memory: 240.359 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.409 seconds; current allocated memory: 245.238 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.705 seconds; current allocated memory: 249.754 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for comprator.
+INFO: [VLOG 209-307] Generating Verilog RTL for comprator.
+INFO: [HLS 200-789] **** Estimated Fmax: 1106.19 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 11.35 seconds; current allocated memory: 38.773 MB.
+INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 1 seconds. Total elapsed time: 15.167 seconds; peak allocated memory: 249.969 MB.

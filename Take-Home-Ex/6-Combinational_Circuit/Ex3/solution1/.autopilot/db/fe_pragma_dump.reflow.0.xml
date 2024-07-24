@@ -1,0 +1,14 @@
+<pragmas>
+<pragma file="Ex3/src/comparator.cpp" line="13" pragmaType="interface" parentfunction="comprator" mode="ap_ctrl_none" port="return" name=""/>
+<pragma file="Ex3/src/comparator.cpp" line="14" pragmaType="interface" parentfunction="comprator" mode="ap_none" port="a0" name="" register="0"/>
+<pragma file="Ex3/src/comparator.cpp" line="15" pragmaType="interface" parentfunction="comprator" mode="ap_none" port="a1" name="" register="0"/>
+<pragma file="Ex3/src/comparator.cpp" line="16" pragmaType="interface" parentfunction="comprator" mode="ap_none" port="a2" name="" register="0"/>
+<pragma file="Ex3/src/comparator.cpp" line="17" pragmaType="interface" parentfunction="comprator" mode="ap_none" port="a3" name="" register="0"/>
+<pragma file="Ex3/src/comparator.cpp" line="18" pragmaType="interface" parentfunction="comprator" mode="ap_none" port="b0" name="" register="0"/>
+<pragma file="Ex3/src/comparator.cpp" line="19" pragmaType="interface" parentfunction="comprator" mode="ap_none" port="b1" name="" register="0"/>
+<pragma file="Ex3/src/comparator.cpp" line="20" pragmaType="interface" parentfunction="comprator" mode="ap_none" port="b2" name="" register="0"/>
+<pragma file="Ex3/src/comparator.cpp" line="21" pragmaType="interface" parentfunction="comprator" mode="ap_none" port="b3" name="" register="0"/>
+<pragma file="Ex3/src/comparator.cpp" line="22" pragmaType="interface" parentfunction="comprator" mode="ap_none" port="M" name="" register="0"/>
+<pragma file="Ex3/src/comparator.cpp" line="23" pragmaType="interface" parentfunction="comprator" mode="ap_none" port="N" name="" register="0"/>
+<pragma file="Ex3/src/comparator.cpp" line="24" pragmaType="interface" parentfunction="comprator" mode="ap_none" port="P" name="" register="0"/>
+</pragmas>

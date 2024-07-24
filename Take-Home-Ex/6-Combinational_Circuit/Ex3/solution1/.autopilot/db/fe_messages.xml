@@ -1,0 +1,42 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex3/solution1/csynth.tcl:14:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="comprator" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=comprator" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex3/src/comparator.cpp:13:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="comprator" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_ctrl_none port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex3/src/comparator.cpp:14:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="comprator" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=a0" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex3/src/comparator.cpp:15:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="comprator" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=a1" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex3/src/comparator.cpp:16:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="comprator" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=a2" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex3/src/comparator.cpp:17:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="comprator" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=a3" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex3/src/comparator.cpp:18:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="comprator" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=b0" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex3/src/comparator.cpp:19:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="comprator" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=b1" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex3/src/comparator.cpp:20:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="comprator" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=b2" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex3/src/comparator.cpp:21:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="comprator" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=b3" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex3/src/comparator.cpp:22:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="comprator" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=M" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex3/src/comparator.cpp:23:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="comprator" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=N" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex3/src/comparator.cpp:24:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="comprator" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=P" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

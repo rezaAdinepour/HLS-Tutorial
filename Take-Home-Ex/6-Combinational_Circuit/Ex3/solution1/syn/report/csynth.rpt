@@ -1,0 +1,116 @@
+
+
+================================================================
+== Synthesis Summary Report of 'comprator'
+================================================================
++ General Information: 
+    * Date:           Wed Jul 24 23:02:51 2024
+    * Version:        2023.2 (Build 4023990 on Oct 11 2023)
+    * Project:        Ex3
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: virtexuplus
+    * Target device:  xcvu11p-flga2577-1-e
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +-------------+------+------+---------+--------+----------+---------+------+----------+------+----+---+----------+-----+
+    |   Modules   | Issue|      | Latency | Latency| Iteration|         | Trip |          |      |    |   |          |     |
+    |   & Loops   | Type | Slack| (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined| BRAM | DSP| FF|    LUT   | URAM|
+    +-------------+------+------+---------+--------+----------+---------+------+----------+------+----+---+----------+-----+
+    |+ comprator  |     -|  6.40|        0|   0.000|         -|        1|     -|        no|     -|   -|  -|  80 (~0%)|    -|
+    +-------------+------+------+---------+--------+----------+---------+------+----------+------+----+---+----------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* Other Ports
++------+---------+-----------+----------+
+| Port | Mode    | Direction | Bitwidth |
++------+---------+-----------+----------+
+| M    | ap_none | out       | 1        |
+| N    | ap_none | out       | 1        |
+| P    | ap_none | out       | 1        |
+| a0   | ap_none | in        | 1        |
+| a1   | ap_none | in        | 1        |
+| a2   | ap_none | in        | 1        |
+| a3   | ap_none | in        | 1        |
+| b0   | ap_none | in        | 1        |
+| b1   | ap_none | in        | 1        |
+| b2   | ap_none | in        | 1        |
+| b3   | ap_none | in        | 1        |
++------+---------+-----------+----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+----------+
+| Argument | Direction | Datatype |
++----------+-----------+----------+
+| a0       | in        | bool     |
+| a1       | in        | bool     |
+| a2       | in        | bool     |
+| a3       | in        | bool     |
+| b0       | in        | bool     |
+| b1       | in        | bool     |
+| b2       | in        | bool     |
+| b3       | in        | bool     |
+| M        | out       | bool&    |
+| N        | out       | bool&    |
+| P        | out       | bool&    |
++----------+-----------+----------+
+
+* SW-to-HW Mapping
++----------+--------------+---------+
+| Argument | HW Interface | HW Type |
++----------+--------------+---------+
+| a0       | a0           | port    |
+| a1       | a1           | port    |
+| a2       | a2           | port    |
+| a3       | a3           | port    |
+| b0       | b0           | port    |
+| b1       | b1           | port    |
+| b2       | b2           | port    |
+| b3       | b3           | port    |
+| M        | M            | port    |
+| N        | N            | port    |
+| P        | P            | port    |
++----------+--------------+---------+
+
+
+================================================================
+== Bind Op Report
+================================================================
+  No bind op info in design
+
+================================================================
+== Storage Report
+================================================================
+  No bind storage info in design
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------+-------------------------------+------------------------------------------------+
+| Type      | Options                       | Location                                       |
++-----------+-------------------------------+------------------------------------------------+
+| interface | mode=ap_ctrl_none port=return | Ex3/src/comparator.cpp:13 in comprator, return |
+| interface | mode=ap_none port=a0          | Ex3/src/comparator.cpp:14 in comprator, a0     |
+| interface | mode=ap_none port=a1          | Ex3/src/comparator.cpp:15 in comprator, a1     |
+| interface | mode=ap_none port=a2          | Ex3/src/comparator.cpp:16 in comprator, a2     |
+| interface | mode=ap_none port=a3          | Ex3/src/comparator.cpp:17 in comprator, a3     |
+| interface | mode=ap_none port=b0          | Ex3/src/comparator.cpp:18 in comprator, b0     |
+| interface | mode=ap_none port=b1          | Ex3/src/comparator.cpp:19 in comprator, b1     |
+| interface | mode=ap_none port=b2          | Ex3/src/comparator.cpp:20 in comprator, b2     |
+| interface | mode=ap_none port=b3          | Ex3/src/comparator.cpp:21 in comprator, b3     |
+| interface | mode=ap_none port=M           | Ex3/src/comparator.cpp:22 in comprator, M      |
+| interface | mode=ap_none port=N           | Ex3/src/comparator.cpp:23 in comprator, N      |
+| interface | mode=ap_none port=P           | Ex3/src/comparator.cpp:24 in comprator, P      |
++-----------+-------------------------------+------------------------------------------------+
+
+

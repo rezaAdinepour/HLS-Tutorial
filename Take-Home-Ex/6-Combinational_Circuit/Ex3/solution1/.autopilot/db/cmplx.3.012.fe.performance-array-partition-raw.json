@@ -1,0 +1,14 @@
+{
+  "0": {
+    "basicblocks": 7,
+    "calls": "",
+    "file": "comparator.cpp",
+    "fileloc": 1,
+    "instructions": 41,
+    "name": "comprator",
+    "stores": {
+      "T": 8
+    },
+    "total_instructions": 41
+  }
+}

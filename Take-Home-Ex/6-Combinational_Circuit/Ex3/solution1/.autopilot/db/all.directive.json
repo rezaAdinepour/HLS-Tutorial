@@ -1,0 +1,23 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "comprator",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "comprator"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex3/solution1/csynth.tcl",
+    "sourceLine": 14,
+    "success": true
+  }
+]
