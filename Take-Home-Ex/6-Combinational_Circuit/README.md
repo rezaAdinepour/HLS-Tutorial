@@ -4,7 +4,7 @@
 ### 1. Describe the following logical expression in Vivado-HLS
 
 ```c
-f = (a OR (b AND c)) XOR (e OR (f AND g))
+h = (a OR (b AND c)) XOR (e OR (f AND g))
 ```
     a) Synthesise the code and make sure that the resulted hardware is combinational 
 
@@ -18,7 +18,8 @@ void boolean_expression( bool a,
 			 bool c, 
 			 bool e,
 			 bool g,
-			 bool &f )
+                         bool f,
+			 bool &h )
 						 
 
 {
@@ -29,9 +30,10 @@ void boolean_expression( bool a,
 	#pragma HLS INTERFACE mode=ap_none port=e
 	#pragma HLS INTERFACE mode=ap_none port=g
 	#pragma HLS INTERFACE mode=ap_none port=f
+	#pragma HLS INTERFACE mode=ap_none port=h
 	
 	
-	f = ( a || (b && c) ^ (e || (f && g) ) )
+	h = ( a | (b & c) ^ (e | (f & g) ) )
 }
 
 ```
