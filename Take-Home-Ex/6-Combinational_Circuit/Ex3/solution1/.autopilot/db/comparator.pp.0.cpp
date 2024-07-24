@@ -157,16 +157,16 @@ extern "C" {
 # 2 "<built-in>" 2
 # 1 "Ex3/src/comparator.cpp" 2
 __attribute__((sdx_kernel("comprator", 0))) void comprator( bool a0,
-   bool a1,
-   bool a2,
-   bool a3,
-   bool b0,
-   bool b1,
-   bool b2,
-   bool b3,
-   bool &M,
-   bool &N,
-   bool &P )
+    bool a1,
+    bool a2,
+    bool a3,
+    bool b0,
+    bool b1,
+    bool b2,
+    bool b3,
+    bool &M,
+    bool &N,
+    bool &P )
 {
 #line 14 "C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex3/solution1/csynth.tcl"
 #pragma HLSDIRECTIVE TOP name=comprator
