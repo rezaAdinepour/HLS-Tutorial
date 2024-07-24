@@ -111,6 +111,8 @@ void boolean_full_adder( bool cin,
 }
 
 ////////////////////////////////////////////////////////////////
+
+
 /* solution two */
 void fulladder( bool a,
 		bool b,
