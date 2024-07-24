@@ -1,0 +1,14 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "boolean_expression.cpp",
+    "fileloc": 1,
+    "instructions": 26,
+    "name": "boolean_expression",
+    "stores": {
+      "T": 1
+    },
+    "total_instructions": 26
+  }
+}

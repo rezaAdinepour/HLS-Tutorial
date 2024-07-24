@@ -1,0 +1,8 @@
+Ex1/src/boolean_expression.cpp:20:20: warning: '^' within '|' [-Wbitwise-op-parentheses]
+ h = ( a | (b & c) ^ (e || (f & g) ) );
+         ~ ~~~~~~~~^~~~~~~~~~~~~~~~~
+Ex1/src/boolean_expression.cpp:20:20: note: place parentheses around the '^' expression to silence this warning
+ h = ( a | (b & c) ^ (e || (f & g) ) );
+                   ^
+           (                        )
+1 warning generated.

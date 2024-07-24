@@ -1,0 +1,100 @@
+
+
+================================================================
+== Synthesis Summary Report of 'boolean_expression'
+================================================================
++ General Information: 
+    * Date:           Wed Jul 24 21:58:41 2024
+    * Version:        2023.2 (Build 4023990 on Oct 11 2023)
+    * Project:        Ex1
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: virtexuplus
+    * Target device:  xcvu11p-flga2577-1-e
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +----------------------+------+------+---------+--------+----------+---------+------+----------+------+----+---+----------+-----+
+    |        Modules       | Issue|      | Latency | Latency| Iteration|         | Trip |          |      |    |   |          |     |
+    |        & Loops       | Type | Slack| (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined| BRAM | DSP| FF|    LUT   | URAM|
+    +----------------------+------+------+---------+--------+----------+---------+------+----------+------+----+---+----------+-----+
+    |+ boolean_expression  |     -|  7.15|        0|   0.000|         -|        1|     -|        no|     -|   -|  -|  10 (~0%)|    -|
+    +----------------------+------+------+---------+--------+----------+---------+------+----------+------+----+---+----------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* Other Ports
++------+---------+-----------+----------+
+| Port | Mode    | Direction | Bitwidth |
++------+---------+-----------+----------+
+| a    | ap_none | in        | 1        |
+| b    | ap_none | in        | 1        |
+| c    | ap_none | in        | 1        |
+| e    | ap_none | in        | 1        |
+| f    | ap_none | in        | 1        |
+| g    | ap_none | in        | 1        |
+| h    | ap_vld  | out       | 1        |
++------+---------+-----------+----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+----------+
+| Argument | Direction | Datatype |
++----------+-----------+----------+
+| a        | in        | bool     |
+| b        | in        | bool     |
+| c        | in        | bool     |
+| e        | in        | bool     |
+| g        | in        | bool     |
+| f        | in        | bool     |
+| h        | out       | bool&    |
++----------+-----------+----------+
+
+* SW-to-HW Mapping
++----------+--------------+---------+
+| Argument | HW Interface | HW Type |
++----------+--------------+---------+
+| a        | a            | port    |
+| b        | b            | port    |
+| c        | c            | port    |
+| e        | e            | port    |
+| g        | g            | port    |
+| f        | f            | port    |
+| h        | h            | port    |
+| h        | h_ap_vld     | port    |
++----------+--------------+---------+
+
+
+================================================================
+== Bind Op Report
+================================================================
+  No bind op info in design
+
+================================================================
+== Storage Report
+================================================================
+  No bind storage info in design
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------+-------------------------------+-----------------------------------------------------------------+
+| Type      | Options                       | Location                                                        |
++-----------+-------------------------------+-----------------------------------------------------------------+
+| interface | mode=ap_ctrl_none port=return | Ex1/src/boolean_expression.cpp:11 in boolean_expression, return |
+| interface | mode=ap_none port=a           | Ex1/src/boolean_expression.cpp:12 in boolean_expression, a      |
+| interface | mode=ap_none port=b           | Ex1/src/boolean_expression.cpp:13 in boolean_expression, b      |
+| interface | mode=ap_none port=c           | Ex1/src/boolean_expression.cpp:14 in boolean_expression, c      |
+| interface | mode=ap_none port=e           | Ex1/src/boolean_expression.cpp:15 in boolean_expression, e      |
+| interface | mode=ap_none port=g           | Ex1/src/boolean_expression.cpp:16 in boolean_expression, g      |
+| interface | mode=ap_none port=f           | Ex1/src/boolean_expression.cpp:17 in boolean_expression, f      |
++-----------+-------------------------------+-----------------------------------------------------------------+
+
+

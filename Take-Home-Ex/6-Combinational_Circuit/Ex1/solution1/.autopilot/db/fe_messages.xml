@@ -1,0 +1,33 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="" msg_id="207-4671" msg_severity="WARNING" msg_loc="Ex1/src/boolean_expression.cpp:20:20" msg_body="'^' within '|'">
+        <args ClangWarningOption="bitwise-op-parentheses"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-4428" msg_severity="INFO" msg_loc="Ex1/src/boolean_expression.cpp:20:20" msg_body="place parentheses around the '^' expression to silence this warning">
+        <args/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex1/solution1/csynth.tcl:14:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="boolean_expression" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=boolean_expression" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex1/src/boolean_expression.cpp:11:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="boolean_expression" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_ctrl_none port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex1/src/boolean_expression.cpp:12:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="boolean_expression" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=a" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex1/src/boolean_expression.cpp:13:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="boolean_expression" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=b" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex1/src/boolean_expression.cpp:14:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="boolean_expression" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=c" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex1/src/boolean_expression.cpp:15:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="boolean_expression" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=e" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex1/src/boolean_expression.cpp:16:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="boolean_expression" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=g" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex1/src/boolean_expression.cpp:17:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="boolean_expression" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=f" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

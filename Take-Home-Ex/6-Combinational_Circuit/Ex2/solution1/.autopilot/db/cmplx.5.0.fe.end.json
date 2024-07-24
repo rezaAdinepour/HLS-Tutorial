@@ -1,0 +1,11 @@
+{
+    "0": {
+        "name": "fulladder_4x",
+        "file": "fulladder_4x.cpp",
+        "fileloc": "17",
+        "instructions": "62",
+        "total_instructions": "62",
+        "calls": "",
+        "basicblocks": "1"
+    }
+}

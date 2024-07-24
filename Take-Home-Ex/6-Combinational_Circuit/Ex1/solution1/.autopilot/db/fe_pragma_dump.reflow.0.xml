@@ -1,0 +1,9 @@
+<pragmas>
+<pragma file="Ex1/src/boolean_expression.cpp" line="11" pragmaType="interface" parentfunction="boolean_expression" mode="ap_ctrl_none" port="return" name=""/>
+<pragma file="Ex1/src/boolean_expression.cpp" line="12" pragmaType="interface" parentfunction="boolean_expression" mode="ap_none" port="a" name="" register="0"/>
+<pragma file="Ex1/src/boolean_expression.cpp" line="13" pragmaType="interface" parentfunction="boolean_expression" mode="ap_none" port="b" name="" register="0"/>
+<pragma file="Ex1/src/boolean_expression.cpp" line="14" pragmaType="interface" parentfunction="boolean_expression" mode="ap_none" port="c" name="" register="0"/>
+<pragma file="Ex1/src/boolean_expression.cpp" line="15" pragmaType="interface" parentfunction="boolean_expression" mode="ap_none" port="e" name="" register="0"/>
+<pragma file="Ex1/src/boolean_expression.cpp" line="16" pragmaType="interface" parentfunction="boolean_expression" mode="ap_none" port="g" name="" register="0"/>
+<pragma file="Ex1/src/boolean_expression.cpp" line="17" pragmaType="interface" parentfunction="boolean_expression" mode="ap_none" port="f" name="" register="0"/>
+</pragmas>

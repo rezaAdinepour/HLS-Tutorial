@@ -1,0 +1,51 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex2/solution1/csynth.tcl:14:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="fulladder_4x" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=fulladder_4x" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex2/src/fulladder_4x.cpp:22:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fulladder_4x" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_ctrl_none port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex2/src/fulladder_4x.cpp:23:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fulladder_4x" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=a0" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex2/src/fulladder_4x.cpp:24:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fulladder_4x" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=a1" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex2/src/fulladder_4x.cpp:25:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fulladder_4x" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=a2" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex2/src/fulladder_4x.cpp:26:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fulladder_4x" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=a3" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex2/src/fulladder_4x.cpp:27:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fulladder_4x" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=b0" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex2/src/fulladder_4x.cpp:28:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fulladder_4x" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=b1" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex2/src/fulladder_4x.cpp:29:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fulladder_4x" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=b2" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex2/src/fulladder_4x.cpp:30:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fulladder_4x" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=b3" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex2/src/fulladder_4x.cpp:31:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fulladder_4x" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=s0" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex2/src/fulladder_4x.cpp:32:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fulladder_4x" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=s1" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex2/src/fulladder_4x.cpp:33:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fulladder_4x" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=s2" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex2/src/fulladder_4x.cpp:34:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fulladder_4x" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=s3" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex2/src/fulladder_4x.cpp:35:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fulladder_4x" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=cout" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="Ex2/src/fulladder_4x.cpp:20:0" msg_body="Inlining function 'fulladder(bool, bool, bool, bool*, bool*)' into 'fulladder_4x(bool, bool, bool, bool, bool, bool, bool, bool, bool*, bool*, bool*, bool*, bool*)'">
+        <args Callee="fulladder(bool, bool, bool, bool*, bool*)" Callee-DebugLoc="File Ex2/src/fulladder_4x.cpp Line 10 Column 0" Caller="fulladder_4x(bool, bool, bool, bool, bool, bool, bool, bool, bool*, bool*, bool*, bool*, bool*)" Caller-DebugLoc="File Ex2/src/fulladder_4x.cpp Line 20 Column 0"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

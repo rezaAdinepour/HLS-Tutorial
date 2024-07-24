@@ -1,0 +1,16 @@
+<pragmas>
+<pragma file="Ex2/src/fulladder_4x.cpp" line="22" pragmaType="interface" parentfunction="fulladder_4x" mode="ap_ctrl_none" port="return" name=""/>
+<pragma file="Ex2/src/fulladder_4x.cpp" line="23" pragmaType="interface" parentfunction="fulladder_4x" mode="ap_none" port="a0" name="" register="0"/>
+<pragma file="Ex2/src/fulladder_4x.cpp" line="24" pragmaType="interface" parentfunction="fulladder_4x" mode="ap_none" port="a1" name="" register="0"/>
+<pragma file="Ex2/src/fulladder_4x.cpp" line="25" pragmaType="interface" parentfunction="fulladder_4x" mode="ap_none" port="a2" name="" register="0"/>
+<pragma file="Ex2/src/fulladder_4x.cpp" line="26" pragmaType="interface" parentfunction="fulladder_4x" mode="ap_none" port="a3" name="" register="0"/>
+<pragma file="Ex2/src/fulladder_4x.cpp" line="27" pragmaType="interface" parentfunction="fulladder_4x" mode="ap_none" port="b0" name="" register="0"/>
+<pragma file="Ex2/src/fulladder_4x.cpp" line="28" pragmaType="interface" parentfunction="fulladder_4x" mode="ap_none" port="b1" name="" register="0"/>
+<pragma file="Ex2/src/fulladder_4x.cpp" line="29" pragmaType="interface" parentfunction="fulladder_4x" mode="ap_none" port="b2" name="" register="0"/>
+<pragma file="Ex2/src/fulladder_4x.cpp" line="30" pragmaType="interface" parentfunction="fulladder_4x" mode="ap_none" port="b3" name="" register="0"/>
+<pragma file="Ex2/src/fulladder_4x.cpp" line="31" pragmaType="interface" parentfunction="fulladder_4x" mode="ap_none" port="s0" name="" register="0"/>
+<pragma file="Ex2/src/fulladder_4x.cpp" line="32" pragmaType="interface" parentfunction="fulladder_4x" mode="ap_none" port="s1" name="" register="0"/>
+<pragma file="Ex2/src/fulladder_4x.cpp" line="33" pragmaType="interface" parentfunction="fulladder_4x" mode="ap_none" port="s2" name="" register="0"/>
+<pragma file="Ex2/src/fulladder_4x.cpp" line="34" pragmaType="interface" parentfunction="fulladder_4x" mode="ap_none" port="s3" name="" register="0"/>
+<pragma file="Ex2/src/fulladder_4x.cpp" line="35" pragmaType="interface" parentfunction="fulladder_4x" mode="ap_none" port="cout" name="" register="0"/>
+</pragmas>

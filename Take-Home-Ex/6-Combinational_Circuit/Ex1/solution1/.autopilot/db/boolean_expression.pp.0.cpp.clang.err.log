@@ -1,0 +1,32 @@
+C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex1/solution1/csynth.tcl:14:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=boolean_expression_XLX_SEP_ PragmaOptions=name=boolean_expression_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE TOP name=boolean_expression
+        ^
+Ex1/src/boolean_expression.cpp:11:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=boolean_expression_XLX_SEP_ PragmaOptions=mode=ap_ctrl_none port=return_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE mode=ap_ctrl_none port=return
+        ^
+Ex1/src/boolean_expression.cpp:12:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=boolean_expression_XLX_SEP_ PragmaOptions=mode=ap_none port=a_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE mode=ap_none port=a
+        ^
+Ex1/src/boolean_expression.cpp:13:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=boolean_expression_XLX_SEP_ PragmaOptions=mode=ap_none port=b_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE mode=ap_none port=b
+        ^
+Ex1/src/boolean_expression.cpp:14:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=boolean_expression_XLX_SEP_ PragmaOptions=mode=ap_none port=c_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE mode=ap_none port=c
+        ^
+Ex1/src/boolean_expression.cpp:15:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=boolean_expression_XLX_SEP_ PragmaOptions=mode=ap_none port=e_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE mode=ap_none port=e
+        ^
+Ex1/src/boolean_expression.cpp:16:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=boolean_expression_XLX_SEP_ PragmaOptions=mode=ap_none port=g_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE mode=ap_none port=g
+        ^
+Ex1/src/boolean_expression.cpp:17:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=boolean_expression_XLX_SEP_ PragmaOptions=mode=ap_none port=f_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE mode=ap_none port=f
+        ^
+Ex1/src/boolean_expression.cpp:20:20: warning: '^' within '|' [-Wbitwise-op-parentheses]
+ h = ( a | (b & c) ^ (e || (f & g) ) );
+         ~ ~~~~~~~~^~~~~~~~~~~~~~~~~
+Ex1/src/boolean_expression.cpp:20:20: note: place parentheses around the '^' expression to silence this warning
+ h = ( a | (b & c) ^ (e || (f & g) ) );
+                   ^
+           (                        )
+9 warnings generated.

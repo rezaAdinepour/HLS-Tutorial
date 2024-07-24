@@ -1,0 +1,77 @@
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xcvu11p-flga2577-1-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xcvu11p-flga2577-1-e 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.125 seconds; current allocated memory: 210.871 MB.
+INFO: [HLS 200-10] Analyzing design file 'Ex1/src/boolean_expression.cpp' ... 
+WARNING: [HLS 207-4671] '^' within '|' (Ex1/src/boolean_expression.cpp:20:20)
+INFO: [HLS 207-4428] place parentheses around the '^' expression to silence this warning (Ex1/src/boolean_expression.cpp:20:20)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 2.319 seconds; current allocated memory: 212.023 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 24 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex1/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 20 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex1/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 18 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex1/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 18 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex1/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 18 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex1/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 18 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex1/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 18 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex1/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 18 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex1/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 18 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex1/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 18 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex1/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 18 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex1/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 18 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex1/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 18 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex1/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 18 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex1/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 26 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex1/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 27 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/6-Combinational_Circuit/Ex1/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 8.829 seconds; current allocated memory: 213.738 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.002 seconds; current allocated memory: 213.738 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.306 seconds; current allocated memory: 217.879 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.076 seconds; current allocated memory: 219.094 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.098 seconds; current allocated memory: 239.184 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.092 seconds; current allocated memory: 239.215 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'boolean_expression' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'boolean_expression' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.374 seconds; current allocated memory: 239.215 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.106 seconds; current allocated memory: 239.215 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'boolean_expression' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'boolean_expression/a' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'boolean_expression/b' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'boolean_expression/c' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'boolean_expression/e' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'boolean_expression/g' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'boolean_expression/f' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'boolean_expression/h' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'boolean_expression' to 'ap_ctrl_none'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'boolean_expression'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.165 seconds; current allocated memory: 239.215 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.413 seconds; current allocated memory: 242.898 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.663 seconds; current allocated memory: 247.199 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for boolean_expression.
+INFO: [VLOG 209-307] Generating Verilog RTL for boolean_expression.
+INFO: [HLS 200-789] **** Estimated Fmax: 6756.76 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 13.65 seconds; current allocated memory: 36.562 MB.

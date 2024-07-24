@@ -1,0 +1,14 @@
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: Ex2/src/fulladder_4x.cpp, Line: 20, Column: 0 }
+Function:        _Z12fulladder_4xbbbbbbbbPbS_S_S_S_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fulladder(bool, bool, bool, bool*, bool*)'
+    DebugLoc:        { File: Ex2/src/fulladder_4x.cpp, Line: 10, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'fulladder_4x(bool, bool, bool, bool, bool, bool, bool, bool, bool*, bool*, bool*, bool*, bool*)'
+    DebugLoc:        { File: Ex2/src/fulladder_4x.cpp, Line: 20, Column: 0 }
+  - String:          ''''
+...

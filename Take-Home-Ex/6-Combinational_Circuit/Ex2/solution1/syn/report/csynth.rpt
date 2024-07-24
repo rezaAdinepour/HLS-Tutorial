@@ -1,0 +1,124 @@
+
+
+================================================================
+== Synthesis Summary Report of 'fulladder_4x'
+================================================================
++ General Information: 
+    * Date:           Wed Jul 24 22:50:14 2024
+    * Version:        2023.2 (Build 4023990 on Oct 11 2023)
+    * Project:        Ex2
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: virtexuplus
+    * Target device:  xcvu11p-flga2577-1-e
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +----------------+------+------+---------+--------+----------+---------+------+----------+------+----+---+----------+-----+
+    |     Modules    | Issue|      | Latency | Latency| Iteration|         | Trip |          |      |    |   |          |     |
+    |     & Loops    | Type | Slack| (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined| BRAM | DSP| FF|    LUT   | URAM|
+    +----------------+------+------+---------+--------+----------+---------+------+----------+------+----+---+----------+-----+
+    |+ fulladder_4x  |     -|  6.71|        0|   0.000|         -|        1|     -|        no|     -|   -|  -|  40 (~0%)|    -|
+    +----------------+------+------+---------+--------+----------+---------+------+----------+------+----+---+----------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* Other Ports
++------+---------+-----------+----------+
+| Port | Mode    | Direction | Bitwidth |
++------+---------+-----------+----------+
+| a0   | ap_none | in        | 1        |
+| a1   | ap_none | in        | 1        |
+| a2   | ap_none | in        | 1        |
+| a3   | ap_none | in        | 1        |
+| b0   | ap_none | in        | 1        |
+| b1   | ap_none | in        | 1        |
+| b2   | ap_none | in        | 1        |
+| b3   | ap_none | in        | 1        |
+| cout | ap_none | out       | 1        |
+| s0   | ap_none | out       | 1        |
+| s1   | ap_none | out       | 1        |
+| s2   | ap_none | out       | 1        |
+| s3   | ap_none | out       | 1        |
++------+---------+-----------+----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+----------+
+| Argument | Direction | Datatype |
++----------+-----------+----------+
+| a0       | in        | bool     |
+| a1       | in        | bool     |
+| a2       | in        | bool     |
+| a3       | in        | bool     |
+| b0       | in        | bool     |
+| b1       | in        | bool     |
+| b2       | in        | bool     |
+| b3       | in        | bool     |
+| s0       | out       | bool*    |
+| s1       | out       | bool*    |
+| s2       | out       | bool*    |
+| s3       | out       | bool*    |
+| cout     | out       | bool*    |
++----------+-----------+----------+
+
+* SW-to-HW Mapping
++----------+--------------+---------+
+| Argument | HW Interface | HW Type |
++----------+--------------+---------+
+| a0       | a0           | port    |
+| a1       | a1           | port    |
+| a2       | a2           | port    |
+| a3       | a3           | port    |
+| b0       | b0           | port    |
+| b1       | b1           | port    |
+| b2       | b2           | port    |
+| b3       | b3           | port    |
+| s0       | s0           | port    |
+| s1       | s1           | port    |
+| s2       | s2           | port    |
+| s3       | s3           | port    |
+| cout     | cout         | port    |
++----------+--------------+---------+
+
+
+================================================================
+== Bind Op Report
+================================================================
+  No bind op info in design
+
+================================================================
+== Storage Report
+================================================================
+  No bind storage info in design
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------+-------------------------------+-----------------------------------------------------+
+| Type      | Options                       | Location                                            |
++-----------+-------------------------------+-----------------------------------------------------+
+| interface | mode=ap_ctrl_none port=return | Ex2/src/fulladder_4x.cpp:22 in fulladder_4x, return |
+| interface | mode=ap_none port=a0          | Ex2/src/fulladder_4x.cpp:23 in fulladder_4x, a0     |
+| interface | mode=ap_none port=a1          | Ex2/src/fulladder_4x.cpp:24 in fulladder_4x, a1     |
+| interface | mode=ap_none port=a2          | Ex2/src/fulladder_4x.cpp:25 in fulladder_4x, a2     |
+| interface | mode=ap_none port=a3          | Ex2/src/fulladder_4x.cpp:26 in fulladder_4x, a3     |
+| interface | mode=ap_none port=b0          | Ex2/src/fulladder_4x.cpp:27 in fulladder_4x, b0     |
+| interface | mode=ap_none port=b1          | Ex2/src/fulladder_4x.cpp:28 in fulladder_4x, b1     |
+| interface | mode=ap_none port=b2          | Ex2/src/fulladder_4x.cpp:29 in fulladder_4x, b2     |
+| interface | mode=ap_none port=b3          | Ex2/src/fulladder_4x.cpp:30 in fulladder_4x, b3     |
+| interface | mode=ap_none port=s0          | Ex2/src/fulladder_4x.cpp:31 in fulladder_4x, s0     |
+| interface | mode=ap_none port=s1          | Ex2/src/fulladder_4x.cpp:32 in fulladder_4x, s1     |
+| interface | mode=ap_none port=s2          | Ex2/src/fulladder_4x.cpp:33 in fulladder_4x, s2     |
+| interface | mode=ap_none port=s3          | Ex2/src/fulladder_4x.cpp:34 in fulladder_4x, s3     |
+| interface | mode=ap_none port=cout        | Ex2/src/fulladder_4x.cpp:35 in fulladder_4x, cout   |
++-----------+-------------------------------+-----------------------------------------------------+
+
+
