@@ -7,6 +7,8 @@
       <mgLog/>
       <packageLog/>
       <csimLog>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="Ex1" solutionName="solution1" date="2024-07-25T20:31:02.158+0430"/>
+        <logs message="Error at  l_sensor = 0 r_sensor = 0 u_sensor = 0 d_sensor = 0 ns_light_hw = 0 ns_light_sw = 0 ew_light_hw = 0 ew_light_sw = 1&#xD;&#xA;Test Failed&#xD;&#xA;@E Simulation failed." projectName="Ex1" solutionName="solution1" date="2024-07-25T20:31:02.098+0430"/>
         <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="Ex1" solutionName="solution1" date="2024-07-25T20:25:36.751+0430"/>
         <logs message="Error at  l_sensor = 0 r_sensor = 0 u_sensor = 0 d_sensor = 0 ns_light_hw = 0 ns_light_sw = 0 ew_light_hw = 0 ew_light_sw = 1&#xD;&#xA;Test Failed&#xD;&#xA;@E Simulation failed." projectName="Ex1" solutionName="solution1" date="2024-07-25T20:25:36.736+0430"/>
         <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Ex1" solutionName="solution1" date="2024-07-25T20:19:50.345+0430"/>

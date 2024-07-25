@@ -1,5 +1,5 @@
 INFO: [HLS 200-10] Running 'C:/Xilinx/Vitis_HLS/2023.2/bin/unwrapped/win64.o/vitis_hls.exe'
-INFO: [HLS 200-10] For user 'User1' on host 'desktop-a2lg1n2' (Windows NT_amd64 version 6.2) on Thu Jul 25 19:25:32 +0330 2024
+INFO: [HLS 200-10] For user 'User1' on host 'desktop-a2lg1n2' (Windows NT_amd64 version 6.2) on Thu Jul 25 19:30:57 +0330 2024
 INFO: [HLS 200-10] In directory 'C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench'
 INFO: [HLS 200-2053] The vitis_hls executable is being deprecated. Consider using vitis-run --mode hls --tcl
 Sourcing Tcl script 'C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/csim.tcl'
@@ -28,14 +28,13 @@ INFO: [SIM 211-2] *************** CSIM start ***************
 INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
 INFO: [HLS 200-2036] Building debug C Simulation binaries
    Compiling ../../../src/tb_trafic_light_controller.cpp in debug mode
-   Compiling ../../../src/trafic_light_controller.cpp in debug mode
    Generating csim.exe
 Error at  l_sensor = 0 r_sensor = 0 u_sensor = 0 d_sensor = 0 ns_light_hw = 0 ns_light_sw = 0 ew_light_hw = 0 ew_light_sw = 1
 Test Failed
 @E Simulation failed.
 ERROR: [SIM 211-100] CSim failed with errors.
 INFO: [SIM 211-3] *************** CSIM finish ***************
-INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.407 seconds; current allocated memory: 0.430 MB.
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.239 seconds; current allocated memory: 0.438 MB.
 4
     while executing
 "source C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/csim.tcl"
@@ -47,4 +46,4 @@ INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU s
     (procedure "hls_proc" line 16)
     invoked from within
 "hls_proc [info nameofexecutable] $argv"
-INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 1 seconds. Total elapsed time: 5.235 seconds; peak allocated memory: 210.934 MB.
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 5.15 seconds; peak allocated memory: 211.438 MB.
