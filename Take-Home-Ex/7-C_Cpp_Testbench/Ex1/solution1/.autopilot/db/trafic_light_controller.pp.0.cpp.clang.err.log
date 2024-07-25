@@ -4,7 +4,7 @@ void rule1(bool l_sensor, bool r_sensor, bool u_sensor, bool d_sensor, bool *rul
 Ex1/src/trafic_light_controller.cpp:2:62: warning: unused parameter 'd_sensor' [-Wunused-parameter]
 void rule1(bool l_sensor, bool r_sensor, bool u_sensor, bool d_sensor, bool *rule1_out)
                                                              ^
-C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/csynth.tcl:14:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=trafic_light_controller_XLX_SEP_ PragmaOptions=name=trafic_light_controller_XLX_SEP_ [-Wdump-hls-pragmas]
+C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/csynth.tcl:15:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=trafic_light_controller_XLX_SEP_ PragmaOptions=name=trafic_light_controller_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLSDIRECTIVE TOP name=trafic_light_controller
         ^
 Ex1/src/trafic_light_controller.cpp:31:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=trafic_light_controller_XLX_SEP_ PragmaOptions=mode=ap_ctrl_none port=return_XLX_SEP_ [-Wdump-hls-pragmas]

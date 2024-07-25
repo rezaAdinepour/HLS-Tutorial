@@ -6,16 +6,51 @@
       <simLog/>
       <mgLog/>
       <packageLog/>
-      <csimLog/>
+      <csimLog>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="Ex1" solutionName="solution1" date="2024-07-25T20:25:36.751+0430"/>
+        <logs message="Error at  l_sensor = 0 r_sensor = 0 u_sensor = 0 d_sensor = 0 ns_light_hw = 0 ns_light_sw = 0 ew_light_hw = 0 ew_light_sw = 1&#xD;&#xA;Test Failed&#xD;&#xA;@E Simulation failed." projectName="Ex1" solutionName="solution1" date="2024-07-25T20:25:36.736+0430"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Ex1" solutionName="solution1" date="2024-07-25T20:19:50.345+0430"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="Ex1" solutionName="solution1" date="2024-07-25T20:16:54.173+0430"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="Ex1" solutionName="solution1" date="2024-07-25T20:14:18.002+0430"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="Ex1" solutionName="solution1" date="2024-07-25T20:13:39.751+0430"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="Ex1" solutionName="solution1" date="2024-07-25T20:10:17.579+0430"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="Ex1" solutionName="solution1" date="2024-07-25T20:08:53.752+0430"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Ex1" solutionName="solution1" date="2024-07-25T20:06:22.049+0430"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Ex1" solutionName="solution1" date="2024-07-25T20:05:57.658+0430"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Ex1" solutionName="solution1" date="2024-07-25T20:02:49.814+0430"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Ex1" solutionName="solution1" date="2024-07-25T19:59:58.720+0430"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Ex1" solutionName="solution1" date="2024-07-25T19:59:39.205+0430"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Ex1" solutionName="solution1" date="2024-07-25T19:58:58.095+0430"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Ex1" solutionName="solution1" date="2024-07-25T19:58:09.205+0430"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Ex1" solutionName="solution1" date="2024-07-25T19:57:51.017+0430"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Ex1" solutionName="solution1" date="2024-07-25T19:57:34.830+0430"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Ex1" solutionName="solution1" date="2024-07-25T19:57:09.689+0430"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Ex1" solutionName="solution1" date="2024-07-25T19:56:30.173+0430"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Ex1" solutionName="solution1" date="2024-07-25T19:55:59.956+0430"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Ex1" solutionName="solution1" date="2024-07-25T19:53:46.502+0430"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Ex1" solutionName="solution1" date="2024-07-25T19:47:49.830+0430"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Ex1" solutionName="solution1" date="2024-07-25T19:47:34.892+0430"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Ex1" solutionName="solution1" date="2024-07-25T19:46:56.751+0430"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Ex1" solutionName="solution1" date="2024-07-25T19:44:50.455+0430"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Ex1" solutionName="solution1" date="2024-07-25T19:44:34.627+0430"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Ex1" solutionName="solution1" date="2024-07-25T19:44:09.923+0430"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Ex1" solutionName="solution1" date="2024-07-25T19:42:53.892+0430"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Ex1" solutionName="solution1" date="2024-07-25T19:37:34.127+0430"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Ex1" solutionName="solution1" date="2024-07-25T19:36:17.033+0430"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Ex1" solutionName="solution1" date="2024-07-25T19:35:39.033+0430"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Ex1" solutionName="solution1" date="2024-07-25T19:25:56.877+0430"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Ex1" solutionName="solution1" date="2024-07-25T19:24:25.033+0430"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="Ex1" solutionName="solution1" date="2024-07-25T19:23:44.033+0430"/>
+      </csimLog>
     </logs>
   </errorLogs>
   <warningLogs>
     <logs>
       <synLog>
-        <logs message="WARNING: [RTGEN 206-101] Port 'ns' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port." projectName="Ex1" solutionName="solution1" date="2024-07-25T18:28:17.642+0430" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Port 'ew' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port." projectName="Ex1" solutionName="solution1" date="2024-07-25T18:28:17.611+0430" type="Warning"/>
-        <logs message="WARNING: [HLS 207-5292] unused parameter 'd_sensor' (Ex1/src/trafic_light_controller.cpp:2:62)" projectName="Ex1" solutionName="solution1" date="2024-07-25T18:28:08.970+0430" type="Warning"/>
-        <logs message="WARNING: [HLS 207-5292] unused parameter 'u_sensor' (Ex1/src/trafic_light_controller.cpp:2:47)" projectName="Ex1" solutionName="solution1" date="2024-07-25T18:28:08.955+0430" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'ns' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port." projectName="Ex1" solutionName="solution1" date="2024-07-25T19:19:00.767+0430" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'ew' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port." projectName="Ex1" solutionName="solution1" date="2024-07-25T19:19:00.752+0430" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5292] unused parameter 'd_sensor' (Ex1/src/trafic_light_controller.cpp:2:62)" projectName="Ex1" solutionName="solution1" date="2024-07-25T19:18:52.048+0430" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5292] unused parameter 'u_sensor' (Ex1/src/trafic_light_controller.cpp:2:47)" projectName="Ex1" solutionName="solution1" date="2024-07-25T19:18:52.033+0430" type="Warning"/>
       </synLog>
       <simLog/>
       <mgLog/>

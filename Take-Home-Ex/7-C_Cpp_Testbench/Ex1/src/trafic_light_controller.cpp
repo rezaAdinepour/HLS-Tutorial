@@ -1,3 +1,5 @@
+#include "trafic_light_controller.h"
+
 // Solution 1: with pointer structure
 void rule1(bool l_sensor, bool r_sensor, bool u_sensor, bool d_sensor, bool *rule1_out)
 {

@@ -33,11 +33,11 @@
             <header size="7" col0="Function" col1="Location" col2="Compile/Link" col3="Unroll/Inline" col4="Array/Struct" col5="Performance" col6="HW Transforms"/>
             <rows>
                 <row id="0" col0="trafic_light_controller" col1="trafic_light_controller.cpp:28" col2="103" col3="40" col4="40" col5="40" col6="47">
-                    <row id="2" col0="rule1" col1="trafic_light_controller.cpp:2" col2="5" col3="" col4="" col5="" col6=""/>
-                    <row id="1" col0="rule2" col1="trafic_light_controller.cpp:7" col2="13" col3="" col4="" col5="" col6=""/>
-                    <row id="4" col0="rule3" col1="trafic_light_controller.cpp:12" col2="9" col3="" col4="" col5="" col6=""/>
+                    <row id="1" col0="rule1" col1="trafic_light_controller.cpp:2" col2="5" col3="" col4="" col5="" col6=""/>
+                    <row id="5" col0="rule2" col1="trafic_light_controller.cpp:7" col2="13" col3="" col4="" col5="" col6=""/>
+                    <row id="2" col0="rule3" col1="trafic_light_controller.cpp:12" col2="9" col3="" col4="" col5="" col6=""/>
                     <row id="3" col0="rule4" col1="trafic_light_controller.cpp:17" col2="10" col3="" col4="" col5="" col6=""/>
-                    <row id="5" col0="rule5" col1="trafic_light_controller.cpp:22" col2="14" col3="" col4="" col5="" col6=""/>
+                    <row id="4" col0="rule5" col1="trafic_light_controller.cpp:22" col2="14" col3="" col4="" col5="" col6=""/>
                 </row>
             </rows>
             <notes/>

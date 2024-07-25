@@ -185,7 +185,7 @@ void rule5(bool l_sensor, bool r_sensor, bool u_sensor, bool d_sensor, bool *rul
 
 __attribute__((sdx_kernel("trafic_light_controller", 0))) void trafic_light_controller(bool l_sensor, bool r_sensor, bool u_sensor, bool d_sensor, bool *ew, bool *ns)
 {
-#line 14 "C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/csynth.tcl"
+#line 15 "C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/csynth.tcl"
 #pragma HLSDIRECTIVE TOP name=trafic_light_controller
 # 29 "Ex1/src/trafic_light_controller.cpp"
 

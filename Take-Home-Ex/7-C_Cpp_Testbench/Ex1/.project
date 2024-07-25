@@ -47,6 +47,21 @@
 			<location>C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/src/trafic_light_controller.cpp</location>
 		</link>
 		<link>
+			<name>source/trafic_light_controller.h</name>
+			<type>1</type>
+			<location>C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/src/trafic_light_controller.h</location>
+		</link>
+		<link>
+			<name>testbench/tb_trafic_light_controller.cpp</name>
+			<type>1</type>
+			<location>C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/src/tb_trafic_light_controller.cpp</location>
+		</link>
+		<link>
+			<name>testbench/tb_trafic_light_controller.h</name>
+			<type>1</type>
+			<location>C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/src/tb_trafic_light_controller.h</location>
+		</link>
+		<link>
 			<name>solution1/constraints/.xml.directive</name>
 			<type>1</type>
 			<location>C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/solution1.directive</location>

@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'trafic_light_controller'
 ================================================================
-* Date:           Thu Jul 25 17:28:17 2024
+* Date:           Thu Jul 25 18:19:00 2024
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        Ex1
@@ -123,8 +123,8 @@ Target clock period: 10.000ns, clock uncertainty: 2.700ns.
 The critical path consists of the following:
 	wire read operation ('d_sensor', Ex1/src/trafic_light_controller.cpp:28) on port 'd_sensor' (Ex1/src/trafic_light_controller.cpp:28) [21]  (0.000 ns)
 	'and' operation 1 bit ('and_ln14', Ex1/src/trafic_light_controller.cpp:14->Ex1/src/trafic_light_controller.cpp:44) [27]  (0.148 ns)
-	'and' operation 1 bit ('temp3', Ex1/src/trafic_light_controller.cpp:14->Ex1/src/trafic_light_controller.cpp:44) [31]  (0.000 ns)
-	'or' operation 1 bit ('or_ln48', Ex1/src/trafic_light_controller.cpp:48) [38]  (0.000 ns)
+	'xor' operation 1 bit ('xor_ln9_1', Ex1/src/trafic_light_controller.cpp:9->Ex1/src/trafic_light_controller.cpp:43) [28]  (0.000 ns)
+	'and' operation 1 bit ('temp2', Ex1/src/trafic_light_controller.cpp:9->Ex1/src/trafic_light_controller.cpp:43) [29]  (0.000 ns)
 	'or' operation 1 bit ('or_ln48_1', Ex1/src/trafic_light_controller.cpp:48) [39]  (0.148 ns)
 
 

@@ -1,0 +1,9 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../src/tb_trafic_light_controller.cpp in debug mode
+   Compiling ../../../src/trafic_light_controller.cpp in debug mode
+   Generating csim.exe
+Error at  l_sensor = 0 r_sensor = 0 u_sensor = 0 d_sensor = 0 ns_light_hw = 0 ns_light_sw = 0 ew_light_hw = 0 ew_light_sw = 1
+Test Failed
+ERR: [SIM 100] CSim failed with errors.
+INFO: [SIM 3] *************** CSIM finish ***************

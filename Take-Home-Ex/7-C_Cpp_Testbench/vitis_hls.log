@@ -1,14 +1,20 @@
 INFO: [HLS 200-10] Running 'C:/Xilinx/Vitis_HLS/2023.2/bin/unwrapped/win64.o/vitis_hls.exe'
-INFO: [HLS 200-10] For user 'User1' on host 'desktop-a2lg1n2' (Windows NT_amd64 version 6.2) on Thu Jul 25 17:28:04 +0330 2024
+INFO: [HLS 200-10] For user 'User1' on host 'desktop-a2lg1n2' (Windows NT_amd64 version 6.2) on Thu Jul 25 19:25:32 +0330 2024
 INFO: [HLS 200-10] In directory 'C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench'
 INFO: [HLS 200-2053] The vitis_hls executable is being deprecated. Consider using vitis-run --mode hls --tcl
-Sourcing Tcl script 'C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/csynth.tcl'
-INFO: [HLS 200-1510] Running: source C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/csynth.tcl
+Sourcing Tcl script 'C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/csim.tcl'
+INFO: [HLS 200-1510] Running: source C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/csim.tcl
 INFO: [HLS 200-1510] Running: open_project Ex1 
 INFO: [HLS 200-10] Opening project 'C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1'.
 INFO: [HLS 200-1510] Running: set_top trafic_light_controller 
 INFO: [HLS 200-1510] Running: add_files Ex1/src/trafic_light_controller.cpp 
 INFO: [HLS 200-10] Adding design file 'Ex1/src/trafic_light_controller.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files Ex1/src/trafic_light_controller.h 
+INFO: [HLS 200-10] Adding design file 'Ex1/src/trafic_light_controller.h' to the project
+INFO: [HLS 200-1510] Running: add_files -tb Ex1/src/tb_trafic_light_controller.cpp 
+INFO: [HLS 200-10] Adding test bench file 'Ex1/src/tb_trafic_light_controller.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb Ex1/src/tb_trafic_light_controller.h 
+INFO: [HLS 200-10] Adding test bench file 'Ex1/src/tb_trafic_light_controller.h' to the project
 INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
 INFO: [HLS 200-10] Opening solution 'C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1'.
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
@@ -17,74 +23,28 @@ INFO: [HLS 200-1505] Using flow_target 'vivado'
 Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
 INFO: [HLS 200-1510] Running: set_part xcvu11p-flga2577-1-e 
 INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
-INFO: [HLS 200-1510] Running: csynth_design 
-INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.123 seconds; current allocated memory: 210.383 MB.
-INFO: [HLS 200-10] Analyzing design file 'Ex1/src/trafic_light_controller.cpp' ... 
-WARNING: [HLS 207-5292] unused parameter 'u_sensor' (Ex1/src/trafic_light_controller.cpp:2:47)
-WARNING: [HLS 207-5292] unused parameter 'd_sensor' (Ex1/src/trafic_light_controller.cpp:2:62)
-INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.18 seconds; current allocated memory: 212.133 MB.
-INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
-INFO: [HLS 200-1995] There were 103 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 83 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 71 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 61 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 40 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 40 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 40 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 40 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 40 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 40 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 40 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 40 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 40 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 40 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 46 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 47 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 214-178] Inlining function 'rule1(bool, bool, bool, bool, bool*)' into 'trafic_light_controller(bool, bool, bool, bool, bool*, bool*)' (Ex1/src/trafic_light_controller.cpp:29:0)
-INFO: [HLS 214-178] Inlining function 'rule2(bool, bool, bool, bool, bool*)' into 'trafic_light_controller(bool, bool, bool, bool, bool*, bool*)' (Ex1/src/trafic_light_controller.cpp:29:0)
-INFO: [HLS 214-178] Inlining function 'rule3(bool, bool, bool, bool, bool*)' into 'trafic_light_controller(bool, bool, bool, bool, bool*, bool*)' (Ex1/src/trafic_light_controller.cpp:29:0)
-INFO: [HLS 214-178] Inlining function 'rule4(bool, bool, bool, bool, bool*)' into 'trafic_light_controller(bool, bool, bool, bool, bool*, bool*)' (Ex1/src/trafic_light_controller.cpp:29:0)
-INFO: [HLS 214-178] Inlining function 'rule5(bool, bool, bool, bool, bool*)' into 'trafic_light_controller(bool, bool, bool, bool, bool*, bool*)' (Ex1/src/trafic_light_controller.cpp:29:0)
-INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 8.198 seconds; current allocated memory: 214.453 MB.
-INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.002 seconds; current allocated memory: 214.453 MB.
-INFO: [HLS 200-10] Starting code transformations ...
-INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.031 seconds; current allocated memory: 218.883 MB.
-INFO: [HLS 200-10] Checking synthesizability ...
-INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.024 seconds; current allocated memory: 219.934 MB.
-INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 240.191 MB.
-INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.025 seconds; current allocated memory: 240.199 MB.
-INFO: [HLS 200-10] Starting hardware synthesis ...
-INFO: [HLS 200-10] Synthesizing 'trafic_light_controller' ...
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-42] -- Implementing module 'trafic_light_controller' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.123 seconds; current allocated memory: 240.199 MB.
-INFO: [BIND 205-100] Starting micro-architecture generation ...
-INFO: [BIND 205-101] Performing variable lifetime analysis.
-INFO: [BIND 205-101] Exploring resource sharing.
-INFO: [BIND 205-101] Binding ...
-INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.061 seconds; current allocated memory: 240.199 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Generating RTL for module 'trafic_light_controller' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [RTGEN 206-500] Setting interface mode on port 'trafic_light_controller/l_sensor' to 'ap_none'.
-INFO: [RTGEN 206-500] Setting interface mode on port 'trafic_light_controller/r_sensor' to 'ap_none'.
-INFO: [RTGEN 206-500] Setting interface mode on port 'trafic_light_controller/u_sensor' to 'ap_none'.
-INFO: [RTGEN 206-500] Setting interface mode on port 'trafic_light_controller/d_sensor' to 'ap_none'.
-INFO: [RTGEN 206-500] Setting interface mode on port 'trafic_light_controller/ew' to 'ap_none'.
-WARNING: [RTGEN 206-101] Port 'ew' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
-INFO: [RTGEN 206-500] Setting interface mode on port 'trafic_light_controller/ns' to 'ap_none'.
-WARNING: [RTGEN 206-101] Port 'ns' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
-INFO: [RTGEN 206-500] Setting interface mode on function 'trafic_light_controller' to 'ap_ctrl_none'.
-INFO: [RTGEN 206-100] Finished creating RTL model for 'trafic_light_controller'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.161 seconds; current allocated memory: 240.199 MB.
-INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.413 seconds; current allocated memory: 244.129 MB.
-INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 0.624 seconds; current allocated memory: 248.363 MB.
-INFO: [VHDL 208-304] Generating VHDL RTL for trafic_light_controller.
-INFO: [VLOG 209-307] Generating Verilog RTL for trafic_light_controller.
-INFO: [HLS 200-789] **** Estimated Fmax: 3378.38 MHz
-INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 11.083 seconds; current allocated memory: 38.348 MB.
-INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 14.898 seconds; peak allocated memory: 248.785 MB.
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+   Compiling ../../../src/tb_trafic_light_controller.cpp in debug mode
+   Compiling ../../../src/trafic_light_controller.cpp in debug mode
+   Generating csim.exe
+Error at  l_sensor = 0 r_sensor = 0 u_sensor = 0 d_sensor = 0 ns_light_hw = 0 ns_light_sw = 0 ew_light_hw = 0 ew_light_sw = 1
+Test Failed
+@E Simulation failed.
+ERROR: [SIM 211-100] CSim failed with errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.407 seconds; current allocated memory: 0.430 MB.
+4
+    while executing
+"source C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/csim.tcl"
+    invoked from within
+"hls::main C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/csim.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel 1 hls::main {*}$newargs"
+    (procedure "hls_proc" line 16)
+    invoked from within
+"hls_proc [info nameofexecutable] $argv"
+INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 1 seconds. Total elapsed time: 5.235 seconds; peak allocated memory: 210.934 MB.

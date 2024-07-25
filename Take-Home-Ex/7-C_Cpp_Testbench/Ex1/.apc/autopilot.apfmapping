@@ -2,6 +2,10 @@
 <autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
   <source>
     <originFiles name="trafic_light_controller.cpp" path="C:\OneDrive\Desktop\HLS-Tutorial\Take-Home-Ex\7-C_Cpp_Testbench\Ex1\src\trafic_light_controller.cpp"/>
+    <originFiles name="trafic_light_controller.h" path="C:\OneDrive\Desktop\HLS-Tutorial\Take-Home-Ex\7-C_Cpp_Testbench\Ex1\src\trafic_light_controller.h"/>
   </source>
-  <testbench/>
+  <testbench>
+    <originFiles name="tb_trafic_light_controller.cpp" path="C:\OneDrive\Desktop\HLS-Tutorial\Take-Home-Ex\7-C_Cpp_Testbench\Ex1\src\tb_trafic_light_controller.cpp"/>
+    <originFiles name="tb_trafic_light_controller.h" path="C:\OneDrive\Desktop\HLS-Tutorial\Take-Home-Ex\7-C_Cpp_Testbench\Ex1\src\tb_trafic_light_controller.h"/>
+  </testbench>
 </autopilotfilemapping:AutoPilotFileMapping>

@@ -45,12 +45,12 @@ set TargetInfo xcvu11p:-flga2577:-1-e
 set SourceFiles {sc {} c ../src/trafic_light_controller.cpp}
 set SourceFlags {sc {} c {{}}}
 set DirectiveFile {}
-set TBFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
+set TBFiles {verilog ../src/tb_trafic_light_controller.cpp bc ../src/tb_trafic_light_controller.cpp vhdl ../src/tb_trafic_light_controller.cpp sc ../src/tb_trafic_light_controller.cpp cas ../src/tb_trafic_light_controller.cpp c {}}
 set SpecLanguage C
 set TVInFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
 set TVOutFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
-set TBTops {bc "" c "" sc "" cas "" vhdl "" verilog ""}
-set TBInstNames {bc "" c "" sc "" cas "" vhdl "" verilog ""}
+set TBTops {verilog {} bc {} vhdl {} sc {} cas {} c {}}
+set TBInstNames {verilog {} bc {} vhdl {} sc {} cas {} c {}}
 set XDCFiles {}
 set ExtraGlobalOptions {"area_timing" 1 "clock_gate" 1 "impl_flow" map "power_gate" 0}
 set TBTVFileNotFound {}
