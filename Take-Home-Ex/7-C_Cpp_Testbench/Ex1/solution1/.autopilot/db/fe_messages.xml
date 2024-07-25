@@ -1,0 +1,48 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="Ex1/src/trafic_light_controller.cpp:2:47" msg_body="unused parameter 'u_sensor'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="Ex1/src/trafic_light_controller.cpp:2:62" msg_body="unused parameter 'd_sensor'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/csynth.tcl:14:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="trafic_light_controller" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=trafic_light_controller" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex1/src/trafic_light_controller.cpp:31:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="trafic_light_controller" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_ctrl_none port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex1/src/trafic_light_controller.cpp:32:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="trafic_light_controller" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=l_sensor" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex1/src/trafic_light_controller.cpp:33:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="trafic_light_controller" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=r_sensor" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex1/src/trafic_light_controller.cpp:34:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="trafic_light_controller" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=u_sensor" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex1/src/trafic_light_controller.cpp:35:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="trafic_light_controller" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=d_sensor" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex1/src/trafic_light_controller.cpp:36:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="trafic_light_controller" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=ew" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Ex1/src/trafic_light_controller.cpp:37:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="trafic_light_controller" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_none port=ns" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="Ex1/src/trafic_light_controller.cpp:29:0" msg_body="Inlining function 'rule1(bool, bool, bool, bool, bool*)' into 'trafic_light_controller(bool, bool, bool, bool, bool*, bool*)'">
+        <args Callee="rule1(bool, bool, bool, bool, bool*)" Callee-DebugLoc="File Ex1/src/trafic_light_controller.cpp Line 3 Column 0" Caller="trafic_light_controller(bool, bool, bool, bool, bool*, bool*)" Caller-DebugLoc="File Ex1/src/trafic_light_controller.cpp Line 29 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="Ex1/src/trafic_light_controller.cpp:29:0" msg_body="Inlining function 'rule2(bool, bool, bool, bool, bool*)' into 'trafic_light_controller(bool, bool, bool, bool, bool*, bool*)'">
+        <args Callee="rule2(bool, bool, bool, bool, bool*)" Callee-DebugLoc="File Ex1/src/trafic_light_controller.cpp Line 8 Column 0" Caller="trafic_light_controller(bool, bool, bool, bool, bool*, bool*)" Caller-DebugLoc="File Ex1/src/trafic_light_controller.cpp Line 29 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="Ex1/src/trafic_light_controller.cpp:29:0" msg_body="Inlining function 'rule3(bool, bool, bool, bool, bool*)' into 'trafic_light_controller(bool, bool, bool, bool, bool*, bool*)'">
+        <args Callee="rule3(bool, bool, bool, bool, bool*)" Callee-DebugLoc="File Ex1/src/trafic_light_controller.cpp Line 13 Column 0" Caller="trafic_light_controller(bool, bool, bool, bool, bool*, bool*)" Caller-DebugLoc="File Ex1/src/trafic_light_controller.cpp Line 29 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="Ex1/src/trafic_light_controller.cpp:29:0" msg_body="Inlining function 'rule4(bool, bool, bool, bool, bool*)' into 'trafic_light_controller(bool, bool, bool, bool, bool*, bool*)'">
+        <args Callee="rule4(bool, bool, bool, bool, bool*)" Callee-DebugLoc="File Ex1/src/trafic_light_controller.cpp Line 18 Column 0" Caller="trafic_light_controller(bool, bool, bool, bool, bool*, bool*)" Caller-DebugLoc="File Ex1/src/trafic_light_controller.cpp Line 29 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="Ex1/src/trafic_light_controller.cpp:29:0" msg_body="Inlining function 'rule5(bool, bool, bool, bool, bool*)' into 'trafic_light_controller(bool, bool, bool, bool, bool*, bool*)'">
+        <args Callee="rule5(bool, bool, bool, bool, bool*)" Callee-DebugLoc="File Ex1/src/trafic_light_controller.cpp Line 23 Column 0" Caller="trafic_light_controller(bool, bool, bool, bool, bool*, bool*)" Caller-DebugLoc="File Ex1/src/trafic_light_controller.cpp Line 29 Column 0"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

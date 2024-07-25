@@ -1,0 +1,332 @@
+<profile>
+    <ReportVersion>
+        <Version>2023.2</Version>
+    </ReportVersion>
+    <UserAssignments>
+        <unit>ns</unit>
+        <ProductFamily>virtexuplus</ProductFamily>
+        <Part>xcvu11p-flga2577-1-e</Part>
+        <TopModelName>trafic_light_controller</TopModelName>
+        <TargetClockPeriod>10.00</TargetClockPeriod>
+        <ClockUncertainty>2.70</ClockUncertainty>
+        <FlowTarget>vivado</FlowTarget>
+    </UserAssignments>
+    <PerformanceEstimates>
+        <PipelineType>no</PipelineType>
+        <SummaryOfTimingAnalysis>
+            <unit>ns</unit>
+            <EstimatedClockPeriod>0.296</EstimatedClockPeriod>
+        </SummaryOfTimingAnalysis>
+        <SummaryOfOverallLatency>
+            <unit>clock cycles</unit>
+            <Best-caseLatency>0</Best-caseLatency>
+            <Average-caseLatency>0</Average-caseLatency>
+            <Worst-caseLatency>0</Worst-caseLatency>
+            <Best-caseRealTimeLatency>0 ns</Best-caseRealTimeLatency>
+            <Average-caseRealTimeLatency>0 ns</Average-caseRealTimeLatency>
+            <Worst-caseRealTimeLatency>0 ns</Worst-caseRealTimeLatency>
+            <Interval-min>1</Interval-min>
+            <Interval-max>1</Interval-max>
+        </SummaryOfOverallLatency>
+        <SummaryOfViolations>
+            <IssueType>-</IssueType>
+            <ViolationType>-</ViolationType>
+            <SourceLocation>Ex1/src/trafic_light_controller.cpp:28</SourceLocation>
+        </SummaryOfViolations>
+    </PerformanceEstimates>
+    <AreaEstimates>
+        <Resources>
+            <FF>0</FF>
+            <LUT>32</LUT>
+            <BRAM_18K>0</BRAM_18K>
+            <DSP>0</DSP>
+            <URAM>0</URAM>
+        </Resources>
+        <AvailableResources>
+            <BRAM_18K>4032</BRAM_18K>
+            <DSP>9216</DSP>
+            <FF>2592000</FF>
+            <LUT>1296000</LUT>
+            <URAM>960</URAM>
+        </AvailableResources>
+    </AreaEstimates>
+    <InterfaceSummary>
+        <RtlPorts>
+            <name>l_sensor</name>
+            <Object>l_sensor</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>bool</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>r_sensor</name>
+            <Object>r_sensor</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>bool</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>u_sensor</name>
+            <Object>u_sensor</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>bool</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>d_sensor</name>
+            <Object>d_sensor</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>bool</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ew</name>
+            <Object>ew</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>bool</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ns</name>
+            <Object>ns</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>bool</CType>
+        </RtlPorts>
+    </InterfaceSummary>
+    <RTLDesignHierarchy>
+        <TopModule MAX_DEPTH="1">
+            <ModuleName>trafic_light_controller</ModuleName>
+        </TopModule>
+    </RTLDesignHierarchy>
+    <ModuleInformation>
+        <Module>
+            <Name>trafic_light_controller</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>0.296</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>0</Best-caseLatency>
+                    <Average-caseLatency>0</Average-caseLatency>
+                    <Worst-caseLatency>0</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0 ns</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>1</PipelineInitiationInterval>
+                    <PipelineType>no</PipelineType>
+                </SummaryOfOverallLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>Ex1/src/trafic_light_controller.cpp:28</SourceLocation>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>0</FF>
+                    <AVAIL_FF>2592000</AVAIL_FF>
+                    <UTIL_FF>0</UTIL_FF>
+                    <LUT>32</LUT>
+                    <AVAIL_LUT>1296000</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>4032</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>9216</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>960</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+        </Module>
+    </ModuleInformation>
+    <FIFOInformation/>
+    <UserConfigCommands/>
+    <Args>
+        <Arg ArgName="l_sensor" index="0" direction="in" srcType="bool" srcSize="1">
+            <hwRefs>
+                <hwRef type="port" interface="l_sensor" name="l_sensor" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="r_sensor" index="1" direction="in" srcType="bool" srcSize="1">
+            <hwRefs>
+                <hwRef type="port" interface="r_sensor" name="r_sensor" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="u_sensor" index="2" direction="in" srcType="bool" srcSize="1">
+            <hwRefs>
+                <hwRef type="port" interface="u_sensor" name="u_sensor" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="d_sensor" index="3" direction="in" srcType="bool" srcSize="1">
+            <hwRefs>
+                <hwRef type="port" interface="d_sensor" name="d_sensor" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="ew" index="4" direction="out" srcType="bool*" srcSize="1">
+            <hwRefs>
+                <hwRef type="port" interface="ew" name="ew" usage="data" direction="out"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="ns" index="5" direction="out" srcType="bool*" srcSize="1">
+            <hwRefs>
+                <hwRef type="port" interface="ns" name="ns" usage="data" direction="out"/>
+            </hwRefs>
+        </Arg>
+    </Args>
+    <Interfaces>
+        <Interface InterfaceName="l_sensor" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="1">
+            <portMaps>
+                <portMap portMapName="l_sensor">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>l_sensor</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="l_sensor"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="r_sensor" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="1">
+            <portMaps>
+                <portMap portMapName="r_sensor">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>r_sensor</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="r_sensor"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="u_sensor" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="1">
+            <portMaps>
+                <portMap portMapName="u_sensor">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>u_sensor</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="u_sensor"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="d_sensor" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="1">
+            <portMaps>
+                <portMap portMapName="d_sensor">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>d_sensor</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="d_sensor"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="ew" type="data" busTypeName="data" protocol="ap_none" mode="master" dataWidth="1">
+            <portMaps>
+                <portMap portMapName="ew">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>ew</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="ew"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="ns" type="data" busTypeName="data" protocol="ap_none" mode="master" dataWidth="1">
+            <portMaps>
+                <portMap portMapName="ns">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>ns</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="ns"/>
+            </constraints>
+        </Interface>
+    </Interfaces>
+    <ReportHWInterface>
+        <section name="HW Interfaces" level="0">
+            <item name="Other Ports">
+                <table>
+                    <keys size="4">Port, Mode, Direction, Bitwidth</keys>
+                    <column name="d_sensor">ap_none, in, 1</column>
+                    <column name="ew">ap_none, out, 1</column>
+                    <column name="l_sensor">ap_none, in, 1</column>
+                    <column name="ns">ap_none, out, 1</column>
+                    <column name="r_sensor">ap_none, in, 1</column>
+                    <column name="u_sensor">ap_none, in, 1</column>
+                </table>
+            </item>
+        </section>
+    </ReportHWInterface>
+    <ReportSWInterface>
+        <section name="SW I/O Information" level="0">
+            <item name="Top Function Arguments">
+                <table>
+                    <keys size="3">Argument, Direction, Datatype</keys>
+                    <column name="l_sensor">in, bool</column>
+                    <column name="r_sensor">in, bool</column>
+                    <column name="u_sensor">in, bool</column>
+                    <column name="d_sensor">in, bool</column>
+                    <column name="ew">out, bool*</column>
+                    <column name="ns">out, bool*</column>
+                </table>
+            </item>
+            <item name="SW-to-HW Mapping">
+                <table>
+                    <keys size="3">Argument, HW Interface, HW Type</keys>
+                    <column name="l_sensor">l_sensor, port</column>
+                    <column name="r_sensor">r_sensor, port</column>
+                    <column name="u_sensor">u_sensor, port</column>
+                    <column name="d_sensor">d_sensor, port</column>
+                    <column name="ew">ew, port</column>
+                    <column name="ns">ns, port</column>
+                </table>
+            </item>
+        </section>
+    </ReportSWInterface>
+    <ResolutionUrl key="ZZZ">docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&amp;url=ug1448-hls-guidance&amp;resourceid=ZZZ.html</ResolutionUrl>
+    <PragmaReport>
+        <Pragma type="interface" location="Ex1/src/trafic_light_controller.cpp:31" status="valid" parentFunction="trafic_light_controller" variable="return" isDirective="0" options="mode=ap_ctrl_none port=return"/>
+        <Pragma type="interface" location="Ex1/src/trafic_light_controller.cpp:32" status="valid" parentFunction="trafic_light_controller" variable="l_sensor" isDirective="0" options="mode=ap_none port=l_sensor"/>
+        <Pragma type="interface" location="Ex1/src/trafic_light_controller.cpp:33" status="valid" parentFunction="trafic_light_controller" variable="r_sensor" isDirective="0" options="mode=ap_none port=r_sensor"/>
+        <Pragma type="interface" location="Ex1/src/trafic_light_controller.cpp:34" status="valid" parentFunction="trafic_light_controller" variable="u_sensor" isDirective="0" options="mode=ap_none port=u_sensor"/>
+        <Pragma type="interface" location="Ex1/src/trafic_light_controller.cpp:35" status="valid" parentFunction="trafic_light_controller" variable="d_sensor" isDirective="0" options="mode=ap_none port=d_sensor"/>
+        <Pragma type="interface" location="Ex1/src/trafic_light_controller.cpp:36" status="valid" parentFunction="trafic_light_controller" variable="ew" isDirective="0" options="mode=ap_none port=ew"/>
+        <Pragma type="interface" location="Ex1/src/trafic_light_controller.cpp:37" status="valid" parentFunction="trafic_light_controller" variable="ns" isDirective="0" options="mode=ap_none port=ns"/>
+    </PragmaReport>
+</profile>
+

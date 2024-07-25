@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Port 'ns' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port." projectName="Ex1" solutionName="solution1" date="2024-07-25T18:28:17.642+0430" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'ew' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port." projectName="Ex1" solutionName="solution1" date="2024-07-25T18:28:17.611+0430" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5292] unused parameter 'd_sensor' (Ex1/src/trafic_light_controller.cpp:2:62)" projectName="Ex1" solutionName="solution1" date="2024-07-25T18:28:08.970+0430" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5292] unused parameter 'u_sensor' (Ex1/src/trafic_light_controller.cpp:2:47)" projectName="Ex1" solutionName="solution1" date="2024-07-25T18:28:08.955+0430" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

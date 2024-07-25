@@ -1,0 +1,96 @@
+
+
+================================================================
+== Synthesis Summary Report of 'trafic_light_controller'
+================================================================
++ General Information: 
+    * Date:           Thu Jul 25 17:28:17 2024
+    * Version:        2023.2 (Build 4023990 on Oct 11 2023)
+    * Project:        Ex1
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: virtexuplus
+    * Target device:  xcvu11p-flga2577-1-e
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +---------------------------+------+------+---------+--------+----------+---------+------+----------+------+----+---+----------+-----+
+    |          Modules          | Issue|      | Latency | Latency| Iteration|         | Trip |          |      |    |   |          |     |
+    |          & Loops          | Type | Slack| (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined| BRAM | DSP| FF|    LUT   | URAM|
+    +---------------------------+------+------+---------+--------+----------+---------+------+----------+------+----+---+----------+-----+
+    |+ trafic_light_controller  |     -|  7.00|        0|   0.000|         -|        1|     -|        no|     -|   -|  -|  32 (~0%)|    -|
+    +---------------------------+------+------+---------+--------+----------+---------+------+----------+------+----+---+----------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* Other Ports
++----------+---------+-----------+----------+
+| Port     | Mode    | Direction | Bitwidth |
++----------+---------+-----------+----------+
+| d_sensor | ap_none | in        | 1        |
+| ew       | ap_none | out       | 1        |
+| l_sensor | ap_none | in        | 1        |
+| ns       | ap_none | out       | 1        |
+| r_sensor | ap_none | in        | 1        |
+| u_sensor | ap_none | in        | 1        |
++----------+---------+-----------+----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+----------+
+| Argument | Direction | Datatype |
++----------+-----------+----------+
+| l_sensor | in        | bool     |
+| r_sensor | in        | bool     |
+| u_sensor | in        | bool     |
+| d_sensor | in        | bool     |
+| ew       | out       | bool*    |
+| ns       | out       | bool*    |
++----------+-----------+----------+
+
+* SW-to-HW Mapping
++----------+--------------+---------+
+| Argument | HW Interface | HW Type |
++----------+--------------+---------+
+| l_sensor | l_sensor     | port    |
+| r_sensor | r_sensor     | port    |
+| u_sensor | u_sensor     | port    |
+| d_sensor | d_sensor     | port    |
+| ew       | ew           | port    |
+| ns       | ns           | port    |
++----------+--------------+---------+
+
+
+================================================================
+== Bind Op Report
+================================================================
+  No bind op info in design
+
+================================================================
+== Storage Report
+================================================================
+  No bind storage info in design
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------+-------------------------------+-----------------------------------------------------------------------------+
+| Type      | Options                       | Location                                                                    |
++-----------+-------------------------------+-----------------------------------------------------------------------------+
+| interface | mode=ap_ctrl_none port=return | Ex1/src/trafic_light_controller.cpp:31 in trafic_light_controller, return   |
+| interface | mode=ap_none port=l_sensor    | Ex1/src/trafic_light_controller.cpp:32 in trafic_light_controller, l_sensor |
+| interface | mode=ap_none port=r_sensor    | Ex1/src/trafic_light_controller.cpp:33 in trafic_light_controller, r_sensor |
+| interface | mode=ap_none port=u_sensor    | Ex1/src/trafic_light_controller.cpp:34 in trafic_light_controller, u_sensor |
+| interface | mode=ap_none port=d_sensor    | Ex1/src/trafic_light_controller.cpp:35 in trafic_light_controller, d_sensor |
+| interface | mode=ap_none port=ew          | Ex1/src/trafic_light_controller.cpp:36 in trafic_light_controller, ew       |
+| interface | mode=ap_none port=ns          | Ex1/src/trafic_light_controller.cpp:37 in trafic_light_controller, ns       |
++-----------+-------------------------------+-----------------------------------------------------------------------------+
+
+

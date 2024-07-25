@@ -1,0 +1,23 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "trafic_light_controller",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "trafic_light_controller"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/OneDrive/Desktop/HLS-Tutorial/Take-Home-Ex/7-C_Cpp_Testbench/Ex1/solution1/csynth.tcl",
+    "sourceLine": 14,
+    "success": true
+  }
+]

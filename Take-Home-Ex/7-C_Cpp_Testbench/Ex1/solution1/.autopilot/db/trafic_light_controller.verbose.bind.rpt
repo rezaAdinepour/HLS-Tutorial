@@ -1,0 +1,786 @@
+
+
+================================================================
+== Vitis HLS Report for 'trafic_light_controller'
+================================================================
+* Date:           Thu Jul 25 17:28:17 2024
+
+* Version:        2023.2 (Build 4023990 on Oct 11 2023)
+* Project:        Ex1
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: virtexuplus
+* Target device:  xcvu11p-flga2577-1-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  0.296 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        0|        0|      0 ns|      0 ns|    1|    1|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 0
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 1
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 0.29>
+ST_1 : Operation 2 [1/1] (0.00ns)   --->   "%spectopmodule_ln28 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_1" [Ex1/src/trafic_light_controller.cpp:28]   --->   Operation 2 'spectopmodule' 'spectopmodule_ln28' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 3 [1/1] (0.00ns)   --->   "%specinterface_ln28 = specinterface void @_ssdm_op_SpecInterface, i32 0, void @empty_2, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0" [Ex1/src/trafic_light_controller.cpp:28]   --->   Operation 3 'specinterface' 'specinterface_ln28' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %l_sensor"   --->   Operation 4 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i1 %l_sensor, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 5 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %r_sensor"   --->   Operation 6 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i1 %r_sensor, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 7 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %u_sensor"   --->   Operation 8 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i1 %u_sensor, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 9 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %d_sensor"   --->   Operation 10 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i1 %d_sensor, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 11 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %ew"   --->   Operation 12 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i1 %ew, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 13 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %ns"   --->   Operation 14 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i1 %ns, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 15 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%d_sensor_read = read i1 @_ssdm_op_Read.ap_none.i1, i1 %d_sensor" [Ex1/src/trafic_light_controller.cpp:28]   --->   Operation 16 'read' 'd_sensor_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%u_sensor_read = read i1 @_ssdm_op_Read.ap_none.i1, i1 %u_sensor" [Ex1/src/trafic_light_controller.cpp:28]   --->   Operation 17 'read' 'u_sensor_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%r_sensor_read = read i1 @_ssdm_op_Read.ap_none.i1, i1 %r_sensor" [Ex1/src/trafic_light_controller.cpp:28]   --->   Operation 18 'read' 'r_sensor_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%l_sensor_read = read i1 @_ssdm_op_Read.ap_none.i1, i1 %l_sensor" [Ex1/src/trafic_light_controller.cpp:28]   --->   Operation 19 'read' 'l_sensor_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (0.14ns)   --->   "%temp1 = and i1 %l_sensor_read, i1 %r_sensor_read" [Ex1/src/trafic_light_controller.cpp:4->Ex1/src/trafic_light_controller.cpp:42]   --->   Operation 20 'and' 'temp1' <Predicate = true> <Delay = 0.14> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 21 [1/1] (0.00ns) (grouped into LUT with out node or_ln48_1)   --->   "%xor_ln9 = xor i1 %l_sensor_read, i1 %r_sensor_read" [Ex1/src/trafic_light_controller.cpp:9->Ex1/src/trafic_light_controller.cpp:43]   --->   Operation 21 'xor' 'xor_ln9' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 22 [1/1] (0.14ns)   --->   "%and_ln14 = and i1 %u_sensor_read, i1 %d_sensor_read" [Ex1/src/trafic_light_controller.cpp:14->Ex1/src/trafic_light_controller.cpp:44]   --->   Operation 22 'and' 'and_ln14' <Predicate = true> <Delay = 0.14> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 23 [1/1] (0.00ns) (grouped into LUT with out node or_ln48_1)   --->   "%xor_ln9_1 = xor i1 %and_ln14, i1 1" [Ex1/src/trafic_light_controller.cpp:9->Ex1/src/trafic_light_controller.cpp:43]   --->   Operation 23 'xor' 'xor_ln9_1' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 24 [1/1] (0.00ns) (grouped into LUT with out node or_ln48_1)   --->   "%temp2 = and i1 %xor_ln9, i1 %xor_ln9_1" [Ex1/src/trafic_light_controller.cpp:9->Ex1/src/trafic_light_controller.cpp:43]   --->   Operation 24 'and' 'temp2' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 25 [1/1] (0.00ns) (grouped into LUT with out node or_ln48_1)   --->   "%xor_ln14 = xor i1 %temp1, i1 1" [Ex1/src/trafic_light_controller.cpp:14->Ex1/src/trafic_light_controller.cpp:44]   --->   Operation 25 'xor' 'xor_ln14' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 26 [1/1] (0.00ns) (grouped into LUT with out node or_ln48_1)   --->   "%temp3 = and i1 %and_ln14, i1 %xor_ln14" [Ex1/src/trafic_light_controller.cpp:14->Ex1/src/trafic_light_controller.cpp:44]   --->   Operation 26 'and' 'temp3' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 27 [1/1] (0.14ns)   --->   "%or_ln19 = or i1 %r_sensor_read, i1 %l_sensor_read" [Ex1/src/trafic_light_controller.cpp:19->Ex1/src/trafic_light_controller.cpp:45]   --->   Operation 27 'or' 'or_ln19' <Predicate = true> <Delay = 0.14> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 28 [1/1] (0.00ns) (grouped into LUT with out node or_ln49)   --->   "%xor_ln19 = xor i1 %u_sensor_read, i1 %d_sensor_read" [Ex1/src/trafic_light_controller.cpp:19->Ex1/src/trafic_light_controller.cpp:45]   --->   Operation 28 'xor' 'xor_ln19' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 29 [1/1] (0.00ns) (grouped into LUT with out node or_ln49)   --->   "%xor_ln19_1 = xor i1 %or_ln19, i1 1" [Ex1/src/trafic_light_controller.cpp:19->Ex1/src/trafic_light_controller.cpp:45]   --->   Operation 29 'xor' 'xor_ln19_1' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 30 [1/1] (0.00ns) (grouped into LUT with out node or_ln49)   --->   "%temp4 = and i1 %xor_ln19, i1 %xor_ln19_1" [Ex1/src/trafic_light_controller.cpp:19->Ex1/src/trafic_light_controller.cpp:45]   --->   Operation 30 'and' 'temp4' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 31 [1/1] (0.00ns) (grouped into LUT with out node or_ln49)   --->   "%or_ln24 = or i1 %u_sensor_read, i1 %d_sensor_read" [Ex1/src/trafic_light_controller.cpp:24->Ex1/src/trafic_light_controller.cpp:46]   --->   Operation 31 'or' 'or_ln24' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 32 [1/1] (0.00ns) (grouped into LUT with out node or_ln49)   --->   "%temp5 = xor i1 %or_ln19, i1 %or_ln24" [Ex1/src/trafic_light_controller.cpp:24->Ex1/src/trafic_light_controller.cpp:46]   --->   Operation 32 'xor' 'temp5' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 33 [1/1] (0.00ns) (grouped into LUT with out node or_ln48_1)   --->   "%or_ln48 = or i1 %temp3, i1 %temp1" [Ex1/src/trafic_light_controller.cpp:48]   --->   Operation 33 'or' 'or_ln48' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 34 [1/1] (0.14ns) (out node of the LUT)   --->   "%or_ln48_1 = or i1 %or_ln48, i1 %temp2" [Ex1/src/trafic_light_controller.cpp:48]   --->   Operation 34 'or' 'or_ln48_1' <Predicate = true> <Delay = 0.14> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 35 [1/1] (0.00ns)   --->   "%write_ln48 = write void @_ssdm_op_Write.ap_none.i1P0A, i1 %ew, i1 %or_ln48_1" [Ex1/src/trafic_light_controller.cpp:48]   --->   Operation 35 'write' 'write_ln48' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 36 [1/1] (0.14ns) (out node of the LUT)   --->   "%or_ln49 = or i1 %temp4, i1 %temp5" [Ex1/src/trafic_light_controller.cpp:49]   --->   Operation 36 'or' 'or_ln49' <Predicate = true> <Delay = 0.14> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 37 [1/1] (0.00ns)   --->   "%write_ln49 = write void @_ssdm_op_Write.ap_none.i1P0A, i1 %ns, i1 %or_ln49" [Ex1/src/trafic_light_controller.cpp:49]   --->   Operation 37 'write' 'write_ln49' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 38 [1/1] (0.00ns)   --->   "%ret_ln50 = ret" [Ex1/src/trafic_light_controller.cpp:50]   --->   Operation 38 'ret' 'ret_ln50' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+STG Binding: 
+---------------- STG Properties BEGIN ----------------
+- Is combinational: 1
+- Is one-state seq: 0
+- Is datapath-only: 0
+- Is pipelined: 0
+- Is top level: 1
+Port [ Return ] is wired: 1; IO mode=ap_ctrl_none:ce=0
+Port [ l_sensor]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; pingpong=0; private_global=0; IO mode=ap_none:ce=0
+Port [ r_sensor]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; pingpong=0; private_global=0; IO mode=ap_none:ce=0
+Port [ u_sensor]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; pingpong=0; private_global=0; IO mode=ap_none:ce=0
+Port [ d_sensor]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; pingpong=0; private_global=0; IO mode=ap_none:ce=0
+Port [ ew]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=0; pingpong=0; private_global=0; IO mode=ap_none:ce=0
+Port [ ns]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=0; pingpong=0; private_global=0; IO mode=ap_none:ce=0
+---------------- STG Properties END ------------------
+
+---------------- Datapath Model BEGIN ----------------
+
+<LifeTime>
+<method=bitvector/>
+spectopmodule_ln28 (spectopmodule) [ 00]
+specinterface_ln28 (specinterface) [ 00]
+specbitsmap_ln0    (specbitsmap  ) [ 00]
+specinterface_ln0  (specinterface) [ 00]
+specbitsmap_ln0    (specbitsmap  ) [ 00]
+specinterface_ln0  (specinterface) [ 00]
+specbitsmap_ln0    (specbitsmap  ) [ 00]
+specinterface_ln0  (specinterface) [ 00]
+specbitsmap_ln0    (specbitsmap  ) [ 00]
+specinterface_ln0  (specinterface) [ 00]
+specbitsmap_ln0    (specbitsmap  ) [ 00]
+specinterface_ln0  (specinterface) [ 00]
+specbitsmap_ln0    (specbitsmap  ) [ 00]
+specinterface_ln0  (specinterface) [ 00]
+d_sensor_read      (read         ) [ 00]
+u_sensor_read      (read         ) [ 00]
+r_sensor_read      (read         ) [ 00]
+l_sensor_read      (read         ) [ 00]
+temp1              (and          ) [ 00]
+xor_ln9            (xor          ) [ 00]
+and_ln14           (and          ) [ 00]
+xor_ln9_1          (xor          ) [ 00]
+temp2              (and          ) [ 00]
+xor_ln14           (xor          ) [ 00]
+temp3              (and          ) [ 00]
+or_ln19            (or           ) [ 00]
+xor_ln19           (xor          ) [ 00]
+xor_ln19_1         (xor          ) [ 00]
+temp4              (and          ) [ 00]
+or_ln24            (or           ) [ 00]
+temp5              (xor          ) [ 00]
+or_ln48            (or           ) [ 00]
+or_ln48_1          (or           ) [ 00]
+write_ln48         (write        ) [ 00]
+or_ln49            (or           ) [ 00]
+write_ln49         (write        ) [ 00]
+ret_ln50           (ret          ) [ 00]
+</LifeTime>
+
+<model>
+
+<comp_list>
+<comp id="0" class="1000" name="l_sensor">
+<pin_list>
+<pin id="1" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="l_sensor"/></StgValue>
+</bind>
+</comp>
+
+<comp id="2" class="1000" name="r_sensor">
+<pin_list>
+<pin id="3" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="r_sensor"/></StgValue>
+</bind>
+</comp>
+
+<comp id="4" class="1000" name="u_sensor">
+<pin_list>
+<pin id="5" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="u_sensor"/></StgValue>
+</bind>
+</comp>
+
+<comp id="6" class="1000" name="d_sensor">
+<pin_list>
+<pin id="7" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="d_sensor"/></StgValue>
+</bind>
+</comp>
+
+<comp id="8" class="1000" name="ew">
+<pin_list>
+<pin id="9" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="ew"/></StgValue>
+</bind>
+</comp>
+
+<comp id="10" class="1000" name="ns">
+<pin_list>
+<pin id="11" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="ns"/></StgValue>
+</bind>
+</comp>
+
+<comp id="12" class="1001" name="const_12">
+<pin_list>
+<pin id="13" dir="1" index="0" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="_ssdm_op_SpecTopModule"/></StgValue>
+</bind>
+</comp>
+
+<comp id="14" class="1001" name="const_14">
+<pin_list>
+<pin id="15" dir="1" index="0" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="empty_1"/></StgValue>
+</bind>
+</comp>
+
+<comp id="16" class="1001" name="const_16">
+<pin_list>
+<pin id="17" dir="1" index="0" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="_ssdm_op_SpecInterface"/></StgValue>
+</bind>
+</comp>
+
+<comp id="18" class="1001" name="const_18">
+<pin_list>
+<pin id="19" dir="1" index="0" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name=""/></StgValue>
+</bind>
+</comp>
+
+<comp id="20" class="1001" name="const_20">
+<pin_list>
+<pin id="21" dir="1" index="0" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="empty_2"/></StgValue>
+</bind>
+</comp>
+
+<comp id="22" class="1001" name="const_22">
+<pin_list>
+<pin id="23" dir="1" index="0" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="empty_0"/></StgValue>
+</bind>
+</comp>
+
+<comp id="24" class="1001" name="const_24">
+<pin_list>
+<pin id="25" dir="1" index="0" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name=""/></StgValue>
+</bind>
+</comp>
+
+<comp id="26" class="1001" name="const_26">
+<pin_list>
+<pin id="27" dir="1" index="0" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="_ssdm_op_SpecBitsMap"/></StgValue>
+</bind>
+</comp>
+
+<comp id="28" class="1001" name="const_28">
+<pin_list>
+<pin id="29" dir="1" index="0" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="empty"/></StgValue>
+</bind>
+</comp>
+
+<comp id="30" class="1001" name="const_30">
+<pin_list>
+<pin id="31" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="_ssdm_op_Read.ap_none.i1"/></StgValue>
+</bind>
+</comp>
+
+<comp id="32" class="1001" name="const_32">
+<pin_list>
+<pin id="33" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name=""/></StgValue>
+</bind>
+</comp>
+
+<comp id="34" class="1001" name="const_34">
+<pin_list>
+<pin id="35" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="_ssdm_op_Write.ap_none.i1P0A"/></StgValue>
+</bind>
+</comp>
+
+<comp id="36" class="1004" name="d_sensor_read_read_fu_36">
+<pin_list>
+<pin id="37" dir="0" index="0" bw="1" slack="0"/>
+<pin id="38" dir="0" index="1" bw="1" slack="0"/>
+<pin id="39" dir="1" index="2" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<opcode="read(1150) " fcode="read"/>
+<opset="d_sensor_read/1 "/>
+</bind>
+</comp>
+
+<comp id="42" class="1004" name="u_sensor_read_read_fu_42">
+<pin_list>
+<pin id="43" dir="0" index="0" bw="1" slack="0"/>
+<pin id="44" dir="0" index="1" bw="1" slack="0"/>
+<pin id="45" dir="1" index="2" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<opcode="read(1150) " fcode="read"/>
+<opset="u_sensor_read/1 "/>
+</bind>
+</comp>
+
+<comp id="48" class="1004" name="r_sensor_read_read_fu_48">
+<pin_list>
+<pin id="49" dir="0" index="0" bw="1" slack="0"/>
+<pin id="50" dir="0" index="1" bw="1" slack="0"/>
+<pin id="51" dir="1" index="2" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<opcode="read(1150) " fcode="read"/>
+<opset="r_sensor_read/1 "/>
+</bind>
+</comp>
+
+<comp id="54" class="1004" name="l_sensor_read_read_fu_54">
+<pin_list>
+<pin id="55" dir="0" index="0" bw="1" slack="0"/>
+<pin id="56" dir="0" index="1" bw="1" slack="0"/>
+<pin id="57" dir="1" index="2" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<opcode="read(1150) " fcode="read"/>
+<opset="l_sensor_read/1 "/>
+</bind>
+</comp>
+
+<comp id="60" class="1004" name="write_ln48_write_fu_60">
+<pin_list>
+<pin id="61" dir="0" index="0" bw="0" slack="0"/>
+<pin id="62" dir="0" index="1" bw="1" slack="0"/>
+<pin id="63" dir="0" index="2" bw="1" slack="0"/>
+<pin id="64" dir="1" index="3" bw="0" slack="2147483647"/>
+</pin_list>
+<bind>
+<opcode="write(1151) " fcode="write"/>
+<opset="write_ln48/1 "/>
+</bind>
+</comp>
+
+<comp id="67" class="1004" name="write_ln49_write_fu_67">
+<pin_list>
+<pin id="68" dir="0" index="0" bw="0" slack="0"/>
+<pin id="69" dir="0" index="1" bw="1" slack="0"/>
+<pin id="70" dir="0" index="2" bw="1" slack="0"/>
+<pin id="71" dir="1" index="3" bw="0" slack="2147483647"/>
+</pin_list>
+<bind>
+<opcode="write(1151) " fcode="write"/>
+<opset="write_ln49/1 "/>
+</bind>
+</comp>
+
+<comp id="74" class="1004" name="temp1_fu_74">
+<pin_list>
+<pin id="75" dir="0" index="0" bw="1" slack="0"/>
+<pin id="76" dir="0" index="1" bw="1" slack="0"/>
+<pin id="77" dir="1" index="2" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<opcode="and(23) " fcode="and"/>
+<opset="temp1/1 "/>
+</bind>
+</comp>
+
+<comp id="80" class="1004" name="xor_ln9_fu_80">
+<pin_list>
+<pin id="81" dir="0" index="0" bw="1" slack="0"/>
+<pin id="82" dir="0" index="1" bw="1" slack="0"/>
+<pin id="83" dir="1" index="2" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<opcode="xor(25) " fcode="xor"/>
+<opset="xor_ln9/1 "/>
+</bind>
+</comp>
+
+<comp id="86" class="1004" name="and_ln14_fu_86">
+<pin_list>
+<pin id="87" dir="0" index="0" bw="1" slack="0"/>
+<pin id="88" dir="0" index="1" bw="1" slack="0"/>
+<pin id="89" dir="1" index="2" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<opcode="and(23) " fcode="and"/>
+<opset="and_ln14/1 "/>
+</bind>
+</comp>
+
+<comp id="92" class="1004" name="xor_ln9_1_fu_92">
+<pin_list>
+<pin id="93" dir="0" index="0" bw="1" slack="0"/>
+<pin id="94" dir="0" index="1" bw="1" slack="0"/>
+<pin id="95" dir="1" index="2" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<opcode="xor(25) " fcode="xor"/>
+<opset="xor_ln9_1/1 "/>
+</bind>
+</comp>
+
+<comp id="98" class="1004" name="temp2_fu_98">
+<pin_list>
+<pin id="99" dir="0" index="0" bw="1" slack="0"/>
+<pin id="100" dir="0" index="1" bw="1" slack="0"/>
+<pin id="101" dir="1" index="2" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<opcode="and(23) " fcode="and"/>
+<opset="temp2/1 "/>
+</bind>
+</comp>
+
+<comp id="104" class="1004" name="xor_ln14_fu_104">
+<pin_list>
+<pin id="105" dir="0" index="0" bw="1" slack="0"/>
+<pin id="106" dir="0" index="1" bw="1" slack="0"/>
+<pin id="107" dir="1" index="2" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<opcode="xor(25) " fcode="xor"/>
+<opset="xor_ln14/1 "/>
+</bind>
+</comp>
+
+<comp id="110" class="1004" name="temp3_fu_110">
+<pin_list>
+<pin id="111" dir="0" index="0" bw="1" slack="0"/>
+<pin id="112" dir="0" index="1" bw="1" slack="0"/>
+<pin id="113" dir="1" index="2" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<opcode="and(23) " fcode="and"/>
+<opset="temp3/1 "/>
+</bind>
+</comp>
+
+<comp id="116" class="1004" name="or_ln19_fu_116">
+<pin_list>
+<pin id="117" dir="0" index="0" bw="1" slack="0"/>
+<pin id="118" dir="0" index="1" bw="1" slack="0"/>
+<pin id="119" dir="1" index="2" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<opcode="or(24) " fcode="or"/>
+<opset="or_ln19/1 "/>
+</bind>
+</comp>
+
+<comp id="122" class="1004" name="xor_ln19_fu_122">
+<pin_list>
+<pin id="123" dir="0" index="0" bw="1" slack="0"/>
+<pin id="124" dir="0" index="1" bw="1" slack="0"/>
+<pin id="125" dir="1" index="2" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<opcode="xor(25) " fcode="xor"/>
+<opset="xor_ln19/1 "/>
+</bind>
+</comp>
+
+<comp id="128" class="1004" name="xor_ln19_1_fu_128">
+<pin_list>
+<pin id="129" dir="0" index="0" bw="1" slack="0"/>
+<pin id="130" dir="0" index="1" bw="1" slack="0"/>
+<pin id="131" dir="1" index="2" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<opcode="xor(25) " fcode="xor"/>
+<opset="xor_ln19_1/1 "/>
+</bind>
+</comp>
+
+<comp id="134" class="1004" name="temp4_fu_134">
+<pin_list>
+<pin id="135" dir="0" index="0" bw="1" slack="0"/>
+<pin id="136" dir="0" index="1" bw="1" slack="0"/>
+<pin id="137" dir="1" index="2" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<opcode="and(23) " fcode="and"/>
+<opset="temp4/1 "/>
+</bind>
+</comp>
+
+<comp id="140" class="1004" name="or_ln24_fu_140">
+<pin_list>
+<pin id="141" dir="0" index="0" bw="1" slack="0"/>
+<pin id="142" dir="0" index="1" bw="1" slack="0"/>
+<pin id="143" dir="1" index="2" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<opcode="or(24) " fcode="or"/>
+<opset="or_ln24/1 "/>
+</bind>
+</comp>
+
+<comp id="146" class="1004" name="temp5_fu_146">
+<pin_list>
+<pin id="147" dir="0" index="0" bw="1" slack="0"/>
+<pin id="148" dir="0" index="1" bw="1" slack="0"/>
+<pin id="149" dir="1" index="2" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<opcode="xor(25) " fcode="xor"/>
+<opset="temp5/1 "/>
+</bind>
+</comp>
+
+<comp id="152" class="1004" name="or_ln48_fu_152">
+<pin_list>
+<pin id="153" dir="0" index="0" bw="1" slack="0"/>
+<pin id="154" dir="0" index="1" bw="1" slack="0"/>
+<pin id="155" dir="1" index="2" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<opcode="or(24) " fcode="or"/>
+<opset="or_ln48/1 "/>
+</bind>
+</comp>
+
+<comp id="158" class="1004" name="or_ln48_1_fu_158">
+<pin_list>
+<pin id="159" dir="0" index="0" bw="1" slack="0"/>
+<pin id="160" dir="0" index="1" bw="1" slack="0"/>
+<pin id="161" dir="1" index="2" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<opcode="or(24) " fcode="or"/>
+<opset="or_ln48_1/1 "/>
+</bind>
+</comp>
+
+<comp id="165" class="1004" name="or_ln49_fu_165">
+<pin_list>
+<pin id="166" dir="0" index="0" bw="1" slack="0"/>
+<pin id="167" dir="0" index="1" bw="1" slack="0"/>
+<pin id="168" dir="1" index="2" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<opcode="or(24) " fcode="or"/>
+<opset="or_ln49/1 "/>
+</bind>
+</comp>
+
+</comp_list>
+
+<net_list>
+<net id="40"><net_src comp="30" pin="0"/><net_sink comp="36" pin=0"/></net>
+
+<net id="41"><net_src comp="6" pin="0"/><net_sink comp="36" pin=1"/></net>
+
+<net id="46"><net_src comp="30" pin="0"/><net_sink comp="42" pin=0"/></net>
+
+<net id="47"><net_src comp="4" pin="0"/><net_sink comp="42" pin=1"/></net>
+
+<net id="52"><net_src comp="30" pin="0"/><net_sink comp="48" pin=0"/></net>
+
+<net id="53"><net_src comp="2" pin="0"/><net_sink comp="48" pin=1"/></net>
+
+<net id="58"><net_src comp="30" pin="0"/><net_sink comp="54" pin=0"/></net>
+
+<net id="59"><net_src comp="0" pin="0"/><net_sink comp="54" pin=1"/></net>
+
+<net id="65"><net_src comp="34" pin="0"/><net_sink comp="60" pin=0"/></net>
+
+<net id="66"><net_src comp="8" pin="0"/><net_sink comp="60" pin=1"/></net>
+
+<net id="72"><net_src comp="34" pin="0"/><net_sink comp="67" pin=0"/></net>
+
+<net id="73"><net_src comp="10" pin="0"/><net_sink comp="67" pin=1"/></net>
+
+<net id="78"><net_src comp="54" pin="2"/><net_sink comp="74" pin=0"/></net>
+
+<net id="79"><net_src comp="48" pin="2"/><net_sink comp="74" pin=1"/></net>
+
+<net id="84"><net_src comp="54" pin="2"/><net_sink comp="80" pin=0"/></net>
+
+<net id="85"><net_src comp="48" pin="2"/><net_sink comp="80" pin=1"/></net>
+
+<net id="90"><net_src comp="42" pin="2"/><net_sink comp="86" pin=0"/></net>
+
+<net id="91"><net_src comp="36" pin="2"/><net_sink comp="86" pin=1"/></net>
+
+<net id="96"><net_src comp="86" pin="2"/><net_sink comp="92" pin=0"/></net>
+
+<net id="97"><net_src comp="32" pin="0"/><net_sink comp="92" pin=1"/></net>
+
+<net id="102"><net_src comp="80" pin="2"/><net_sink comp="98" pin=0"/></net>
+
+<net id="103"><net_src comp="92" pin="2"/><net_sink comp="98" pin=1"/></net>
+
+<net id="108"><net_src comp="74" pin="2"/><net_sink comp="104" pin=0"/></net>
+
+<net id="109"><net_src comp="32" pin="0"/><net_sink comp="104" pin=1"/></net>
+
+<net id="114"><net_src comp="86" pin="2"/><net_sink comp="110" pin=0"/></net>
+
+<net id="115"><net_src comp="104" pin="2"/><net_sink comp="110" pin=1"/></net>
+
+<net id="120"><net_src comp="48" pin="2"/><net_sink comp="116" pin=0"/></net>
+
+<net id="121"><net_src comp="54" pin="2"/><net_sink comp="116" pin=1"/></net>
+
+<net id="126"><net_src comp="42" pin="2"/><net_sink comp="122" pin=0"/></net>
+
+<net id="127"><net_src comp="36" pin="2"/><net_sink comp="122" pin=1"/></net>
+
+<net id="132"><net_src comp="116" pin="2"/><net_sink comp="128" pin=0"/></net>
+
+<net id="133"><net_src comp="32" pin="0"/><net_sink comp="128" pin=1"/></net>
+
+<net id="138"><net_src comp="122" pin="2"/><net_sink comp="134" pin=0"/></net>
+
+<net id="139"><net_src comp="128" pin="2"/><net_sink comp="134" pin=1"/></net>
+
+<net id="144"><net_src comp="42" pin="2"/><net_sink comp="140" pin=0"/></net>
+
+<net id="145"><net_src comp="36" pin="2"/><net_sink comp="140" pin=1"/></net>
+
+<net id="150"><net_src comp="116" pin="2"/><net_sink comp="146" pin=0"/></net>
+
+<net id="151"><net_src comp="140" pin="2"/><net_sink comp="146" pin=1"/></net>
+
+<net id="156"><net_src comp="110" pin="2"/><net_sink comp="152" pin=0"/></net>
+
+<net id="157"><net_src comp="74" pin="2"/><net_sink comp="152" pin=1"/></net>
+
+<net id="162"><net_src comp="152" pin="2"/><net_sink comp="158" pin=0"/></net>
+
+<net id="163"><net_src comp="98" pin="2"/><net_sink comp="158" pin=1"/></net>
+
+<net id="164"><net_src comp="158" pin="2"/><net_sink comp="60" pin=2"/></net>
+
+<net id="169"><net_src comp="134" pin="2"/><net_sink comp="165" pin=0"/></net>
+
+<net id="170"><net_src comp="146" pin="2"/><net_sink comp="165" pin=1"/></net>
+
+<net id="171"><net_src comp="165" pin="2"/><net_sink comp="67" pin=2"/></net>
+
+</net_list>
+
+</model> 
+---------------- Datapath Model END ------------------
+
+* FSMD analyzer results:
+  - Output states:
+	Port: ew | {1 }
+	Port: ns | {1 }
+ - Input state : 
+	Port: trafic_light_controller : l_sensor | {1 }
+	Port: trafic_light_controller : r_sensor | {1 }
+	Port: trafic_light_controller : u_sensor | {1 }
+	Port: trafic_light_controller : d_sensor | {1 }
+  - Chain level:
+	State 1
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+
+* Functional unit list:
+|----------|--------------------------|---------|---------|
+| Operation|      Functional Unit     |    FF   |   LUT   |
+|----------|--------------------------|---------|---------|
+|          |       xor_ln9_fu_80      |    0    |    2    |
+|          |      xor_ln9_1_fu_92     |    0    |    2    |
+|    xor   |      xor_ln14_fu_104     |    0    |    2    |
+|          |      xor_ln19_fu_122     |    0    |    2    |
+|          |     xor_ln19_1_fu_128    |    0    |    2    |
+|          |       temp5_fu_146       |    0    |    2    |
+|----------|--------------------------|---------|---------|
+|          |        temp1_fu_74       |    0    |    2    |
+|          |      and_ln14_fu_86      |    0    |    2    |
+|    and   |        temp2_fu_98       |    0    |    2    |
+|          |       temp3_fu_110       |    0    |    2    |
+|          |       temp4_fu_134       |    0    |    2    |
+|----------|--------------------------|---------|---------|
+|          |      or_ln19_fu_116      |    0    |    2    |
+|          |      or_ln24_fu_140      |    0    |    2    |
+|    or    |      or_ln48_fu_152      |    0    |    2    |
+|          |     or_ln48_1_fu_158     |    0    |    2    |
+|          |      or_ln49_fu_165      |    0    |    2    |
+|----------|--------------------------|---------|---------|
+|          | d_sensor_read_read_fu_36 |    0    |    0    |
+|   read   | u_sensor_read_read_fu_42 |    0    |    0    |
+|          | r_sensor_read_read_fu_48 |    0    |    0    |
+|          | l_sensor_read_read_fu_54 |    0    |    0    |
+|----------|--------------------------|---------|---------|
+|   write  |  write_ln48_write_fu_60  |    0    |    0    |
+|          |  write_ln49_write_fu_67  |    0    |    0    |
+|----------|--------------------------|---------|---------|
+|   Total  |                          |    0    |    32   |
+|----------|--------------------------|---------|---------|
+
+Memories:
+N/A
+
+* Register list:
+N/A
+
+* Multiplexer (MUX) list: 
+|--------|------|------|------|--------|
+|  Comp  |  Pin | Size |  BW  | S x BW |
+|--------|------|------|------|--------|
+|  Total |      |      |      |    0   |
+|--------|------|------|------|--------|
+
+
+
+* Summary:
++-----------+--------+--------+
+|           |   FF   |   LUT  |
++-----------+--------+--------+
+|  Function |    0   |   32   |
+|   Memory  |    -   |    -   |
+|Multiplexer|    -   |    -   |
+|  Register |    -   |    -   |
++-----------+--------+--------+
+|   Total   |    0   |   32   |
++-----------+--------+--------+

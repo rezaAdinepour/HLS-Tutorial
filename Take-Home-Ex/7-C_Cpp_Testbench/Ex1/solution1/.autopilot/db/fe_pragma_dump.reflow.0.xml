@@ -1,0 +1,9 @@
+<pragmas>
+<pragma file="Ex1/src/trafic_light_controller.cpp" line="31" pragmaType="interface" parentfunction="trafic_light_controller" mode="ap_ctrl_none" port="return" name=""/>
+<pragma file="Ex1/src/trafic_light_controller.cpp" line="32" pragmaType="interface" parentfunction="trafic_light_controller" mode="ap_none" port="l_sensor" name="" register="0"/>
+<pragma file="Ex1/src/trafic_light_controller.cpp" line="33" pragmaType="interface" parentfunction="trafic_light_controller" mode="ap_none" port="r_sensor" name="" register="0"/>
+<pragma file="Ex1/src/trafic_light_controller.cpp" line="34" pragmaType="interface" parentfunction="trafic_light_controller" mode="ap_none" port="u_sensor" name="" register="0"/>
+<pragma file="Ex1/src/trafic_light_controller.cpp" line="35" pragmaType="interface" parentfunction="trafic_light_controller" mode="ap_none" port="d_sensor" name="" register="0"/>
+<pragma file="Ex1/src/trafic_light_controller.cpp" line="36" pragmaType="interface" parentfunction="trafic_light_controller" mode="ap_none" port="ew" name="" register="0"/>
+<pragma file="Ex1/src/trafic_light_controller.cpp" line="37" pragmaType="interface" parentfunction="trafic_light_controller" mode="ap_none" port="ns" name="" register="0"/>
+</pragmas>

@@ -1,0 +1,85 @@
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: Ex1/src/trafic_light_controller.cpp, Line: 29, 
+                   Column: 0 }
+Function:        _Z23trafic_light_controllerbbbbPbS_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'rule1(bool, bool, bool, bool, bool*)'
+    DebugLoc:        { File: Ex1/src/trafic_light_controller.cpp, Line: 3, 
+                       Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'trafic_light_controller(bool, bool, bool, bool, bool*, bool*)'
+    DebugLoc:        { File: Ex1/src/trafic_light_controller.cpp, Line: 29, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: Ex1/src/trafic_light_controller.cpp, Line: 29, 
+                   Column: 0 }
+Function:        _Z23trafic_light_controllerbbbbPbS_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'rule2(bool, bool, bool, bool, bool*)'
+    DebugLoc:        { File: Ex1/src/trafic_light_controller.cpp, Line: 8, 
+                       Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'trafic_light_controller(bool, bool, bool, bool, bool*, bool*)'
+    DebugLoc:        { File: Ex1/src/trafic_light_controller.cpp, Line: 29, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: Ex1/src/trafic_light_controller.cpp, Line: 29, 
+                   Column: 0 }
+Function:        _Z23trafic_light_controllerbbbbPbS_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'rule3(bool, bool, bool, bool, bool*)'
+    DebugLoc:        { File: Ex1/src/trafic_light_controller.cpp, Line: 13, 
+                       Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'trafic_light_controller(bool, bool, bool, bool, bool*, bool*)'
+    DebugLoc:        { File: Ex1/src/trafic_light_controller.cpp, Line: 29, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: Ex1/src/trafic_light_controller.cpp, Line: 29, 
+                   Column: 0 }
+Function:        _Z23trafic_light_controllerbbbbPbS_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'rule4(bool, bool, bool, bool, bool*)'
+    DebugLoc:        { File: Ex1/src/trafic_light_controller.cpp, Line: 18, 
+                       Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'trafic_light_controller(bool, bool, bool, bool, bool*, bool*)'
+    DebugLoc:        { File: Ex1/src/trafic_light_controller.cpp, Line: 29, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: Ex1/src/trafic_light_controller.cpp, Line: 29, 
+                   Column: 0 }
+Function:        _Z23trafic_light_controllerbbbbPbS_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'rule5(bool, bool, bool, bool, bool*)'
+    DebugLoc:        { File: Ex1/src/trafic_light_controller.cpp, Line: 23, 
+                       Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'trafic_light_controller(bool, bool, bool, bool, bool*, bool*)'
+    DebugLoc:        { File: Ex1/src/trafic_light_controller.cpp, Line: 29, 
+                       Column: 0 }
+  - String:          ''''
+...

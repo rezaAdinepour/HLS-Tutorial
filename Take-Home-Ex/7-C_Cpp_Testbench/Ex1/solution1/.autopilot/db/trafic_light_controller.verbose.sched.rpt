@@ -1,0 +1,145 @@
+
+
+================================================================
+== Vitis HLS Report for 'trafic_light_controller'
+================================================================
+* Date:           Thu Jul 25 17:28:17 2024
+
+* Version:        2023.2 (Build 4023990 on Oct 11 2023)
+* Project:        Ex1
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: virtexuplus
+* Target device:  xcvu11p-flga2577-1-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  0.296 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        0|        0|      0 ns|      0 ns|    1|    1|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 0
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 1
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 0.29>
+ST_1 : Operation 2 [1/1] (0.00ns)   --->   "%spectopmodule_ln28 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_1" [Ex1/src/trafic_light_controller.cpp:28]   --->   Operation 2 'spectopmodule' 'spectopmodule_ln28' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 3 [1/1] (0.00ns)   --->   "%specinterface_ln28 = specinterface void @_ssdm_op_SpecInterface, i32 0, void @empty_2, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0" [Ex1/src/trafic_light_controller.cpp:28]   --->   Operation 3 'specinterface' 'specinterface_ln28' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %l_sensor"   --->   Operation 4 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i1 %l_sensor, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 5 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %r_sensor"   --->   Operation 6 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i1 %r_sensor, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 7 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %u_sensor"   --->   Operation 8 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i1 %u_sensor, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 9 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %d_sensor"   --->   Operation 10 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i1 %d_sensor, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 11 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %ew"   --->   Operation 12 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i1 %ew, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 13 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %ns"   --->   Operation 14 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i1 %ns, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 15 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%d_sensor_read = read i1 @_ssdm_op_Read.ap_none.i1, i1 %d_sensor" [Ex1/src/trafic_light_controller.cpp:28]   --->   Operation 16 'read' 'd_sensor_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%u_sensor_read = read i1 @_ssdm_op_Read.ap_none.i1, i1 %u_sensor" [Ex1/src/trafic_light_controller.cpp:28]   --->   Operation 17 'read' 'u_sensor_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%r_sensor_read = read i1 @_ssdm_op_Read.ap_none.i1, i1 %r_sensor" [Ex1/src/trafic_light_controller.cpp:28]   --->   Operation 18 'read' 'r_sensor_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%l_sensor_read = read i1 @_ssdm_op_Read.ap_none.i1, i1 %l_sensor" [Ex1/src/trafic_light_controller.cpp:28]   --->   Operation 19 'read' 'l_sensor_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (0.14ns)   --->   "%temp1 = and i1 %l_sensor_read, i1 %r_sensor_read" [Ex1/src/trafic_light_controller.cpp:4->Ex1/src/trafic_light_controller.cpp:42]   --->   Operation 20 'and' 'temp1' <Predicate = true> <Delay = 0.14> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 21 [1/1] (0.00ns) (grouped into LUT with out node or_ln48_1)   --->   "%xor_ln9 = xor i1 %l_sensor_read, i1 %r_sensor_read" [Ex1/src/trafic_light_controller.cpp:9->Ex1/src/trafic_light_controller.cpp:43]   --->   Operation 21 'xor' 'xor_ln9' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 22 [1/1] (0.14ns)   --->   "%and_ln14 = and i1 %u_sensor_read, i1 %d_sensor_read" [Ex1/src/trafic_light_controller.cpp:14->Ex1/src/trafic_light_controller.cpp:44]   --->   Operation 22 'and' 'and_ln14' <Predicate = true> <Delay = 0.14> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 23 [1/1] (0.00ns) (grouped into LUT with out node or_ln48_1)   --->   "%xor_ln9_1 = xor i1 %and_ln14, i1 1" [Ex1/src/trafic_light_controller.cpp:9->Ex1/src/trafic_light_controller.cpp:43]   --->   Operation 23 'xor' 'xor_ln9_1' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 24 [1/1] (0.00ns) (grouped into LUT with out node or_ln48_1)   --->   "%temp2 = and i1 %xor_ln9, i1 %xor_ln9_1" [Ex1/src/trafic_light_controller.cpp:9->Ex1/src/trafic_light_controller.cpp:43]   --->   Operation 24 'and' 'temp2' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 25 [1/1] (0.00ns) (grouped into LUT with out node or_ln48_1)   --->   "%xor_ln14 = xor i1 %temp1, i1 1" [Ex1/src/trafic_light_controller.cpp:14->Ex1/src/trafic_light_controller.cpp:44]   --->   Operation 25 'xor' 'xor_ln14' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 26 [1/1] (0.00ns) (grouped into LUT with out node or_ln48_1)   --->   "%temp3 = and i1 %and_ln14, i1 %xor_ln14" [Ex1/src/trafic_light_controller.cpp:14->Ex1/src/trafic_light_controller.cpp:44]   --->   Operation 26 'and' 'temp3' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 27 [1/1] (0.14ns)   --->   "%or_ln19 = or i1 %r_sensor_read, i1 %l_sensor_read" [Ex1/src/trafic_light_controller.cpp:19->Ex1/src/trafic_light_controller.cpp:45]   --->   Operation 27 'or' 'or_ln19' <Predicate = true> <Delay = 0.14> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 28 [1/1] (0.00ns) (grouped into LUT with out node or_ln49)   --->   "%xor_ln19 = xor i1 %u_sensor_read, i1 %d_sensor_read" [Ex1/src/trafic_light_controller.cpp:19->Ex1/src/trafic_light_controller.cpp:45]   --->   Operation 28 'xor' 'xor_ln19' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 29 [1/1] (0.00ns) (grouped into LUT with out node or_ln49)   --->   "%xor_ln19_1 = xor i1 %or_ln19, i1 1" [Ex1/src/trafic_light_controller.cpp:19->Ex1/src/trafic_light_controller.cpp:45]   --->   Operation 29 'xor' 'xor_ln19_1' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 30 [1/1] (0.00ns) (grouped into LUT with out node or_ln49)   --->   "%temp4 = and i1 %xor_ln19, i1 %xor_ln19_1" [Ex1/src/trafic_light_controller.cpp:19->Ex1/src/trafic_light_controller.cpp:45]   --->   Operation 30 'and' 'temp4' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 31 [1/1] (0.00ns) (grouped into LUT with out node or_ln49)   --->   "%or_ln24 = or i1 %u_sensor_read, i1 %d_sensor_read" [Ex1/src/trafic_light_controller.cpp:24->Ex1/src/trafic_light_controller.cpp:46]   --->   Operation 31 'or' 'or_ln24' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 32 [1/1] (0.00ns) (grouped into LUT with out node or_ln49)   --->   "%temp5 = xor i1 %or_ln19, i1 %or_ln24" [Ex1/src/trafic_light_controller.cpp:24->Ex1/src/trafic_light_controller.cpp:46]   --->   Operation 32 'xor' 'temp5' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 33 [1/1] (0.00ns) (grouped into LUT with out node or_ln48_1)   --->   "%or_ln48 = or i1 %temp3, i1 %temp1" [Ex1/src/trafic_light_controller.cpp:48]   --->   Operation 33 'or' 'or_ln48' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 34 [1/1] (0.14ns) (out node of the LUT)   --->   "%or_ln48_1 = or i1 %or_ln48, i1 %temp2" [Ex1/src/trafic_light_controller.cpp:48]   --->   Operation 34 'or' 'or_ln48_1' <Predicate = true> <Delay = 0.14> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 35 [1/1] (0.00ns)   --->   "%write_ln48 = write void @_ssdm_op_Write.ap_none.i1P0A, i1 %ew, i1 %or_ln48_1" [Ex1/src/trafic_light_controller.cpp:48]   --->   Operation 35 'write' 'write_ln48' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 36 [1/1] (0.14ns) (out node of the LUT)   --->   "%or_ln49 = or i1 %temp4, i1 %temp5" [Ex1/src/trafic_light_controller.cpp:49]   --->   Operation 36 'or' 'or_ln49' <Predicate = true> <Delay = 0.14> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.14> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 37 [1/1] (0.00ns)   --->   "%write_ln49 = write void @_ssdm_op_Write.ap_none.i1P0A, i1 %ns, i1 %or_ln49" [Ex1/src/trafic_light_controller.cpp:49]   --->   Operation 37 'write' 'write_ln49' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 38 [1/1] (0.00ns)   --->   "%ret_ln50 = ret" [Ex1/src/trafic_light_controller.cpp:50]   --->   Operation 38 'ret' 'ret_ln50' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10.000ns, clock uncertainty: 2.700ns.
+
+ <State 1>: 0.296ns
+The critical path consists of the following:
+	wire read operation ('d_sensor', Ex1/src/trafic_light_controller.cpp:28) on port 'd_sensor' (Ex1/src/trafic_light_controller.cpp:28) [21]  (0.000 ns)
+	'and' operation 1 bit ('and_ln14', Ex1/src/trafic_light_controller.cpp:14->Ex1/src/trafic_light_controller.cpp:44) [27]  (0.148 ns)
+	'and' operation 1 bit ('temp3', Ex1/src/trafic_light_controller.cpp:14->Ex1/src/trafic_light_controller.cpp:44) [31]  (0.000 ns)
+	'or' operation 1 bit ('or_ln48', Ex1/src/trafic_light_controller.cpp:48) [38]  (0.000 ns)
+	'or' operation 1 bit ('or_ln48_1', Ex1/src/trafic_light_controller.cpp:48) [39]  (0.148 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

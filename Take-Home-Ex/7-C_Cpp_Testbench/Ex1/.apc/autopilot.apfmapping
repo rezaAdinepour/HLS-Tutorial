@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="trafic_light_controller.cpp" path="C:\OneDrive\Desktop\HLS-Tutorial\Take-Home-Ex\7-C_Cpp_Testbench\Ex1\src\trafic_light_controller.cpp"/>
+  </source>
+  <testbench/>
+</autopilotfilemapping:AutoPilotFileMapping>
