@@ -191,11 +191,11 @@ int main()
 ```
 
 the output is:
-` 
-Error at  l_sensor = 0 r_sensor = 0 u_sensor = 0 d_sensor = 0 ns_light_hw = 0 ns_light_sw = 0 ew_light_hw = 0 ew_light_sw = 1
 
-Test Failed
-`
+`Error at  l_sensor = 0 r_sensor = 0 u_sensor = 0 d_sensor = 0 ns_light_hw = 0 ns_light_sw = 0 ew_light_hw = 0 ew_light_sw = 1`
+
+`Test Failed`
+
 
 
 
