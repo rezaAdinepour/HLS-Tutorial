@@ -119,7 +119,8 @@ void traffic_light_sotfware(
 
 }
 
-int main() {
+int main()
+{
 
 	int status = 0;
 
